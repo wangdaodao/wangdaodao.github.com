@@ -1,0 +1,39 @@
+/*
+ @Name:
+ @Description:
+ @Version:
+ @Author: wangzhe(hi@wangdaodao.com)
+*/
+@charset "utf-8";
+.demo{
+	background-color: #ff0;
+	width: 500px;
+	height: 100px;
+	color: #000;
+	top: 100px;
+}
+div.float{
+}
+div.float1{
+	border: 1px solid #ff0;
+	width: 150px;
+	height: 150px;
+}
+div.float2{
+	border: 1px solid #f00;
+	width: 120px;
+	height: 120px;
+}
+div.float3{
+	border: 1px solid #0f0;
+	width: 100px;
+	height: 100px;
+}
+div.fleft{
+	float: left;
+	display: inline;
+}
+div.fright{
+	float: right;
+	display: inline;
+}
