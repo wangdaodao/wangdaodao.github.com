@@ -151,10 +151,16 @@
 				</section>
 				<section>
 					<h2>CSS优先级算法</h2>
+					<p style="text-align:center">
+						<img src="pic/css_selector.gif" alt="" />
+					</p>
+				</section>
+				<section>
+					<h2>CSS优先级算法</h2>
 					<p>
 						CSS优先级包含四个级别(行内选择符、ID选择符、类选择符、元素选择符！)不过都没有important厉害，他有一票否决权！
 					</p>
-					<dl class="fragment">
+					<dl>
 						<dt>每种样式都对应有四个值：a&nbsp;-&nbsp;b&nbsp;-&nbsp;c&nbsp;-&nbsp;d</dt>
 						<dd>每个行内样式，加1&nbsp;-&nbsp;0&nbsp;-&nbsp;0&nbsp;-&nbsp;0</dd>
 						<dd>每个ID样式，加0&nbsp;-&nbsp;1&nbsp;-&nbsp;0&nbsp;-&nbsp;0</dd>
@@ -246,6 +252,13 @@ a.logo:hover{color:green;}/*权重为0030*/
 				<section>
 					<h2>浮动</h2>
 					<p>浮动的框可以向左或向右移动，直到它的外边缘碰到包含框或另一个浮动框的边框为止。由于浮动框不在文档的普通流中，所以文档的普通流中的块框表现得就像浮动框不存在一样。</p>
+					<dl>
+						<dt class="fragment">浮动分为4种</dt>
+						<dd class="fragment">1.  left（元素向左浮动）</dd>
+						<dd class="fragment">2.  right（元素向右浮动）</dd>
+						<dd class="fragment">3.  none（默认值。元素不浮动，并会显示在其在文本中出现的位置）</dd>
+						<dd class="fragment">4.  inherit（规定应该从父元素继承 float 属性的值，任何的版本的 IE都不支持）</dd>
+					</dl>
 				</section>
 				<section>
 					<h2>浮动的示意图</h2>
@@ -255,6 +268,17 @@ a.logo:hover{color:green;}/*权重为0030*/
 						<div class="float2">2</div>
 						<div class="float3">3</div>
 					</div>
+				</section>
+				<section>
+					<h2>清除浮动（clear）</h2>
+					<dl>
+						<dt class="fragment">清除浮动分为5种</dt>
+						<dd class="fragment">1.  left（清除当前元素前面的左浮动）</dd>
+						<dd class="fragment">2.  right（清除当前元素前面的右浮动）</dd>
+						<dd class="fragment">3.  none（默认值。元素不浮动，并会显示在其在文本中出现的位置）</dd>
+						<dd class="fragment">4.  both（清除当前元素前面左右浮动）</dd>
+						<dd class="fragment">5.  inherit（规定应该从父元素继承 clear 属性的值，任何的版本的 IE都不支持）</dd>
+					</dl>
 				</section>
 			</section>
 			<section>
