@@ -17,7 +17,7 @@ h2 { font-size:16px; }
 h3, dt { font-size:14px; }
 sup{ font-weight: normal;}
 sup a{ cursor: help;}
-#pager { width:70%; border:10px solid #ccc; margin:25px auto; padding:18px 40px; text-align:left; background:#fff; }
+#pager { width:61.8%; border:10px solid #ccc; margin:25px auto; padding:18px 40px; text-align:left; background:#fff; }
 #header, #main { overflow:hidden; }
 #header h1 { font:bold 28px/40px "MicroSoft YaHei"; color:#009; margin-bottom:6px; }
 #header h1 strong { font-size:21px; color:#000; }
