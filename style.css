@@ -1,0 +1,33 @@
+/*
+ Name:style.css
+ Description:个人简历中的样式。
+ Version:1.0
+ Author: wangzhe
+ email hi@wangdaodao.com
+*/
+@charset "utf-8";
+body, h1, h2, h3, ul, ol, li, dl, dt, dd, p, td { margin:0; padding:0; }
+img { border:0 none; }
+ul, ol { list-style:none; }
+em { font-style:normal; }
+a:link, a:visited { text-decoration:none; color:#00C; }
+a:hover { text-decoration:none; color:#FF4E00; }
+body { font-size:14px; line-height:180%; text-align:center; }
+h2 { font-size:16px; }
+h3, dt { font-size:14px; }
+sup{ font-weight: normal;}
+sup a{ cursor: help;}
+#pager { width:70%; border:10px solid #ccc; margin:25px auto; padding:18px 40px; text-align:left; background:#fff; }
+#header, #main { overflow:hidden; }
+#header h1 { font:bold 28px/40px "MicroSoft YaHei"; color:#009; margin-bottom:6px; }
+#header h1 strong { font-size:21px; color:#000; }
+#header h1 .face { width:24px; height:24px; vertical-align:middle; }
+#main h2, #main h3 { line-height:21px; margin-top:15px; }
+#main dl { margin-top:6px; }
+#main dt { font-weight:normal; color:#999; }
+#main ul { margin:12px 0 25px 22px; }
+#main ol{ margin:12px 0 25px 46px; }
+#main li { line-height:24px; margin-bottom:9px; }
+#main ol li {list-style:decimal; }
+#main ul li {list-style:none; }
+#main p { margin:10px 0 17px; }
