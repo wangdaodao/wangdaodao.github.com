@@ -18,7 +18,7 @@ h2{font-size:18px;}
 h3, dt{font-size:14px;}
 sup{font-weight:normal;}
 sup a{cursor:help;}
-#pager{width:61.8%;margin:25px auto;text-align:left;background:transparent url(images/paper.png) 0 0 repeat;border-radius:6px;box-shadow:0 0 5px #000;}
+#pager{min-width:460px;width:61.8%;margin:25px auto;text-align:left;background:transparent url(images/paper.png) 0 0 repeat;border-radius:6px;box-shadow:0 0 5px #000;}
 #header{border-radius:5px 5px 0 0;background:transparent url(images/nav.png) 0 0 repeat-x;height:50px;line-height:46px;text-align:center;color:#fff;}
 #main{background:transparent url(images/container.png) 0 0 repeat-x;padding:0 20px 20px 25px;border-radius:0 0 5px 5px;}
 #main h2, #main h3{line-height:21px;padding-top:15px;}
