@@ -7,12 +7,11 @@
 */
 @charset "utf-8";
 body, h1, h2, h3, ul, ol, li, dl, dt, dd, p, td{margin:0;padding:0;}
-img{border:0 none;}
+body{font-size:14px;line-height:180%;text-align:center;background-image:url(images/wood-bg.jpg);font-family:'Microsoft YaHei', Arial, Verdana, Sans-Serif;}
 ul, ol{list-style:none;}
 em{font-style:normal;background:#eee;color:#666;padding:0 5px;margin:0 2px;font-size:0.9em;border:1px solid #ddd;border-radius:3px;}
 a:link, a:visited{text-decoration:none;color:#ec3b36;}
 a:hover{text-decoration:none;color:#FF4E00;}
-body{font-size:14px;line-height:180%;text-align:center;background-image:url(images/wood-bg.jpg);font-family:"MicroSoft YaHei";}
 h1{font-size:28px;}
 h2{font-size:18px;}
 h3, dt{font-size:14px;}
