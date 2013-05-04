@@ -28,7 +28,7 @@ sup a{cursor:help;}
 #main ol li{list-style:decimal;}
 #main ul li{list-style:none;}
 #main p{margin:10px 0 17px;}
-#footer{margin: 10px 0}
+#footer{margin: 10px 0; color: #fff;}
 #footer .font_yellow{color:#F49521;}
 #footer .font_blue{color:#4AACAD;}
 #footer .font_white{color:#fff;}
