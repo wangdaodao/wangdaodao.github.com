@@ -13,21 +13,22 @@
 	top: 100px;
 }
 div.float{
+	border: 1px solid #fff;
+	height: 300px;
+	padding: 20px;
+}
+.float_demo{
+	width: 100px;
+	height: 100px;
 }
 div.float1{
 	border: 1px solid #ff0;
-	width: 150px;
-	height: 150px;
 }
 div.float2{
 	border: 1px solid #f00;
-	width: 120px;
-	height: 120px;
 }
 div.float3{
 	border: 1px solid #0f0;
-	width: 100px;
-	height: 100px;
 }
 div.fleft{
 	float: left;

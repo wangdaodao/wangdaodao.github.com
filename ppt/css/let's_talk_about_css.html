@@ -266,6 +266,18 @@ a.logo:hover{color:green;}/*权重为0030*/
 					</dl>
 				</section>
 				<section>
+					<h2>浮动规则</h2>
+					<p>浮动的规则，总结了下，只有这几点，想看英文原版的，<a href="http://www.w3.org/TR/CSS2/visuren.html#floats">移步这里</a>，我简单的翻译了下然后根据自己的理解做出了以下的东西。</p>
+				</section>
+				<section>
+					<p>The left outer edge of a left-floating box may not be to the left of the left edge of its containing block. An analogous rule holds for right-floating elements.</p>
+					<p>浮动元素的左边外边距不能超出其包含块的左边的内边距，右边类似。</p>
+					<div class="float">
+						<a class="float_l" href="javascript:">1号</a>
+						<div style="margin:0 auto;" class="float1 float_demo">1</div>
+					</div>
+				</section>
+				<!-- <section>
 					<h2>浮动的示意图</h2>
 					<p><a class="float_1l" href="###">1号左浮动</a>  <a class="float_1r" href="###">1号右浮动</a><br /><a class="float_2l" href="###">2号左浮动</a>  <a class="float_2r" href="###">2号右浮动</a><br /><a class="float_3l" href="###">3号左浮动</a>  <a class="float_3r" href="###">3号右浮动</a></p>
 					<div class="float">
@@ -273,7 +285,7 @@ a.logo:hover{color:green;}/*权重为0030*/
 						<div class="float2">2</div>
 						<div class="float3">3</div>
 					</div>
-				</section>
+				</section> -->
 				<section>
 					<h2>清除浮动（clear）</h2>
 					<dl>
