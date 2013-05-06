@@ -385,6 +385,51 @@ a.logo:hover{color:green;}/*权重为0030*/
 						<dd class="fragment">5.  inherit（规定应该从父元素继承 clear 属性的值，任何的版本的 IE都不支持）</dd>
 					</dl>
 				</section>
+				<section>
+					<h2>清除浮动的方法</h2>
+					<ul>
+						<li>空标签方法，优点：通俗易懂，容易掌握；缺点：增加标签，有违结构与表现的分离；</li>
+						<li><pre><code contenteditable>&lt;div style="clear:both"&gt;&lt;/div&gt;</code></pre></li>
+						<li>使用 br标签和其自身的 html属性，优缺点同上。</li>
+						<li><pre><code contenteditable>&lt;br clear="all" /&gt;</code></pre></li>
+						<li>父元素设置 overflow：hidden/auto属性，优点：不存在结构和语义化问题，代码量极少；缺点：hidden时内容增多时候容易造成不会自动换行导致内容被隐藏掉，无法显示需要溢出的元素，auto时可能会出现内部滚动条。唯一要注意，IE6下要写zoom：1。</li>
+					</ul>
+				</section>
+				<section>
+					<h2>清除浮动的方法</h2>
+					<ul>
+						<li>父元素设置display:table，优点：结构语义化完全正确，代码量极少；缺点：盒模型属性已经改变，由此造成的一系列问题；</li>
+						<li>使用:after 伪元素，优点：结构和语义化完全正确,代码量居中；缺点：复用方式不当会造成代码量增加；</li>
+						<li><pre><code contenteditable>.clear:after {
+	content: "";
+	display: block;
+	height: 0;
+	clear: both;
+}
+.clear{
+	zoom:1;
+}</code></pre></li>
+					</ul>
+				</section>
+				<section>
+					<h2>最佳方法？</h2>
+					<img src="pic/mimang.jpg" alt="" />
+					<p>每个都有优缺点，我们要怎么选择呢？<br />如果刚开始接触CSS，我建议使用第一种方法，因为他比较直白。对于前端开发，我推荐最后一种方法，因为在以后开发和维护比较方便！</p>
+				</section>
+				<section>
+					<h2>现在是提问时间</h2>
+					<p style="text-align:center">
+						<img src="pic/tiwen.jpg" alt="" />
+					</p>
+				</section>
+			</section>
+			<section>
+				<h2>一些误区</h2>
+				<p>到这里，CSS中经常用到的基本上已经讲解完了！很感谢大家耐心的听我唠叨完，不过我还要在最后说一下常见的一些误区。</p>
+				<ul>
+					<li>id和class：id是狙击枪可以帮助我们精准地定位要想要加载样式的元素，class是双刃剑信手拈来更加轻盈灵便，合则两利，分则两败。</li>
+					<li>并不是所有的内容都需要div做“容器”，标签嵌套一定要能省就省，嵌套多了，性能和维护都很头疼！</li>
+				</ul>
 			</section>
 			<section>
 				<h2>参考手册（W3School提供）</h2>

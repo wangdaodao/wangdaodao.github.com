@@ -39,11 +39,4 @@ jQuery(document).ready(function($) {
     		var demo_relative =$(this).next().attr("style");
     		$(this).next().html(demo_relative);
   	});
-  	$(".float_l").toggle(
-  		function () {
-    		$(this).siblings(".float_demo").addClass("fleft");
- 		},
-  		function () {
-        $(this).siblings(".float_demo").removeClass("fleft");
-  	});
 });
