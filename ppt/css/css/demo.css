@@ -14,21 +14,28 @@
 }
 div.float{
 	border: 1px solid #fff;
-	height: 300px;
+	height: 250px;
 	padding: 20px;
 }
 .float_demo{
-	width: 100px;
-	height: 100px;
 }
 div.float1{
+	width: 100px;
+	height: 100px;
 	border: 1px solid #ff0;
+	margin: 10px;
 }
 div.float2{
+	width: 100px;
+	height: 100px;
 	border: 1px solid #f00;
+	margin: 10px;
 }
 div.float3{
+	width: 100px;
+	height: 100px;
 	border: 1px solid #0f0;
+	margin: 10px;
 }
 div.fleft{
 	float: left;
