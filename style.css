@@ -6,7 +6,7 @@
  email hi@wangdaodao.com
 */
 body, h1, h2, h3, ul, ol, li, dl, dt, dd, p, td{margin:0;padding:0;}
-body{font-size:14px;line-height:180%;text-align:center;background-image:url(images/wood-bg.jpg);font-family:'Microsoft YaHei', Arial, Verdana, Sans-Serif;}
+body{font-size:14px;line-height:180%;text-align:center;background-image:url(images/bg1.jpg);font-family:'Microsoft YaHei', Arial, Verdana, Sans-Serif;}
 ul, ol{list-style:none;}
 em{font-style:normal;background:#eee;color:#666;padding:0 5px;margin:0 2px;font-size:0.9em;border:1px solid #ddd;border-radius:3px;}
 a:link, a:visited{text-decoration:none;color:#ec3b36;}
