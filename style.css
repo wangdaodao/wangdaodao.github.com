@@ -117,9 +117,14 @@ sup a{
 	position: absolute;
 	top: -170px;
 	left: 80px;
+}
+.hide{
 	display: none;
 }
-#footer:hover img{
+#footer:hover .hide{
+	display: block;
+}
+.show{
 	display: block;
 }
 #copyright{
