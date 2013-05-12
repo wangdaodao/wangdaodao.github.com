@@ -109,9 +109,18 @@ sup a{
 	position: absolute;
 	background:transparent url(images/pencil.png) 0 0 no-repeat;
 	width: 291px;
-	padding-top:45px;
 	bottom: 16px;
 	right: 0;
+	height: 45px;
+}
+#footer img{
+	position: absolute;
+	top: -170px;
+	left: 80px;
+	display: none;
+}
+#footer:hover img{
+	display: block;
 }
 #copyright{
 	margin: 10px 0;
