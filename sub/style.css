@@ -197,6 +197,27 @@ del {
 	margin-left: 130px;
 	overflow: hidden;
 }
+.format-ico{
+	width: 128px;
+	height: 64px;
+	padding-top: 64px;
+	text-align: center;
+	font-size: 4.8em;
+	position: absolute;
+	top: 60px;
+	left: 10px;
+	font-weight: bold;
+	background-image: url(images/format_ico.png);
+	background-repeat:no-repeat;
+	background-color: transparent; 
+}
+.post-list{
+	background-color: #fff;
+	color: #000;
+	float: left;
+	display: inline;
+	margin:30px;
+}
 /*默认文章*/
 .format-standard{
 	background-color: #16A185;
@@ -204,25 +225,12 @@ del {
 	position: relative;
 }
 .standard-ico{
-	background:transparent url(images/format_ico.png) 15px 0 no-repeat;
-	width: 128px;
-	height: 64px;
-	padding-top: 64px;
-	text-align: center;
-	font-size: 4.8em;
-	position: absolute;
-	top: 45px;
-	left: 10px;
-	font-weight: bold;
+	background-position: 15px 0;
+	
 }
 .format-standard .post-list{
 	width: 300px;
 	height: 230px;
-	background-color: #fff;
-	color: #000;
-	float: left;
-	display: inline;
-	margin:30px;
 }
 /*图片格式*/
 .format-image{
@@ -231,24 +239,11 @@ del {
 	position: relative;
 }
 .image-ico{
-	background:transparent url(images/format_ico.png) -125px 0 no-repeat;
-	width: 128px;
-	padding-top: 64px;
-	text-align: center;
-	font-size: 4.8em;
-	position: absolute;
-	top: 45px;
-	left: 10px;
-	font-weight: bold;
+	background-position: -125px 0;
 }
 .format-image .post-list{
 	width: 300px;
 	height: 230px;
-	background-color: #fff;
-	color: #000;
-	float: left;
-	display: inline;
-	margin:30px;
 }
 /*音乐格式*/
 .format-audio{
@@ -257,24 +252,11 @@ del {
 	position: relative;
 }
 .audio-ico{
-	background:transparent url(images/format_ico.png) -250px 0 no-repeat;
-	width: 128px;
-	padding-top: 64px;
-	text-align: center;
-	font-size: 4.8em;
-	position: absolute;
-	top: 45px;
-	left: 10px;
-	font-weight: bold;
+	background-position: -250px 0;
 }
 .format-audio .post-list{
 	width: 300px;
 	height: 230px;
-	background-color: #fff;
-	color: #000;
-	float: left;
-	display: inline;
-	margin:30px;
 }
 /*视频格式*/
 .format-video{
@@ -283,24 +265,11 @@ del {
 	position: relative;
 }
 .video-ico{
-	background:transparent url(images/format_ico.png) -382px 0 no-repeat;
-	width: 128px;
-	padding-top: 64px;
-	text-align: center;
-	font-size: 4.8em;
-	position: absolute;
-	top: 45px;
-	left: 10px;
-	font-weight: bold;
+	background-position: -382px 0;
 }
 .format-video .post-list{
 	width: 300px;
 	height: 230px;
-	background-color: #fff;
-	color: #000;
-	float: left;
-	display: inline;
-	margin:30px;
 }
 /*链接格式*/
 .format-link{
@@ -309,24 +278,11 @@ del {
 	position: relative;
 }
 .link-ico{
-	background:transparent url(images/format_ico.png) -510px 0 no-repeat;
-	width: 128px;
-	padding-top: 64px;
-	text-align: center;
-	font-size: 4.8em;
-	position: absolute;
-	top: 45px;
-	left: 10px;
-	font-weight: bold;
+	background-position: -510px 0;
 }
 .format-link .post-list{
 	width: 300px;
 	height: 230px;
-	background-color: #fff;
-	color: #000;
-	float: left;
-	display: inline;
-	margin:30px;
 }
 /*相册格式*/
 .format-gallery{
@@ -335,24 +291,11 @@ del {
 	position: relative;
 }
 .gallery-ico{
-	background:transparent url(images/format_ico.png) -638px 0 no-repeat;
-	width: 128px;
-	padding-top: 64px;
-	text-align: center;
-	font-size: 4.8em;
-	position: absolute;
-	top: 45px;
-	left: 10px;
-	font-weight: bold;
+	background-position: -638px 0;
 }
 .format-gallery .post-list{
 	width: 300px;
 	height: 230px;
-	background-color: #fff;
-	color: #000;
-	float: left;
-	display: inline;
-	margin:30px;
 }
 /*状态格式*/
 .format-status{
@@ -361,24 +304,11 @@ del {
 	position: relative;
 }
 .status-ico{
-	background:transparent url(images/format_ico.png) -764px 0 no-repeat;
-	width: 128px;
-	padding-top: 64px;
-	text-align: center;
-	font-size: 4.8em;
-	position: absolute;
-	top: 45px;
-	left: 10px;
-	font-weight: bold;
+	background-position: -764px 0;
 }
 .format-status .post-list{
 	width: 300px;
 	height: 230px;
-	background-color: #fff;
-	color: #000;
-	float: left;
-	display: inline;
-	margin:30px;
 }
 /*引语格式*/
 .format-quote{
@@ -387,22 +317,9 @@ del {
 	position: relative;
 }
 .quote-ico{
-	background:transparent url(images/format_ico.png) -896px 0 no-repeat;
-	width: 128px;
-	padding-top: 64px;
-	text-align: center;
-	font-size: 4.8em;
-	position: absolute;
-	top: 45px;
-	left: 10px;
-	font-weight: bold;
+	background-position: -896px 0;
 }
 .format-quote .post-list{
 	width: 300px;
 	height: 230px;
-	background-color: #fff;
-	color: #000;
-	float: left;
-	display: inline;
-	margin:30px;
 }
