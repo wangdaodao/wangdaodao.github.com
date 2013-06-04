@@ -221,7 +221,7 @@ del {
 	color: #000;
 	float: left;
 	display: inline;
-	margin:15px;
+	margin:30px;
 }
 /*图片格式*/
 .format-image{
@@ -247,7 +247,7 @@ del {
 	color: #000;
 	float: left;
 	display: inline;
-	margin:15px;
+	margin:30px;
 }
 /*音乐格式*/
 .format-audio{
@@ -273,7 +273,7 @@ del {
 	color: #000;
 	float: left;
 	display: inline;
-	margin:15px;
+	margin:30px;
 }
 /*视频格式*/
 .format-video{
@@ -299,7 +299,7 @@ del {
 	color: #000;
 	float: left;
 	display: inline;
-	margin:15px;
+	margin:30px;
 }
 /*链接格式*/
 .format-link{
@@ -325,7 +325,7 @@ del {
 	color: #000;
 	float: left;
 	display: inline;
-	margin:15px;
+	margin:30px;
 }
 /*相册格式*/
 .format-gallery{
@@ -351,7 +351,7 @@ del {
 	color: #000;
 	float: left;
 	display: inline;
-	margin:15px;
+	margin:30px;
 }
 /*状态格式*/
 .format-status{
@@ -377,7 +377,7 @@ del {
 	color: #000;
 	float: left;
 	display: inline;
-	margin:15px;
+	margin:30px;
 }
 /*引语格式*/
 .format-quote{
@@ -403,5 +403,5 @@ del {
 	color: #000;
 	float: left;
 	display: inline;
-	margin:15px;
+	margin:30px;
 }
