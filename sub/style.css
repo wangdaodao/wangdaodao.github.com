@@ -156,6 +156,7 @@ del {
 .wrap{
 	width: 96%;
 	margin: 0 auto;
+	max-width: 1180px;
 }
 /*头部*/
 #header{
