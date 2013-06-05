@@ -134,7 +134,6 @@ del {
 .main-post{
 	padding: 30px 0;
 	position: relative;
-	overflow: hidden;
 }
 .post-content{
 	margin-left: 130px;
@@ -340,36 +339,9 @@ del {
 .gallery-img:hover{
 	border: 5px solid #D35400;
 }
-/*状态格式*/
-.format-status{
-	background-color: #C0392B;
-	overflow: hidden;
-	position: relative;
-}
-.status-ico{
-	background-position: -764px 0;
-}
-.format-status .post-list{
-	width: 100%;
-	background:none;
-	line-height: 50px;
-	margin: 0 0 0 20px;
-	padding: 10px;
-	font-size: 3.4em;
-}
-.format-status a{
-	color: #fff;
-}
-.format-status .post-list:hover{
-	box-shadow: none;
-}
-.format-status i{
-	font-size: 0.5em;
-	color: #f2f2f2;
-}
 /*引语格式*/
 .format-quote{
-	background-color: #2C3E50;
+	background-color: #C0392B;
 	overflow: hidden;
 	position: relative;
 }
@@ -409,4 +381,33 @@ del {
 }
 .format-quote a{
 	color: #222;
+}
+/*状态格式*/
+.format-status{
+	background-color: #2C3E50;
+	overflow: hidden;
+	position: relative;
+	min-height: 300px;
+}
+.status-ico{
+	background-position: -764px 0;
+}
+.format-status .post-list{
+	background:none;
+	line-height: 50px;
+	margin: 0 0 0 20px;
+	padding: 10px;
+	font-size: 3.4em;
+	float: none;
+	display: block;
+}
+.format-status a{
+	color: #fff;
+}
+.format-status .post-list:hover{
+	box-shadow: none;
+}
+.format-status i{
+	font-size: 0.5em;
+	color: #f2f2f2;
 }
