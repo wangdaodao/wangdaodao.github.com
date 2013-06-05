@@ -103,10 +103,12 @@ ins {
 del {
 	text-decoration: line-through;
 }
-/*字体对齐*/
-.font_left{
-	text-align: left;
-	padding-left: .4em;
+/*字体大小*/
+.font18{
+	font-size: 1.8em;
+}
+.font20{
+	font-size: 2em;
 }
 .font_right{
 	text-align: right;
@@ -218,6 +220,38 @@ del {
 	display: inline;
 	margin:30px;
 }
+.post-list h3{
+	line-height: 56px;
+	height: 46px;
+	overflow: hidden;
+	padding: 0 15px;
+	text-overflow: ellipsis;
+	white-space: nowrap;
+	width: 250px;
+}
+.post-list h3 a{
+	color: #222;
+}
+.post-list:hover{
+	box-shadow: 0 0 20px #000;
+}
+.post-info{
+	height: 34px;
+	line-height: 34px;
+	padding: 0 15px;
+	color: #aaa;
+	font-size: 1.2em;
+}
+.post-info a{
+	color: #aaa;
+}
+.date{
+	float: left;
+}
+.comm{
+	float: right;
+	padding-left: 5px;
+}
 /*默认文章*/
 .format-standard{
 	background-color: #16A185;
@@ -226,11 +260,26 @@ del {
 }
 .standard-ico{
 	background-position: 15px 0;
-	
 }
 .format-standard .post-list{
-	width: 300px;
+	width: 290px;
 	height: 230px;
+}
+.standard-summary{
+	background-color: #f2f2f2;
+	padding: 15px;
+	width: 260px;
+	height: 120px;
+	overflow: hidden;
+	line-height: 20px;
+	font-size: 1.2em;
+	text-indent: 2em;
+}
+.standard-img{
+	width: 290px;
+	height: 150px;
+	background-position: center center;
+	background-repeat: no-repeat;
 }
 /*图片格式*/
 .format-image{
@@ -242,8 +291,15 @@ del {
 	background-position: -125px 0;
 }
 .format-image .post-list{
-	width: 300px;
+	width: 290px;
 	height: 230px;
+}
+.image-img{
+	width: 290px;
+	height: 190px;
+	background-position: center center;
+	background-repeat: no-repeat;
+	margin-bottom: 5px;
 }
 /*音乐格式*/
 .format-audio{
