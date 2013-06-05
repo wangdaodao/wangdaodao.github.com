@@ -358,8 +358,20 @@ del {
 	background-position: -638px 0;
 }
 .format-gallery .post-list{
-	width: 300px;
-	height: 230px;
+	width: 280px;
+	height: 220px;
+	padding: 5px;
+}
+.gallery-img{
+	width: 130px;
+	height: 100px;
+	background-position: center center;
+	background-repeat: no-repeat;
+	border: 5px solid #fff;
+	float: left;
+}
+.gallery-img:hover{
+	border: 5px solid #D35400;
 }
 /*状态格式*/
 .format-status{
