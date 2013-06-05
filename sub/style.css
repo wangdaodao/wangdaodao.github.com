@@ -383,8 +383,22 @@ del {
 	background-position: -764px 0;
 }
 .format-status .post-list{
-	width: 300px;
-	height: 230px;
+	width: 100%;
+	background:none;
+	line-height: 50px;
+	margin: 0 0 0 20px;
+	padding: 10px;
+	font-size: 3.4em;
+}
+.format-status a{
+	color: #fff;
+}
+.format-status .post-list:hover{
+	box-shadow: none;
+}
+.format-status i{
+	font-size: 0.5em;
+	color: #f2f2f2;
 }
 /*引语格式*/
 .format-quote{
@@ -396,6 +410,33 @@ del {
 	background-position: -896px 0;
 }
 .format-quote .post-list{
-	width: 300px;
-	height: 230px;
+	width: 290px;
+	height: 220px;
+	position: relative;
+}
+.format-quote i{
+	background-image: url(images/quote-ico.png);
+	background-color: transparent;
+	background-repeat: no-repeat;
+	width: 36px;
+	height: 33px;
+	display: block;
+	position: absolute;
+}
+.quote-l{
+	background-position: 0 0;
+	left: 5px;
+	top: 5px;
+}
+.quote-r{
+	background-position: -47px 0;
+	right: 5px;
+	bottom: 5px;
+}
+.format-quote p{
+	font-size: 2em;
+	padding:40px;
+	height: 100px;
+	overflow: hidden;
+	line-height: 28px;
 }
