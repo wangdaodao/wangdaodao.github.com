@@ -93,41 +93,6 @@ del {
 .font20{
 	font-size: 2em;
 }
-.font_right{
-	text-align: right;
-	padding-right: .4em;
-}
-.font_center{
-	text-align: center;
-}
-/*字体颜色*/
-.font_red{
-	color:#F00;
-}
-.font_green{
-	color:#090;
-}
-.font_blue{
-	color:#067AEB;
-}
-.font_yellow{
-	color:#F60;
-}
-.font_gray{
-	color:#666;
-}
-.font_black{
-	color:#000;
-}
-/*定位浮动*/
-.fleft{
-	float:left;
-	display: inline;
-}
-.fright{
-	float:right;
-	display: inline;
-}
 /*主题开始*/
 .wrap{
 	width: 96%;
@@ -143,8 +108,9 @@ del {
 	color: #000;
 	overflow: hidden;
 }
-.logo{
+.logo a{
 	font-size: 4.8em;
+	color: #000;
 }
 .desc{
 	margin-top: 20px;
@@ -160,6 +126,7 @@ del {
 .nav li a{
 	padding: 5px;
 	color: #000;
+	font-weight: bold;
 }
 #main{
 	overflow: hidden;
