@@ -128,15 +128,6 @@ del {
 	float:right;
 	display: inline;
 }
-.clear:after {
-	content: "";
-	display: block;
-	height: 0;
-	clear: both;
-}
-.clear{
-	zoom:1;
-}
 /*主题开始*/
 .wrap{
 	width: 96%;
