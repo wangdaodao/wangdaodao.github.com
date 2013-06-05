@@ -433,10 +433,13 @@ del {
 	right: 5px;
 	bottom: 5px;
 }
-.format-quote p{
+.format-quote blockquote{
 	font-size: 2em;
 	padding:40px;
 	height: 100px;
 	overflow: hidden;
 	line-height: 28px;
+}
+.format-quote a{
+	color: #222;
 }
