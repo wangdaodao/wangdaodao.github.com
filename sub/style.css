@@ -316,8 +316,24 @@ del {
 	background-position: -382px 0;
 }
 .format-video .post-list{
-	width: 300px;
-	height: 230px;
+	width: 290px;
+	height: 190px;
+	background-color: #f2f2f2;
+	position: relative;
+}
+.format-video img{
+	width: 280px;
+	height: 180px;
+	padding: 5px;
+}
+.video-play{
+	width: 100px;
+	height: 56px;
+	display: block;
+	position: absolute;
+	background: transparent url(images/video_play.png) 0 0 no-repeat;
+	top: 62px;
+	left: 98px;
 }
 /*链接格式*/
 .format-link{
