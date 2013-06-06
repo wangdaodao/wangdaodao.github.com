@@ -416,3 +416,50 @@ del {
 	font-size: 0.5em;
 	color: #f2f2f2;
 }
+/*首页年份*/
+#archive{
+	background-color: #7F8C8D;
+	overflow: hidden;
+	position: relative;
+	min-height: 300px;
+}
+.archive-ico{
+	background-position: -1024px 0;
+}
+#archive .post-list{
+	background: none;
+	margin: 0;
+	padding:10px 25px;
+}
+#archive .post-list:hover{
+	box-shadow: none;
+}
+#archive a{
+	color: #fff;
+	font-size: 2em;
+	font-weight: bold;
+}
+/*尾部*/
+#footer{
+	background-color: #ECF1F0;
+	padding: 10px;
+}
+#footer a{
+	background-image: url(images/format_ico.png);
+	background-repeat:no-repeat;
+	background-color: transparent; 
+}
+.login{
+	background-position: -1184px 0;
+	display: block;
+	width: 64px;
+	height: 64px;
+	margin: 5px auto;
+}
+.rss{
+	background-position: -1307px 0;
+	display: block;
+	width: 90px;
+	height: 64px;
+	margin: 5px auto;
+}
