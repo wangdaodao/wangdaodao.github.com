@@ -311,8 +311,13 @@ del {
 	background-position: -510px 0;
 }
 .format-link .post-list{
-	width: 300px;
-	height: 230px;
+	width: 290px;
+	height: 190px;
+}
+.format-link img{
+	width: 280px;
+	height: 180px;
+	padding: 5px;
 }
 /*相册格式*/
 .format-gallery{
