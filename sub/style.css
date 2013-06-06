@@ -151,7 +151,7 @@ del {
 	font-weight: bold;
 	background-image: url(images/format_ico.png);
 	background-repeat:no-repeat;
-	background-color: transparent; 
+	background-color: transparent;
 }
 .post-list{
 	background-color: #fff;
@@ -267,10 +267,10 @@ del {
 	height: 110px;
 }
 .l-play{
-	margin:10px 0 0 5px; 
+	margin:10px 0 0 5px;
 }
 .x-play{
-	margin:0 0 0 5px; 
+	margin:0 0 0 5px;
 }
 /*视频格式*/
 .format-video{
@@ -447,7 +447,7 @@ del {
 #footer a{
 	background-image: url(images/format_ico.png);
 	background-repeat:no-repeat;
-	background-color: transparent; 
+	background-color: transparent;
 }
 .login{
 	background-position: -1184px 0;
@@ -462,4 +462,22 @@ del {
 	width: 90px;
 	height: 64px;
 	margin: 5px auto;
+}
+#searchform{
+	width: 175px;
+	margin: 5px auto;
+}
+#gs {
+	display: none;
+}
+input#s {
+	width: 170px;
+	height: 2em;
+	font-size: 1.4em;
+	line-height:2em;
+	background: #E1E0DC;
+	border: none;
+	color: #000;
+	font-family: "Lucida Grande";
+	padding-left: 5px;
 }
