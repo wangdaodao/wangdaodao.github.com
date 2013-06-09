@@ -163,9 +163,6 @@ del {
 .post-list h3 a{
 	color: #222;
 }
-.post-list:hover{
-	box-shadow: 0 0 20px #000;
-}
 .post-info{
 	height: 34px;
 	line-height: 34px;
@@ -195,6 +192,10 @@ del {
 .format-standard .post-list{
 	width: 290px;
 	height: 230px;
+	border: 10px solid #16A185;
+}
+.format-standard .post-list:hover{
+	border: 10px solid #1ABC9C;
 }
 .format-standard h3{
 	line-height: 56px;
@@ -233,6 +234,10 @@ del {
 .format-image .post-list{
 	width: 290px;
 	height: 230px;
+	border: 10px solid #27AF60;
+}
+.format-image .post-list:hover{
+	border: 10px solid #2ECC71;
 }
 .image-img{
 	width: 290px;
@@ -253,6 +258,7 @@ del {
 .format-audio .post-list{
 	width: 290px;
 	height: 160px;
+	border: 10px solid #2980B9;
 }
 .audio-content{
 	padding: 5px;
@@ -286,6 +292,7 @@ del {
 	height: 190px;
 	background-color: #f2f2f2;
 	position: relative;
+	border: 10px solid #8E44AD;
 }
 .format-video img{
 	width: 280px;
@@ -313,6 +320,7 @@ del {
 .format-link .post-list{
 	width: 290px;
 	height: 190px;
+	border: 10px solid #F39C12;
 }
 .format-link img{
 	width: 280px;
@@ -332,6 +340,7 @@ del {
 	width: 280px;
 	height: 220px;
 	padding: 5px;
+	border: 10px solid #D35400;
 }
 .gallery-img{
 	width: 130px;
@@ -357,6 +366,7 @@ del {
 	width: 290px;
 	height: 220px;
 	position: relative;
+	border: 10px solid #C0392B;
 }
 .format-quote i{
 	background-image: url(images/quote-ico.png);
