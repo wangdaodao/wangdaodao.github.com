@@ -13,6 +13,7 @@ a:link, a:visited{ text-decoration:none; color:#ec3b36; }
 a:hover{ text-decoration:none; color:#4AACAD; }
 h1{ font-size:28px; }
 h2{ font-size:18px; }
+h2 em{font-size: 12px;font-weight: normal;margin-left: 10px;}
 h3, dt{ font-size:14px; }
 sup{ font-weight:normal; }
 sup a{ cursor:help; }
