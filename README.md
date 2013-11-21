@@ -81,7 +81,7 @@
 * CSS3制作logo系列：[大智慧][7]、[京港地铁][8]、[android机器人][9]、[QQ电脑管家][10]、[Chrome][11]。
 * 利用业余时间累计制作了 6 套[`WordPress`][12]主题，通过`W3C`标准验证。
 * 一些教程：[LET'S TALK ABOUT CSS][13]
-* 此简历更新于2013-09-11
+* 此简历更新于2013-11-21
 
 [1]: http://wangdaodao.com "王叨叨"
 [2]: http://baike.baidu.com/view/1744746.htm
