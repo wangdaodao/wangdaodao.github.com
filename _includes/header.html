@@ -14,4 +14,7 @@
   <div id="pager">
   <div id="header">
          <h1><a href="/">王叨叨</a></h1>
+         {% for nav in site.navigations %}
+            <span><a title="{{ nav.title }}" href="{{ nav.href }}"><i class="{{ nav.class }}"></i></a></span>
+            {% endfor %}
     </div>
