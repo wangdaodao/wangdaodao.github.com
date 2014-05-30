@@ -11,7 +11,7 @@ comments: no
 ###联系方式：
 
 {% if site.qq %}
-ＱＱ：[{{ site.qq }}](tencent://message/?uin={{ site.qq }})
+ＱＱ：[{{ site.qq }}](http://wpa.qq.com/msgrd?v=3&uin={{ site.qq }}&site=qq&menu=yes)
 {% endif %}
 网站：[{{ site.name }}]({{ site.url }})
 
@@ -20,6 +20,3 @@ comments: no
 GitHub : [http://github.com/{{ site.github }}](http://github.com/{{ site.github }})
 
 ----
-
-
-[![新浪微博](http://service.t.sina.com.cn/widget/qmd/{{ site.weibo }}/f78fbcd2/1.png)](http://weibo.com/u/{{ site.weibo }})
