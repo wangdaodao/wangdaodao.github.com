@@ -1,7 +1,7 @@
 var disqus_shortname = 'hooloodemo';			//Short Name of disqus, this parameter is for disqus comment box.
-var hostbase = 'http://hooloo.github.io';		//The absolute root address of your blog without '/' in the end.
-var githubname = 'hooloo';						//Your username of GitHub.
-var repos = 'hooloo.github.io';					//Name of repository that contains your blog.
+var hostbase = 'http://wangdaodao.github.io';		//The absolute root address of your blog without '/' in the end.
+var githubname = 'wangdaodao';						//Your username of GitHub.
+var repos = 'wangdaodao.github.io';					//Name of repository that contains your blog.
 var sitetitle = 'Hooloo';						//Name of your blog.
 var rss = '';									//Rss address of your blog.
 var suffix = '';								//Suffix of post files, '.' should be included.
