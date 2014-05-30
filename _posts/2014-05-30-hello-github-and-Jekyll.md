@@ -1,7 +1,7 @@
 ---
 date: 2014-05-30
 layout: post
-title: 第一个 GitHub 页面
+title: 你好GitHub & Jekyll
 categories: 代码
 tags: github
 ---
