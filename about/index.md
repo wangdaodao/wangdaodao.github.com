@@ -4,7 +4,7 @@ layout: page
 comments: no
 ---
 
-博客开始于10年，采用wordpress，地址:[王叨叨](http://wangdaodao.com)
+博客开始于10年，采用WordPress，地址:[王叨叨](http://wangdaodao.com)
 
 此博客与2014年儿童节开始在github上搭建，主要写一些工作类文章作为记录！
 
