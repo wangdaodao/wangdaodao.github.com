@@ -126,8 +126,8 @@ object,iframe{
 	font-size:1.6em;
 	float:left;
 	display: inline;
-	width:100px;
-	text-align:center;
+	width:150px;
+	text-align:right;
 	padding-top: 45px;
 }
 #nav a{
@@ -143,7 +143,7 @@ object,iframe{
 }
 /*内容*/
 #main{
-	margin-left: 130px;
+	margin-left: 180px;
 }
 .header{
 	padding:7px 0;
@@ -203,6 +203,7 @@ object,iframe{
 	border-bottom: 1px dashed #BBB;
 	text-decoration: none;
 }
+/*标签*/
 #tag_cloud{
 	margin-bottom: 1em;
 }
@@ -216,7 +217,6 @@ object,iframe{
 .listing-item a{
 	padding:.2em 1em;
 }
-
 .listing-item time{
 	color:#999;
 }
@@ -241,8 +241,6 @@ object,iframe{
 	color:#fff;
 	text-transform:uppercase;
 	background-color:#999;
-	-webkit-border-radius:3px;
-	-moz-border-radius:3px;
 	border-radius:3px;
 	padding:1px 3px 2px;
 }
