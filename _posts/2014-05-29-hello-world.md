@@ -12,4 +12,4 @@ tags: [life]
 
 加一张我微信二维码吧
 
-![微信二维码](/uploads/wxqrcode.png)
+![微信二维码](/uploads/2014/05/wxqrcode.png)

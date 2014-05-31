@@ -38,7 +38,7 @@ object,iframe{ display:block; margin:4px auto; }
 .header{ padding:7px 0; border-bottom: 1px solid #cccccc; }
 .content{ font-size:1.6em; line-height:2; padding: 5px 0; }
 .content h1{ padding:5px 0; }
-.content img{ max-width:640px; display:block; margin:4px auto; box-shadow:#999 1px 1px 4px; }
+.content img{ max-width:640px; display:block; margin:10px 0; box-shadow:#999 1px 1px 4px; }
 .meta{ font-size:.65em; color:#888; padding:5px 0; }
 .post{ }
 /*上下篇*/
