@@ -1,8 +1,8 @@
 ---
 title: 链接
 layout: page
-comments: yes
+comments: no
 ---
 
-暂无
+*[扯远了](http://heshizi.com/)
 
