@@ -3,7 +3,7 @@ date: 2014-05-31
 layout: post
 title: Sublime text 快捷键总结
 categories: 软件
-tags: sublime text
+tags: [sublime text]
 ---
 
 Ctrl+D 选词 （反复按快捷键，即可继续向下同时选中下一个相同的文本进行同时编辑）
