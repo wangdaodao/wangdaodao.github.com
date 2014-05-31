@@ -159,19 +159,19 @@ header{
 	padding:.5em 0;
 	border-bottom: 1px solid #cccccc;
 }
-nav{
+#nav{
 	font-size:1.1em;
 	float:left;
 	margin-left:-12em;
 	width:9em;
 	text-align:right;
 }
-nav a{
+#nav a{
 	display:block;
 	padding:.7em 1em;
 	color:#000000;
 }
-nav a:hover{
+#nav a:hover{
 	background-color:#ff0000;
 	text-decoration:none;
 	color:#f9f9f9;
