@@ -218,7 +218,7 @@ object,iframe{
 .listing-item a{
 	padding-left:1em;
 }
-.listing-item time{
+.listing-item .time{
 	color:#999;
 }
 .listing-seperator{
