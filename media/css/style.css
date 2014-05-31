@@ -152,6 +152,7 @@ object,iframe{
 .content{
 	font-size:1.6em;
 	line-height:2;
+	padding: 5px 0;
 }
 .content h1{
 	padding:5px 0;
@@ -223,13 +224,6 @@ object,iframe{
 .listing-seperator{
 	font-weight:bold;
 }
-
-
-
-
-
-
-
 .gist{
 	font-size: 12px;
 	line-height:1.6;
