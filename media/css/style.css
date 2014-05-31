@@ -279,3 +279,7 @@ object,iframe{
 	color: white;
 	background: #83BF73;
 }
+/*其他*/
+.disabled{
+	cursor: not-allowed;
+}
