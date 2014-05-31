@@ -1,5 +1,5 @@
 ---
-date: 2014-05-30
+date: 2014-05-29
 layout: post
 title: 世界，你好
 categories: 生活
