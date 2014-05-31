@@ -2,9 +2,7 @@
 layout: default
 ---
 <div class="meta">
-<span class="time">
-  <time datetime="{{ page.date | date:"%Y-%m-%d" }}">{{ page.date | date:"%Y-%m-%d" }}</time>
-</span>
+<span class="time">{{ page.date | date:"%Y-%m-%d" }}</span>
 {% if page.categories.size != 0 %}
  | 
 <span class="categories">
