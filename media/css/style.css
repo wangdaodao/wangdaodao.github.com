@@ -124,7 +124,7 @@ object,iframe{
 	font-size:1.6em;
 	float:left;
 	display: inline;
-	width:120px;
+	width:100px;
 	text-align:center;
 	padding-top: 45px;
 }
@@ -140,7 +140,7 @@ object,iframe{
 	transition:color .2s linear;
 }
 #main{
-	margin-left: 150px;
+	margin-left: 130px;
 }
 .header{
 	padding:7px 0;
