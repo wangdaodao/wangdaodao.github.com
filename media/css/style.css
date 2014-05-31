@@ -17,7 +17,7 @@ html{
 	height:100%;
 }
 h1{
-	font-size:2em;
+	font-size:2.2em;
 	color:#000;
 }
 h2{
@@ -126,6 +126,7 @@ object,iframe{
 	display: inline;
 	width:120px;
 	text-align:right;
+	padding-top: 45px;
 }
 #nav a{
 	display:block;
@@ -144,7 +145,7 @@ object,iframe{
 	margin-left: 20px;
 }
 .header{
-	padding:15px 0;
+	padding:7px 0;
 	border-bottom: 1px solid #cccccc;
 }
 .content{
