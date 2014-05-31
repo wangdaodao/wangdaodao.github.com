@@ -13,19 +13,19 @@
   </head>
   <body>
     <div id="container">
+      <ul id="nav">
+        <li><a title="首页" href="/">HOME</a></li>
+        <li><a title="分类" href="/categories/">CATEGORIES</a></li>
+        <li><a title="标签" href="/tags/">TAGS</a></li>
+        <li><a title="链接" href="/links/">LINKS</a></li>
+        <li><a title="留言" href="/guestbook/">GUESTBOOK</a></li>
+        <li><a title="关于" href="/about/">ABOUT</a></li>
+        <li><a title="订阅" href="/feed/">FEED</a></li>
+      </ul>
       <div id="main" role="main">
         <header>
         <h1>{{ page.title }}</h1>
         </header>
-        <nav>
-        <span><a title="首页" href="/">HOME</a></span>
-        <span><a title="分类" href="/categories/">CATEGORIES</a></span>
-        <span><a title="标签" href="/tags/">TAGS</a></span>
-        <!--<span><a title="友情链接" href="/links/">LINKS</a></span>-->
-        <span><a title="留言" href="/guestbook/">GUESTBOOK</a></span>
-        <span><a title="关于" href="/about/">ABOUT</a></span>
-        <span><a title="订阅" href="/feed/">FEED</a></span>
-        </nav>
         <article class="content">
         {{ content }}
         </article>

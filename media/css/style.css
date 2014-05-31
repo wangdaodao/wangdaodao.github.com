@@ -1,17 +1,36 @@
-body{
-	font-size:14px;
-	word-spacing:1px;
-	margin-left:auto;
-	margin-right:auto;
-	font-family:"Microsoft YaHei",微软雅黑,Arial,Verdana,Sans-Serif;
-	color:#000000;
-	background-color:#ffffff;
-}
-*{
+body,h1,h2,h3,h4,h5,h6,hr,p,blockquote,dl,dd,ul,ol,pre,fieldset,legend,button,input,textarea,th,td{
+	margin:0;
 	padding:0;
-	margin: 0;
-	border:none;
-	outline:none;
+}
+body{
+	font-family:"Microsoft YaHei",微软雅黑,Arial,Verdana,Sans-Serif;
+	color:#000;
+	position:relative;
+	width:100%;
+	height:100%;
+	margin:0 auto;
+	background-color: #F2F2F2;
+	font-size:62.5%;
+}
+html{
+	width:100%;
+	height:100%;
+}
+h1,h2,h3,h4,h5,h6{
+	font-size:100%;
+	font-weight: normal;
+}
+address,cite,dfn,em,var{
+	font-style:normal;
+}
+code,kbd,pre,samp,tt{
+	font-family:"Courier New",9,monospace;
+}
+small{
+	font-size:12px;
+}
+ul,ol{
+	list-style:none;
 }
 a{
 	color:#dd0000;
@@ -21,26 +40,50 @@ a:hover{
 	color:#333333;
 	text-decoration:underline;
 }
+abbr,acronym{
+	border:0;
+	font-variant:normal;
+}
+sup{
+	vertical-align:text-top;
+}
+sub{
+	vertical-align:text-bottom;
+}
+legend{
+	color:#000;
+}
+fieldset,img{
+	border:none;
+}
+img{
+	vertical-align:middle;
+}
+button,input,select,textarea{
+	font-size:100%;
+}
+table{
+	border-collapse:collapse;
+	border-spacing:0;
+}
+caption{
+	text-align:left;
+}
 hr{
 	margin:.7em 0;
 	border-top:1px dashed #d0d0d0;
 	border-bottom:1px dashed #f9f9f9;
 }
-p{
-	padding:.5em 0;
+ins{
+	text-decoration:none;
 }
-li{
-	padding:.2em 0;
+del{
+	text-decoration:line-through;
 }
-ol,ul{
-	list-style-position:inside;
-}
-ol ul, ul ol, ul ul, ol ol {
-	margin-left:1em;
-}
+
 pre code{
 	margin:1em 0;
-	font-size:13px;
+	font-size:1.4em;
 	line-height:1.6;
 	display:block;
 	overflow:auto;
