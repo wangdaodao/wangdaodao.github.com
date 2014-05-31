@@ -140,9 +140,7 @@ object,iframe{
 	transition:color .2s linear;
 }
 #main{
-	float: left;
-	display: inline;
-	margin-left: 20px;
+	margin-left: 150px;
 }
 .header{
 	padding:7px 0;
