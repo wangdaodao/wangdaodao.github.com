@@ -121,11 +121,11 @@ object,iframe{
 	overflow: hidden;
 }
 #nav{
-	font-size:1.4em;
+	font-size:1.6em;
 	float:left;
 	display: inline;
 	width:120px;
-	text-align:right;
+	text-align:center;
 	padding-top: 45px;
 }
 #nav a{
@@ -158,6 +158,23 @@ object,iframe{
 	display:block;
 	margin:4px auto;
 	box-shadow:#999 1px 1px 4px;
+}
+#footer{
+	text-align:center;
+	display:block;
+	border-top: 1px dashed #CCC;
+}
+#footer small {
+	font-size: 13px;
+	color: #AAA;
+}
+#footer a {
+	color: #888;
+	text-decoration: none;
+}
+#footer a:hover {
+	border-bottom: 1px dashed #BBB;
+	text-decoration: none;
 }
 #tag_cloud{
 	margin-bottom: 1em;
@@ -204,23 +221,7 @@ object,iframe{
 	font-size: 12px;
 	line-height:1.6;
 }
-footer{
-	text-align:center;
-	display:block;
-	border-top: 1px dashed #CCC;
-}
-footer small {
-	font-size: 13px;
-	color: #AAA;
-}
-footer a {
-	color: #888;
-	text-decoration: none;
-}
-footer a:hover {
-	border-bottom: 1px dashed #BBB;
-	text-decoration: none;
-}
+
 .label {
 	font-size:11.25px;
 	font-weight:700;
