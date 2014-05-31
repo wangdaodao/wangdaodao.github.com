@@ -177,11 +177,11 @@ object,iframe{
 }
 .pageNav{
 	font-weight:bold;
-	font-size:1.6em;
+	font-size:1.25em;
 }
 .pageNavInvalid{
 	font-weight:bold;
-	font-size:1.6em;
+	font-size:1.25em;
 	color:#D0D0D0;
 	cursor: not-allowed;
 }
@@ -260,7 +260,7 @@ object,iframe{
 }
 /*翻页*/
 .paginator {
-	font-size: 1.4em;
+	font-size:.625em;
 	color: #AAA;
 	margin: 20px 0;
 	line-height:2;
