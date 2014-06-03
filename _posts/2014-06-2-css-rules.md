@@ -11,7 +11,7 @@ tags: [css,work]
 <table width="100%" cellspacing="0" cellpadding="0">
  <tbody>
   <tr>
-   <td width="60">整体：</td>
+   <td width="80">整体：</td>
    <td><em>wrap</em></td>
   </tr>
   <tr>
