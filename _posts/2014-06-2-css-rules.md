@@ -11,156 +11,156 @@ tags: [css,work]
 <table width="100%" cellspacing="0" cellpadding="0">
  <tbody>
   <tr>
-   <td width="80">整体：</td>
-   <td>*wrap*</td>
+   <td width="60">整体：</td>
+   <td><em>wrap</em></td>
   </tr>
   <tr>
    <td>工具条：</td>
-   <td>*topbar*</td>
+   <td><em>topbar</em></td>
   </tr>
   <tr>
    <td>头部：</td>
-   <td>*header*</td>
+   <td><em>header</em></td>
   </tr>
   <tr>
    <td>标志：</td>
-   <td>*logo*</td>
+   <td><em>logo</em></td>
   </tr>
   <tr>
    <td>广告：</td>
-   <td>*banner*</td>
+   <td><em>banner</em></td>
   </tr>
   <tr>
    <td>登陆：</td>
-   <td>*login*</td>
+   <td><em>login</em></td>
   </tr>
   <tr>
    <td>注册：</td>
-   <td>*regsiter*</td>
+   <td><em>regsiter</em></td>
   </tr>
   <tr>
    <td>导航：</td>
-   <td>*nav*</td>
+   <td><em>nav</em></td>
   </tr>
   <tr>
    <td>子导航：</td>
-   <td>*subnav*</td>
+   <td><em>subnav</em></td>
   </tr>
   <tr>
    <td>菜单：</td>
-   <td>*menu*</td>
+   <td><em>menu</em></td>
   </tr>
   <tr>
    <td>子菜单：</td>
-   <td>*submenu*</td>
+   <td><em>submenu</em></td>
   </tr>
   <tr>
    <td>搜索：</td>
-   <td>*search*</td>
+   <td><em>search</em></td>
   </tr>
   <tr>
    <td>下载：</td>
-   <td>*download*</td>
+   <td><em>download</em></td>
   </tr>
   <tr>
    <td>主体：</td>
-   <td>*main*</td>
+   <td><em>main</em></td>
   </tr>
   <tr>
    <td>侧栏：</td>
-   <td>*sidebar*</td>
+   <td><em>sidebar</em></td>
   </tr>
   <tr>
    <td>内容：</td>
-   <td>*content*</td>
+   <td><em>content</em></td>
   </tr>
   <tr>
    <td>栏目：</td>
-   <td>*column*</td>
+   <td><em>column</em></td>
   </tr>
   <tr>
    <td>页签：</td>
-   <td>*tab*</td>
+   <td><em>tab</em></td>
   </tr>
   <tr>
    <td>按钮：</td>
-   <td>*btn*</td>
+   <td><em>btn</em></td>
   </tr>
   <tr>
    <td>列表：</td>
-   <td>*list*</td>
+   <td><em>list</em></td>
   </tr>
   <tr>
    <td>标题：</td>
-   <td>*title*</td>
+   <td><em>title</em></td>
   </tr>
   <tr>
    <td>页脚：</td>
-   <td>*footer*</td>
+   <td><em>footer</em></td>
   </tr>
   <tr>
    <td>链接：</td>
-   <td>*link*</td>
+   <td><em>link</em></td>
   </tr>
   <tr>
    <td>版权：</td>
-   <td>*copyright*</td>
+   <td><em>copyright</em></td>
   </tr>
   <tr>
    <td>加入：</td>
-   <td>*join*</td>
+   <td><em>join</em></td>
   </tr>
   <tr>
    <td>引导：</td>
-   <td>*guild*</td>
+   <td><em>guild</em></td>
   </tr>
   <tr>
    <td>服务：</td>
-   <td>*service*</td>
+   <td><em>service</em></td>
   </tr>
   <tr>
    <td>伙伴：</td>
-   <td>*partner*</td>
+   <td><em>partner</em></td>
   </tr>
   <tr>
    <td>弹出：</td>
-   <td>*dialog*</td>
+   <td><em>dialog</em></td>
   </tr>
   <tr>
    <td>头像：</td>
-   <td>*avatar*</td>
+   <td><em>avatar</em></td>
   </tr>
   <tr>
    <td>作者：</td>
-   <td>*author*</td>
+   <td><em>author</em></td>
   </tr>
   <tr>
    <td>当前：</td>
-   <td>*current*</td>
+   <td><em>current</em></td>
   </tr>
   <tr>
    <td>取消：</td>
-   <td>*cancel*</td>
+   <td><em>cancel</em></td>
   </tr>
   <tr>
    <td>箭头：</td>
-   <td>*arrow*</td>
+   <td><em>arrow</em></td>
   </tr>
   <tr>
    <td>刷新：</td>
-   <td>*refresh*</td>
+   <td><em>refresh</em></td>
   </tr>
   <tr>
    <td>结果：</td>
-   <td>*results*</td>
+   <td><em>results</em></td>
   </tr>
   <tr>
    <td>成功：</td>
-   <td>*successful*</td>
+   <td><em>successful</em></td>
   </tr>
   <tr>
    <td>步骤：</td>
-   <td>*steps*</td>
+   <td><em>steps</em></td>
   </tr>
   <tr>
    <td></td>
