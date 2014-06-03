@@ -6,7 +6,6 @@ h2{ font-size:1.6em; color:#111; }
 h3{ font-size:1.2em; color:#222; }
 h4{ font-size:1em; color:#333; }
 address,cite,dfn,em,var{ font-style:normal; }
-code,kbd,pre,samp,tt{ font-family:"Courier New",9,monospace; }
 small{ font-size:12px; }
 ul,ol{ list-style:none; }
 a{ color:#dd0000; text-decoration:none; }
