@@ -6,14 +6,9 @@ layout: page
 <ul class="listing">
 {% for post in paginator.posts %}
   {% capture y %}{{post.date | date:"%Y"}}{% endcapture %}
-  {% capture m %}{{post.date | date:"%M"}}{% endcapture %}
   {% if year != y %}
     {% assign year = y %}
     <li class="listing-seperator">{{ y }}</li>
-      {% if months != m %}
-        {% assign months = m %}
-        <li class="listing-seperator">{{ m }}</li>
-      {% endif %}
   {% endif %}
   <li class="listing-item">
     <span class="time">{{ post.date | date:"%Y-%m-%d" }}</span>
