@@ -39,7 +39,7 @@ object,iframe{ display:block; margin:4px auto; }
 .content h1{ padding:5px 0; }
 .content img{ max-width:640px; display:block; margin:10px 0; box-shadow:#999 1px 1px 4px; }
 .meta{ font-size:.65em; color:#888; padding:5px 0; }
-.post p em{background: #EEE;color: #666;padding: 0 5px;margin: 0 2px;border: 1px solid #DDD;border-radius: 3px; }
+.post em{background: #EEE;color: #666;padding: 0 5px;margin: 0 2px;border: 1px solid #DDD;border-radius: 3px; }
 /*上下篇*/
 .other-post{ text-align: right; padding: 15px 0; }
 .pageNav{ font-weight:bold; font-size:1.25em; }
