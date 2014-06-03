@@ -3,7 +3,7 @@ date: 2014-06-2
 layout: post
 title: CSS命名规则
 categories: 工作
-tags: [css,work]
+tags: [css]
 ---
 
 工作中，CSS命名有时候真的是不太规范，自己稍微总结了下，以备不时之需！暂时没有做排序，就是粗暴的摆在这里了，后期会做一个更新和排序。

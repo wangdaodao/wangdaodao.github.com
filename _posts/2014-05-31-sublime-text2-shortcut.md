@@ -2,7 +2,7 @@
 date: 2014-05-31
 layout: post
 title: Sublime text 快捷键总结
-categories: 软件
+categories: 工作
 tags: [sublime text]
 ---
 
