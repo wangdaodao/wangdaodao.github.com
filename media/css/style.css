@@ -64,6 +64,7 @@ object,iframe{ display:block; margin:4px auto; }
 /*其他*/
 .disabled{ cursor: not-allowed; }
 .gist{ font-size: 12px; line-height:1.6; }
+.gist-meta{display: none;}
 .label { font-size:11.25px; font-weight:700; color:#fff; text-transform:uppercase; background-color:#999; border-radius:3px; padding:1px 3px 2px; }
 .label-important { background-color:#b94a48; }
 .label-warning { background-color:#f89406; }
