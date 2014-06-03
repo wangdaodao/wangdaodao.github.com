@@ -82,8 +82,6 @@ tags: [sublime text]
 
 *Ctrl+鼠标左键* 可以同时选择要编辑的多处文本
 
-*Shift+鼠标右键*（或使用鼠标中键）可以用鼠标进行竖向多行选择
-
 *Shift+F2* 上一个书签
 
 *Shift+Tab* 去除缩进
