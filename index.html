@@ -9,7 +9,7 @@ layout: page
   {% if year != y %}
     {% assign year = y %}
     <li class="listing-seperator">{{ y }}</li>
-      {% if year != y %}
+      {% if months != m %}
         {% assign months = m %}
         <li class="listing-seperator">{{ m }}</li>
       {% endif %}
