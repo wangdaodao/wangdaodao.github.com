@@ -8,78 +8,183 @@ tags: [css,work]
 
 工作中，CSS命名有时候真的是不太规范，自己稍微总结了下，以备不时之需！暂时没有做排序，就是粗暴的摆在这里了，后期会做一个更新和排序。
 
-整体：*wrap*
-
-工具条：*topbar*
-
-头部：*header*
-
-标志：*logo*
-
-广告：*banner*
-
-登陆：*login*
-
-注册：*regsiter*
-
-导航：*nav*
-
-子导航：*subnav*
-
-菜单：*menu*
-
-子菜单：*submenu*
-
-搜索：*search*
-
-下载：*download*
-
-页面主体：*main*
-
-侧栏：*sidebar*
-
-内容：*content*
-
-栏目：*column*
-
-页签：*tab*
-
-按钮：*btn*
-
-列表：*list*
-
-标题：*title*
-
-页脚：*footer*
-
-友情链接：*link*
-
-版权：*copyright*
-
-加入：*joinus*
-
-指南：*guild*
-
-服务：*service*
-
-合作伙伴：*partner*
-
-弹出：*dialog*
-
-头像：*avatar*
-
-作者：*author*
-
-当前：*current*
-
-取消：*cancel*
-
-箭头：*arrow*
-
-刷新：*refresh*
-
-结果：*results*
-
-成功：*successful*
-
-步骤：*steps*
+<table width="100%" cellspacing="0" cellpadding="0">
+ <tbody>
+  <tr>
+   <td width="80">整体：</td>
+   <td>*wrap*</td>
+  </tr>
+  <tr>
+   <td>工具条：</td>
+   <td>*topbar*</td>
+  </tr>
+  <tr>
+   <td>头部：</td>
+   <td>*header*</td>
+  </tr>
+  <tr>
+   <td>标志：</td>
+   <td>*logo*</td>
+  </tr>
+  <tr>
+   <td>广告：</td>
+   <td>*banner*</td>
+  </tr>
+  <tr>
+   <td>登陆：</td>
+   <td>*login*</td>
+  </tr>
+  <tr>
+   <td>注册：</td>
+   <td>*regsiter*</td>
+  </tr>
+  <tr>
+   <td>导航：</td>
+   <td>*nav*</td>
+  </tr>
+  <tr>
+   <td>子导航：</td>
+   <td>*subnav*</td>
+  </tr>
+  <tr>
+   <td>菜单：</td>
+   <td>*menu*</td>
+  </tr>
+  <tr>
+   <td>子菜单：</td>
+   <td>*submenu*</td>
+  </tr>
+  <tr>
+   <td>搜索：</td>
+   <td>*search*</td>
+  </tr>
+  <tr>
+   <td>下载：</td>
+   <td>*download*</td>
+  </tr>
+  <tr>
+   <td>主体：</td>
+   <td>*main*</td>
+  </tr>
+  <tr>
+   <td>侧栏：</td>
+   <td>*sidebar*</td>
+  </tr>
+  <tr>
+   <td>内容：</td>
+   <td>*content*</td>
+  </tr>
+  <tr>
+   <td>栏目：</td>
+   <td>*column*</td>
+  </tr>
+  <tr>
+   <td>页签：</td>
+   <td>*tab*</td>
+  </tr>
+  <tr>
+   <td>按钮：</td>
+   <td>*btn*</td>
+  </tr>
+  <tr>
+   <td>列表：</td>
+   <td>*list*</td>
+  </tr>
+  <tr>
+   <td>标题：</td>
+   <td>*title*</td>
+  </tr>
+  <tr>
+   <td>页脚：</td>
+   <td>*footer*</td>
+  </tr>
+  <tr>
+   <td>链接：</td>
+   <td>*link*</td>
+  </tr>
+  <tr>
+   <td>版权：</td>
+   <td>*copyright*</td>
+  </tr>
+  <tr>
+   <td>加入：</td>
+   <td>*join*</td>
+  </tr>
+  <tr>
+   <td>引导：</td>
+   <td>*guild*</td>
+  </tr>
+  <tr>
+   <td>服务：</td>
+   <td>*service*</td>
+  </tr>
+  <tr>
+   <td>伙伴：</td>
+   <td>*partner*</td>
+  </tr>
+  <tr>
+   <td>弹出：</td>
+   <td>*dialog*</td>
+  </tr>
+  <tr>
+   <td>头像：</td>
+   <td>*avatar*</td>
+  </tr>
+  <tr>
+   <td>作者：</td>
+   <td>*author*</td>
+  </tr>
+  <tr>
+   <td>当前：</td>
+   <td>*current*</td>
+  </tr>
+  <tr>
+   <td>取消：</td>
+   <td>*cancel*</td>
+  </tr>
+  <tr>
+   <td>箭头：</td>
+   <td>*arrow*</td>
+  </tr>
+  <tr>
+   <td>刷新：</td>
+   <td>*refresh*</td>
+  </tr>
+  <tr>
+   <td>结果：</td>
+   <td>*results*</td>
+  </tr>
+  <tr>
+   <td>成功：</td>
+   <td>*successful*</td>
+  </tr>
+  <tr>
+   <td>步骤：</td>
+   <td>*steps*</td>
+  </tr>
+  <tr>
+   <td></td>
+   <td></td>
+  </tr>
+  <tr>
+   <td></td>
+   <td></td>
+  </tr>
+  <tr>
+   <td></td>
+   <td></td>
+  </tr>
+  <tr>
+   <td></td>
+   <td></td>
+  </tr>
+  <tr>
+   <td></td>
+   <td></td>
+  </tr>
+  <tr>
+   <td></td>
+   <td></td>
+  </tr>
+ </tbody>
+</table>
