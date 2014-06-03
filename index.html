@@ -9,6 +9,10 @@ layout: page
   {% if year != y %}
     {% assign year = y %}
     <li class="listing-seperator">{{ y }}</li>
+      {% if year != y %}
+        {% assign months = m %}
+        <li class="listing-seperator">{{ m }}</li>
+      {% endif %}
   {% endif %}
   <li class="listing-item">
     <span class="time">{{ post.date | date:"%Y-%m-%d" }}</span>
