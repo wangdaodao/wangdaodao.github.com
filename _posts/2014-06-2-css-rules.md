@@ -79,16 +79,12 @@ tags: [css]
    <td><em>column</em></td>
   </tr>
   <tr>
-   <td align="right">页签：</td>
-   <td><em>tab</em></td>
-  </tr>
-  <tr>
-   <td align="right">按钮：</td>
-   <td><em>btn</em></td>
-  </tr>
-  <tr>
    <td align="right">列表：</td>
    <td><em>list</em></td>
+  </tr>
+  <tr>
+   <td align="right">页签：</td>
+   <td><em>tab</em></td>
   </tr>
   <tr>
    <td align="right">标题：</td>
@@ -127,6 +123,10 @@ tags: [css]
    <td><em>dialog</em></td>
   </tr>
   <tr>
+   <td align="right">按钮：</td>
+   <td><em>btn</em></td>
+  </tr>
+  <tr>
    <td align="right">头像：</td>
    <td><em>avatar</em></td>
   </tr>
@@ -137,6 +137,10 @@ tags: [css]
   <tr>
    <td align="right">当前：</td>
    <td><em>current</em></td>
+  </tr>
+  <tr>
+   <td align="right">确认：</td>
+   <td><em>confirm</em></td>
   </tr>
   <tr>
    <td align="right">取消：</td>
@@ -164,27 +168,11 @@ tags: [css]
   </tr>
   <tr>
    <td align="right"></td>
-   <td align="right"></td>
+   <td></td>
   </tr>
   <tr>
    <td align="right"></td>
-   <td align="right"></td>
-  </tr>
-  <tr>
-   <td align="right"></td>
-   <td align="right"></td>
-  </tr>
-  <tr>
-   <td align="right"></td>
-   <td align="right"></td>
-  </tr>
-  <tr>
-   <td align="right"></td>
-   <td align="right"></td>
-  </tr>
-  <tr>
-   <td align="right"></td>
-   <td align="right"></td>
+   <td></td>
   </tr>
  </tbody>
 </table>
