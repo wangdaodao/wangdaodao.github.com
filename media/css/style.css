@@ -70,3 +70,9 @@ object,iframe{ display:block; margin:4px auto; }
 .label-warning { background-color:#f89406; }
 .label-success { background-color:#468847; }
 .label-info { background-color:#3a87ad; }
+#nav-h2{
+ float: right;width: 200px;height: 100%
+}
+.content-left{
+ margin-right: 220px;height: 100%;overflow: hidden;
+}
