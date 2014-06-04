@@ -2,7 +2,7 @@ function DoubanApi() {
     this.defaults = {
         place:"douban",
         user:"wang_daodao",
-        key:"0a64de495d862d7e1f2e9adc1892887a",
+        api:"0a64de495d862d7e1f2e9adc1892887a",
         book:[{status:"reading",maxnum:20},{status:"read",maxnum:100},{status:"wish",maxnum:100}],
         bookreadingtitle:"在读...",
         bookreadtitle:"读过...",
@@ -14,7 +14,7 @@ DoubanApi.prototype.make_api_url = function(type,user,key,status,begin,end) {
         + "&start-index=" + begin + "&max-results=" + end + "&status=" + status 
         + "&alt=xd&callback=dbapi." + type + status + "_show";
     if (key.lenght > 0) {
-        url += "&apikey=" + key;
+        url += "&apikey=" + api;
     }
     return url;
 }
