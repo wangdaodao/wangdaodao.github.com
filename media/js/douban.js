@@ -2,7 +2,7 @@ function DoubanApi() {
     this.defaults = {
         place:"douban",
         user:"wang_daodao",
-        api:"0b204112100ace0a2160c33630206a1e",
+        api:"05236daf832df7500f6a490e8989e5f0",
         book:[{status:"reading",maxnum:100},{status:"read",maxnum:100},{status:"wish",maxnum:100}],
         bookreadingtitle:"在读...",
         bookreadtitle:"读过...",
