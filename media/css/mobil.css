@@ -9,5 +9,6 @@
 #nav a:active{ background-color:#ff0000; text-decoration:none; color:#f9f9f9; transition:color .2s linear; }
 /*内容*/
 #main{ margin-left:0; }
+.other-post {text-align: center;}
 /*评论*/
 .ds-thread{display: none;}
