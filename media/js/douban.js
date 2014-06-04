@@ -22,7 +22,7 @@ DoubanApi.prototype.make_list_item = function(items) {
     var html = '';
     $.each(items,function(i,item){
         html += '<li><a href="'
-            + item.link + '" target="_blank"><img src="'
+            + item.link + '><img src="'
             + item.src + '" alt="' + item.title
             + '" title="' + item.title + '" /></a></li>';
     });
@@ -82,7 +82,7 @@ DoubanApi.prototype.all_url = function(type,status,begin,end) {
             }
             if ($("#" + type + status).length === 0) {
                 var title = this.defaults[type + status + "title"];
-                $('<h4 class="douban-title">' + title + '</h4>').appendTo(mainplace);
+                $('<h3 class="douban-title">' + title + '</h3>').appendTo(mainplace);
                 $('<div id="' + type + status + '" class="douban-list"><ul></ul></div>').appendTo(mainplace);
                 $('<div class="clear"></div>').appendTo(mainplace);
             }
