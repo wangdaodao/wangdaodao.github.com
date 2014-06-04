@@ -1,7 +1,7 @@
 ---
 date: 2014-05-30
 layout: post
-title: 你好GitHub & Jekyll
+title: 你好GitHub &amp; Jekyll
 categories: 生活
 tags: [github,jekyll]
 ---
