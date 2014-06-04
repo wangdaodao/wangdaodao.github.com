@@ -7,11 +7,5 @@
 #nav:hover > li,#nav:focus > li,#nav:active > li{ display:list-item; }
 #nav a{ display:block; padding:.3em 0em; color:#000; }
 #nav a:active{ background-color:#ff0000; text-decoration:none; color:#f9f9f9; transition:color .2s linear; }
-/*内容*/
-#main{ margin-left:0; }
-.header{ padding:7px 0; border-bottom: 1px solid #cccccc; }
-/*尾部*/
-#footer{ text-align:center; display:block; border-top: 1px dashed #CCC; padding: 5px 0; }
-#footer small { color: #AAA; }
-#footer a { color: #888; text-decoration: none; }
-#footer a:hover { border-bottom: 1px dashed #BBB; text-decoration: none; }
+/*评论*/
+.ds-thread{display: none;}
