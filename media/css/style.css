@@ -26,7 +26,7 @@ code{ background-color:#eee; padding: 10px;}
 blockquote{ display:block; text-align:justify; border-left:4px solid #eeeeee; margin:1em 0em; padding-left:1.5em; }
 blockquote p{ margin:0; padding:.5em 0; }
 object,iframe{ display:block; margin:4px auto; }
-.clear{ clear: both; }
+.clear{ clear: both;font-size: 0;line-height: 0;height: 0; }
 /*整体*/
 #container{ width:61.8%; margin:0 auto; overflow: hidden; padding-top: 20px;}
 /*导航*/
