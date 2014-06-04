@@ -2,22 +2,24 @@ function DoubanApi() {
     this.defaults = {
         place:"douban",
         user:"wang_daodao",
-        api:"0a64de495d862d7e1f2e9adc1892887a",
+        api:"0b204112100ace0a2160c33630206a1e",
         book:[{status:"reading",maxnum:20},{status:"read",maxnum:100},{status:"wish",maxnum:100}],
         bookreadingtitle:"在读...",
         bookreadtitle:"读过...",
         bookwishtitle:"想读..."
     };
 }
+
 DoubanApi.prototype.make_api_url = function(type,user,key,status,begin,end) {
     var url = "http://api.douban.com/people/" + user + "/collection?cat=" + type 
         + "&start-index=" + begin + "&max-results=" + end + "&status=" + status 
         + "&alt=xd&callback=dbapi." + type + status + "_show";
     if (key.lenght > 0) {
-        url += "&apikey=" + api;
+        url += "&apikey=" + key;
     }
     return url;
 }
+
 DoubanApi.prototype.make_list_item = function(items) {
     var html = '';
     $.each(items,function(i,item){
@@ -28,6 +30,7 @@ DoubanApi.prototype.make_list_item = function(items) {
     });
     return html;
 };
+
 DoubanApi.prototype.parse_json = function(json) {
     var items = [];
     $.each(json.entry,function(i,item) {
@@ -39,6 +42,7 @@ DoubanApi.prototype.parse_json = function(json) {
     });
     return items;
 };
+
 DoubanApi.prototype.fix_num = function(num) {
     var index = 1;
     var fixnums = [];
@@ -54,6 +58,7 @@ DoubanApi.prototype.fix_num = function(num) {
     }
     return fixnums;
 };
+
 DoubanApi.prototype.show = function() {
     var books = [];
     var tmpthis = this;
@@ -61,17 +66,20 @@ DoubanApi.prototype.show = function() {
         var fixnums = tmpthis.fix_num(item.maxnum);
         books.push({status:item.status,indexs:fixnums});
     });
+
     $.each(books,function(i,item) {
         $.each(item.indexs,function(t,idx) {
             tmpthis.appendScript(tmpthis.all_url("book",item.status,idx.begin,idx.end));
         });
     });
 };
+
 DoubanApi.prototype.appendScript = function(url) {
     if (url && url.length > 0) {
         $("<script/>").attr("src",url).attr("charset","utf-8").appendTo($("head")[0]);
     }
 };
+
 DoubanApi.prototype.all_url = function(type,status,begin,end) {
     if (end === 0 ) return;
     if (!this[type + status + "_show"]) {
