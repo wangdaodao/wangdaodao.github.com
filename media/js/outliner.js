@@ -19,7 +19,7 @@ $(this).html('<a name="' + id + '"></a>'+$(this).html());
         outline_ul.append($('<li></li>')
                              .html('<span><a href="#' + val + '">' + idx + '</a></span>'));
     });
-    $('#nav-h2').append(html(outline_ul));
+    $('#nav-h2').append().html(outline_ul);
 
     /**
      * |<------------------------------w------------------------------>|
