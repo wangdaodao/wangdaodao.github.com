@@ -5,7 +5,7 @@ comments: no
 ---
 
 <div id="archives">
-<p>以下是我的书单，数据来自豆瓣！时不时的会刷不出来数据，是因为豆瓣每分钟只能请求10次，多了的话就停了……</p>
+<p>以下是我的书单，数据来自豆瓣，欢迎<a href="http://www.douban.com/people/wang_daodao/">关注</a>！</p>
   <div id="douban">
   </div>
 </div>
