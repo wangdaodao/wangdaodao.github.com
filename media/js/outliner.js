@@ -14,7 +14,7 @@ $(function() {
 $(this).html('<a name="' + id + '"></a>'+$(this).html());});
     var outline_ul = $('<ul id="h2outline"></ul>');
     $.each(dict, function (idx, val) {
-        outline_ul.append($('<li></li>').html('<span><a href="#' + val + '">' + idx + '</a></span>'));
+        outline_ul.append($('<li></li>').html('<a href="#' + val + '">' + idx + '</a>'));
     });
     $('#nav-h2').append().html(outline_ul);
 
