@@ -21,25 +21,25 @@ caption{ text-align:left; }
 hr{ margin:.7em 0; border-top:1px dashed #d0d0d0; border-bottom:1px dashed #f9f9f9; }
 ins{ text-decoration:none; }
 del{ text-decoration:line-through; }
-pre,code{ margin:.5em 0; line-height:1.6; display:block; overflow:auto; }
-code{ background-color:#eee; padding: 10px; }
+pre,code{ margin:.5em 0; line-height:1.6; display:block; overflow:auto;}
+code{ background-color:#eee; padding: 10px;}
 blockquote{ display:block; text-align:justify; border-left:4px solid #eeeeee; margin:1em 0em; padding-left:1.5em; }
 blockquote p{ margin:0; padding:.5em 0; }
 object,iframe{ display:block; margin:4px auto; }
 /*整体*/
-#container{ width:800px; position: relative; margin:0 auto; overflow: hidden; padding-top: 20px; }
+#container{ width:800px; margin:0 auto; overflow: hidden; padding-top: 20px;}
 /*导航*/
 #nav{ font-size:1.6em; float:left; display: inline; width:150px; text-align:right; padding-top: 45px; }
 #nav a{ display:block; padding:.7em 1em; color:#000; }
 #nav a:hover{ background-color:#ff0000; text-decoration:none; color:#f9f9f9; transition:color .2s linear; }
 /*内容*/
-#main{ margin:0 180px; position: relative; }
+#main{ margin-left: 180px; }
 .header{ padding:7px 0; border-bottom: 1px solid #cccccc; }
 .content{ font-size:1.6em; line-height:2; padding: 5px 0; }
 .content h1{ padding:5px 0; }
-.content img{ max-width:98%; display:block; margin:10px 0; box-shadow:#999 1px 1px 4px; }
+.content img{ max-width:640px; display:block; margin:10px 0; box-shadow:#999 1px 1px 4px; }
 .meta{ font-size:.65em; color:#888; padding:5px 0; }
-.post em{ background: #EEE; color: #666; padding: 0 5px; margin: 0 2px; border: 1px solid #DDD; border-radius: 3px; }
+.post em{background: #EEE;color: #666;padding: 0 5px;margin: 0 2px;border: 1px solid #DDD;border-radius: 3px; }
 /*上下篇*/
 .other-post{ text-align: right; padding: 15px 0; }
 .pageNav{ font-weight:bold; font-size:1.25em; }
@@ -64,13 +64,9 @@ object,iframe{ display:block; margin:4px auto; }
 /*其他*/
 .disabled{ cursor: not-allowed; }
 .gist{ font-size: 12px; line-height:1.6; }
-.gist-meta{ display: none; }
+.gist-meta{display: none;}
 .label { font-size:11.25px; font-weight:700; color:#fff; text-transform:uppercase; background-color:#999; border-radius:3px; padding:1px 3px 2px; }
 .label-important { background-color:#b94a48; }
 .label-warning { background-color:#f89406; }
 .label-success { background-color:#468847; }
 .label-info { background-color:#3a87ad; }
-#nav-h2{height: 100%; font-size: 1.4em;position: absolute;right: 0;top: 55px;}
-#h2outline{ position: fixed; right: auto; top: auto;margin-left: 20px; }
-#nav-h2 a{ display: block; padding: .3em 1em; }
-.content-left{ height: 100%; overflow: hidden; }
