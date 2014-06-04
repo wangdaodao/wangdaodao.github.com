@@ -10,6 +10,8 @@ tags: [jekyll,themes]
 
 考虑到用 *JS* 来实现响应式菜单，但是还是放弃了！还是使用 *CSS* 简单的粗暴的来搞吧！
 
+如果想用修改好的主题，欢迎[fork me](https://github.com/wangdaodao/wangdaodao.github.com)
+
 源码在此
 
 <script src="https://gist.github.com/wangdaodao/984bc8e140a31b3dd8dd.js"></script>
