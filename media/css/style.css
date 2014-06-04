@@ -30,6 +30,7 @@ object,iframe{ display:block; margin:4px auto; }
 #container{ width:61.8%; margin:0 auto; overflow: hidden; padding-top: 20px;}
 /*导航*/
 #nav{ font-size:1.6em; float:left; display: inline; width:150px; text-align:right; padding-top: 45px; }
+.nav-first{display:list-item; }
 #nav a{ display:block; padding:.7em 1em; color:#000; }
 #nav a:hover{ background-color:#ff0000; text-decoration:none; color:#f9f9f9; transition:color .2s linear; }
 /*内容*/
