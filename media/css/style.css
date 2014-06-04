@@ -73,11 +73,5 @@ object,iframe{ display:block; margin:4px auto; }
 .label-success { background-color:#468847; }
 .label-info { background-color:#3a87ad; }
 /*豆瓣*/
-#douban li{
- float: left;
- margin: 5px 5px 5px 0;
-}
-#douban img{
- width: 68px;
- height: 96px;
-}
+#douban li{float: left;margin: 5px 5px 5px 0;}
+#douban img{width: 68px;height: 96px;}
