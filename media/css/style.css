@@ -54,10 +54,10 @@ object,iframe{ display:block; margin:4px auto; }
 /*标签*/
 #tag_cloud{ margin-bottom: 1em; }
 #tag_cloud a:hover{ color:#333; text-decoration:none; }
-.listing-item,.listing-seperator{ list-style-type:none; }
+.listing-item{ list-style-type:none;overflow: hidden;text-overflow: ellipsis;white-space: nowrap;width: 90%;color: #D00; }
 .listing-item a{ padding-left:1em; }
 .listing-item .time{ color:#999; }
-.listing-seperator{ font-weight:bold; }
+.listing-seperator{ font-weight:bold;list-style-type:none; }
 /*翻页*/
 .paginator { font-size:.85em; color: #AAA; margin: 20px 0; line-height:2; display: block; }
 .paginator a,.paginator span{ padding: 0 4px; margin: 2px; text-decoration: none; }
