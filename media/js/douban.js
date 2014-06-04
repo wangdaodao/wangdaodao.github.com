@@ -22,7 +22,7 @@ DoubanApi.prototype.make_list_item = function(items) {
     var html = '';
     $.each(items,function(i,item){
         html += '<li><a href="'
-            + item.link + '><img src="'
+            + item.link + '"><img src="'
             + item.src + '" alt="' + item.title
             + '" title="' + item.title + '" /></a></li>';
     });
