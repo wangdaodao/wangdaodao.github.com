@@ -27,7 +27,7 @@ blockquote{ display:block; text-align:justify; border-left:4px solid #eeeeee; ma
 blockquote p{ margin:0; padding:.5em 0; }
 object,iframe{ display:block; margin:4px auto; }
 /*整体*/
-#container{ width:800px; margin:0 auto; overflow: hidden; padding-top: 20px;}
+#container{ width:61.8%; margin:0 auto; overflow: hidden; padding-top: 20px;}
 /*导航*/
 #nav{ font-size:1.6em; float:left; display: inline; width:150px; text-align:right; padding-top: 45px; }
 #nav a{ display:block; padding:.7em 1em; color:#000; }
@@ -37,7 +37,7 @@ object,iframe{ display:block; margin:4px auto; }
 .header{ padding:7px 0; border-bottom: 1px solid #cccccc; }
 .content{ font-size:1.6em; line-height:2; padding: 5px 0; }
 .content h1{ padding:5px 0; }
-.content img{ max-width:640px; display:block; margin:10px 0; box-shadow:#999 1px 1px 4px; }
+.content img{ max-width:98%; display:block; margin:10px 0; box-shadow:#999 1px 1px 4px; }
 .meta{ font-size:.65em; color:#888; padding:5px 0; }
 .post em{background: #EEE;color: #666;padding: 0 5px;margin: 0 2px;border: 1px solid #DDD;border-radius: 3px; }
 /*上下篇*/
