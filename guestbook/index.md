@@ -1,6 +1,6 @@
 ---
 layout: page
-title: 留言
+title: GuestBook
 comments: yes
 thread: 616
 ---
