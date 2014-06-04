@@ -8,7 +8,7 @@ comments: no
   <div id="douban">
   </div>
 </div>
-<script type="text/javascript" src="/media/js/douban.api.js"></script>
+<script type="text/javascript" src="/media/js/douban.js"></script>
 <script type="text/javascript">
  var dbapi = new DoubanApi();
  $(document).ready(function(){
