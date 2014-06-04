@@ -70,7 +70,7 @@ object,iframe{ display:block; margin:4px auto; }
 .label-warning { background-color:#f89406; }
 .label-success { background-color:#468847; }
 .label-info { background-color:#3a87ad; }
-#nav-h2{ float: right; height: 100%; font-size: 1.6em; padding-top: 45px; }
-#h2outline{ position: fixed; right: auto; top: auto; }
+#nav-h2{height: 100%; font-size: 1.4em;position: absolute;right: 0;top: 45px;}
+#h2outline{ position: fixed; right: auto; top: auto;margin-left: 20px; }
 #nav-h2 a{ display: block; padding: .7em 1em; }
 .content-left{ height: 100%; overflow: hidden; }
