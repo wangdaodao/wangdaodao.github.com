@@ -59,7 +59,7 @@ object,iframe{ display:block; margin:4px auto; }
 .listing-item .time{ color:#999; }
 .listing-seperator{ font-weight:bold; }
 /*翻页*/
-.paginator { font-size:.625em; color: #AAA; margin: 20px 0; line-height:2; display: block; }
+.paginator { font-size:1em; color: #AAA; margin: 20px 0; line-height:2; display: block; }
 .paginator a,.paginator span{ padding: 0 4px; margin: 2px; text-decoration: none; }
 .paginator .current-page { color: white; background: #ff0000; }
 .paginator a:hover{ color: white; background: #83BF73; }
