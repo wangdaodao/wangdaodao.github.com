@@ -1,5 +1,5 @@
 ---
-title: DouBan
+title: Read
 layout: page
 comments: no
 ---
@@ -8,7 +8,7 @@ comments: no
   <div id="douban">
   </div>
 </div>
-<script type="text/javascript" src="{{site.url}}/media/js/douban.api.js"></script>
+<script type="text/javascript" src="/media/js/douban.api.js"></script>
 <script type="text/javascript">
  var dbapi = new DoubanApi();
  $(document).ready(function(){
