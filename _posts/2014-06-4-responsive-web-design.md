@@ -3,7 +3,7 @@ date: 2014-06-4
 layout: post
 title: 给现在用的主题加上了响应式菜单
 categories: 工作
-tags: [Jekyll,themes]
+tags: [jekyll,themes]
 ---
 
 今天把主题修改完毕了，各位客官可以拖动下窗口大小来看看！

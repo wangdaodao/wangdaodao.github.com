@@ -3,7 +3,7 @@ date: 2014-05-30
 layout: post
 title: 你好GitHub & Jekyll
 categories: 生活
-tags: github
+tags: [github,jekyll]
 ---
 
 费了好大的劲，才搞成这样子，真是不容易！
