@@ -33,7 +33,7 @@ object,iframe{ display:block; margin:4px auto; }
 #nav a{ display:block; padding:.7em 1em; color:#000; }
 #nav a:hover{ background-color:#ff0000; text-decoration:none; color:#f9f9f9; transition:color .2s linear; }
 /*内容*/
-#main{ margin-left: 180px;position: relative; }
+#main{ margin:0 180px;position: relative; }
 .header{ padding:7px 0; border-bottom: 1px solid #cccccc; }
 .content{ font-size:1.6em; line-height:2; padding: 5px 0; }
 .content h1{ padding:5px 0; }
@@ -72,7 +72,6 @@ object,iframe{ display:block; margin:4px auto; }
 .label-info { background-color:#3a87ad; }
 #nav-h2{
  float: right;width: 150px;height: 100%;
- text-align: right;
  font-size: 1.6em;
  padding-top: 45px;
 }
@@ -86,6 +85,5 @@ object,iframe{ display:block; margin:4px auto; }
 padding: .7em 1em;
 color: black;
 }
-.content-left{
- margin-right: 170px;height: 100%;overflow: hidden;
+.content-left{height: 100%;overflow: hidden;
 }
