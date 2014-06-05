@@ -59,6 +59,7 @@ object,iframe{ display:block; margin:4px auto; }
 #footer a:hover { border-bottom: 1px dashed #BBB; text-decoration: none; }
 /*标签*/
 #tag_cloud{ margin-bottom: 1em; }
+#tag_cloud a{margin-right: .5em;}
 #tag_cloud a:hover{ color:#333; text-decoration:none; }
 .listing-item{ list-style-type:none;overflow: hidden;text-overflow: ellipsis;white-space: nowrap;width: 90%;color: #D00; }
 .listing-item a{ padding-left:1em; }
