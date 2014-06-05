@@ -4,7 +4,7 @@ layout: post
 comments: no
 title: 从前端优化网站
 categories: 工作
-tags: [optimization,front end]
+tags: [optimization,front-end]
 ---
 
 以前对网站优化有了一套自己的方法，最近也在着手优化公司的网站，分享出来，也为自己做下记录！
