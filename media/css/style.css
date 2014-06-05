@@ -33,7 +33,7 @@ object,iframe{ display:block; margin:4px auto; }
 #nav{ font-size:1.6em;font-weight: bold;  float:left; display: inline; width:150px; text-align:right; padding-top: 45px; }
 .nav-first{display:none; }
 #nav a{ display:block; padding:.7em 1em; color:#000; }
-#nav a:hover{ background-color:#ff0000; text-decoration:none; color:#f9f9f9; transition:color .2s linear; }
+#nav a:hover{ background-color:#d00; text-decoration:none; color:#f9f9f9; transition:color .2s linear; }
 /*内容*/
 #main{ margin-left: 180px; }
 .header{ padding:7px 0; border-bottom: 1px solid #cccccc; }
@@ -61,7 +61,7 @@ object,iframe{ display:block; margin:4px auto; }
 /*翻页*/
 .paginator { font-size:.85em; color: #AAA; margin: 20px 0; line-height:2; display: block; }
 .paginator a,.paginator span{ padding: 0 4px; margin: 2px; text-decoration: none; }
-.paginator .current-page { color: white; background: #ff0000; }
+.paginator .current-page { color: white; background: #d00; }
 .paginator a:hover{ color: white; background: #83BF73; }
 /*其他*/
 .disabled{ cursor: not-allowed; }
