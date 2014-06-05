@@ -1,6 +1,7 @@
 ---
 date: 2014-06-1
 layout: post
+comments: no
 title: 儿童节
 categories: 生活
 tags: [life]

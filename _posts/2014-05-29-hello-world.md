@@ -1,6 +1,7 @@
 ---
 date: 2014-05-29
 layout: post
+comments: no
 title: 世界，你好
 categories: 生活
 tags: [life]

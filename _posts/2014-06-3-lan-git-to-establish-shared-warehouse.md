@@ -1,6 +1,7 @@
 ---
 date: 2014-06-3
 layout: post
+comments: no
 title: 局域网Git建立共享仓库
 categories: 工作
 tags: [git]

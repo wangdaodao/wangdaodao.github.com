@@ -1,6 +1,7 @@
 ---
 date: 2014-03-10
 layout: post
+comments: no
 title: 成功修复kindle无法充电
 categories: 生活
 tags: [kindle]

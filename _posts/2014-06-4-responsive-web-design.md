@@ -1,6 +1,7 @@
 ---
 date: 2014-06-4
 layout: post
+comments: no
 title: 给现在用的主题加上了响应式菜单
 categories: 工作
 tags: [jekyll,themes]

@@ -1,6 +1,7 @@
 ---
 date: 2014-06-2
 layout: post
+comments: no
 title: CSS命名规则
 categories: 工作
 tags: [css]

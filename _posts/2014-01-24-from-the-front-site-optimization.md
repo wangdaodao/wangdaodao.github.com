@@ -1,6 +1,7 @@
 ---
 date: 2014-01-24
 layout: post
+comments: no
 title: 从前端优化网站
 categories: 工作
 tags: [optimization,front end]
