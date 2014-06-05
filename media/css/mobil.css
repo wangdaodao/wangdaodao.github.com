@@ -4,7 +4,7 @@
 #nav{ font-size:2.2em; float:none; display: inline; width:100%; text-align:left; padding-top: 0;}
 #nav li{ display: none; }
 #nav .nav-first{display:list-item; }
-#nav:focus > li,#nav:active > li{ display:list-item; }
+#nav:hover > li,#nav:focus > li,#nav:active > li{ display:list-item; }
 #nav a{ display:block; padding:.3em 0em; color:#000; }
 #nav a:active{ background-color:#ff0000; text-decoration:none; color:#f9f9f9; transition:color .2s linear; }
 /*内容*/
