@@ -27,10 +27,10 @@ tags: [gae]
 
 用UC访问下twitter看看（其实我更喜欢用自带的浏览器）
 
-![Screenshot_2013-08-04-07-15-34.jpg](/uploads/2013/08/Screenshot_2013-08-04-07-15-34.jpg.jpg)
+![Screenshot_2013-08-04-07-15-34](/uploads/2013/08/Screenshot_2013-08-04-07-15-34.jpg)
 
 试试我的地铁跑酷能不能链接到facebook
 
-![Screenshot_2013-08-04-08-41-25.jpg](/uploads/2013/08/Screenshot_2013-08-04-08-41-25.jpg.jpg)
+![Screenshot_2013-08-04-08-41-25](/uploads/2013/08/Screenshot_2013-08-04-08-41-25.jpg)
 
 好了，看来网页和应用都可以翻墙了，大家也试试吧！
