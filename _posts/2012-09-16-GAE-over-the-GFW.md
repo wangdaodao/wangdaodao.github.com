@@ -10,13 +10,13 @@ tags: [gae]
 
 使用*GoAgent*浏览“某些网站”的具体步骤：
 
-##第一步：申请创建一个*Application*
+##第一步：申请创建一个Application
 
-###Step 1 -申请*Google App Engine*账号
+###Step 1 -申请Google App Engine账号
 
 登录[http://appengine.google.com](http://appengine.google.com)，如果你已经拥有一个*Gmail*账户，直接输入账号密码就可以登录；如果没有则需要新申请一个*Gmail*账户。
 
-###Step 2 -创建*Application*
+###Step 2 -创建Application
 
 ![create-application](/uploads/2012/09/create-application.jpg)
 
@@ -32,7 +32,7 @@ tags: [gae]
 
 你将会收到谷歌发给你的短信，短信内容大致为：**Google App Engine：XXXXXX（六位数字）**。
 
-###Step 5 -创建一个属于你的*Application*
+###Step 5 -创建一个属于你的Application
 
 ![Create-an-Application](/uploads/2012/09/Create-an-Application.jpg)
 
@@ -54,7 +54,7 @@ tags: [gae]
 
 ![Google-Account-Setting](/uploads/2012/09/Google-Account-Setting.jpg)
 
-###Step 2 -开始设置*Google*账户
+###Step 2 -开始设置Google账户
 
 这一步会用手机验证！此处你需要点击发送验证码，获取验证码后提交确认进入下一步；
 
@@ -62,7 +62,7 @@ tags: [gae]
 
 通过验证后，会让你选择，是否信任当前计算机，如果当前计算机不是你个人的计算机，不要勾选信任此计算机，然后就是激活！这里，由于我已经激活过了，就没办法截图了，相信大家应该可以激活！
 
-###Step 3 -开始为你的*Application*创建密码，非常重要！
+###Step 3 -开始为你的Application创建密码，非常重要！
 
 ![Generate-password](/uploads/2012/09/Generate-password.jpg)
 
@@ -73,9 +73,9 @@ tags: [gae]
 
 ![get-a-password](/uploads/2012/09/get-a-password.jpg)
 
-##第三步：配置*goagent*客户端
+##第三步：配置goagent客户端
 
-###Step 1 -下载*goagent*客户端
+###Step 1 -下载goagent客户端
 
 [Download](http://code.google.com/p/goagent/)
 
@@ -93,7 +93,7 @@ tags: [gae]
 
 ![uploader2](/uploads/2012/09/uploader2.jpg)
 
-##第四步：开始使用*GoAgent*
+##第四步：开始使用GoAgent
 
 使用*GoAgent*上网前，你必须运行local\goagent.exe（以管理员身份运行），就刚才下载的*goagent*压缩包里面的文件。
 
@@ -129,8 +129,8 @@ tags: [gae]
 
 ![choose-proxy-server](/uploads/2012/09/choose-proxy-server.jpg)
 
-5）使用*AutoProxy*会自动根据已定规则决定是否使用Proxy的。
+5）使用*AutoProxy*会自动根据已定规则决定是否使用*Proxy*的。
 
-注意：切记需要连接外网时运行文件夹*local*下的*goagent*.exe，否则无法连接外网。
+注意：切记需要连接外网时运行文件夹*local*下的goagent.exe，否则无法连接外网。
 
 教程很长，看到这里大家照着做，应该可以搞定，如果搞不定了，那就用这个[工具](https://code.google.com/p/icefox/)吧，安装下就可以翻墙了！
