@@ -3,7 +3,7 @@ date: 2012-09-16
 layout: post
 comments: no
 title: GAE翻墙教程
-categories: 技术
+categories: 教程
 tags: [gae]
 ---
 
