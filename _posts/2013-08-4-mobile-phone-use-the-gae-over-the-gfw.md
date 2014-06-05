@@ -4,7 +4,7 @@ layout: post
 comments: no
 title: 手机GAE翻墙
 categories: 教程
-tags: [gae]
+tags: [gae,gfw]
 ---
 
 距离上次的[GAE翻墙教程](/gae-over-the-GFW/)有一段时间了，不过有时候手机也想翻墙去，所以这次的翻墙教程是基于上次的电脑翻墙的，所如果想在手机上使用GAE来翻墙的话，首先要完成到上次教程的第三部：配置goagent客户端。

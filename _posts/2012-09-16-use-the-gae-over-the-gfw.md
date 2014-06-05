@@ -4,7 +4,7 @@ layout: post
 comments: no
 title: GAE翻墙教程
 categories: 教程
-tags: [gae]
+tags: [gae,gfw]
 ---
 
 站在墙内，总是想爬墙头上看看墙外的世界，*GFW*的存在，导致了各种个样的办法来翻过这堵墙！现在，叨叨终于会翻墙了，使用的是*GoAgent*，经常翻墙的应该不会陌生吧！下面就记录下教程，也算做一个备份吧！
