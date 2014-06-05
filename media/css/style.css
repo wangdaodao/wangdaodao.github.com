@@ -62,7 +62,7 @@ object,iframe{ display:block; margin:4px auto; }
 .paginator { font-size:.85em; color: #AAA; margin: 20px 0; line-height:2; display: block; }
 .paginator a,.paginator span{ padding: 0 4px; margin: 2px; text-decoration: none; }
 .paginator .current-page { color: white; background: #d00; }
-.paginator a:hover{ color: white; background: #83BF73; }
+.paginator a:hover{ color: white; background: #d00; }
 /*其他*/
 .disabled{ cursor: not-allowed; }
 .gist{ font-size: 12px; line-height:1.6; }
