@@ -9,4 +9,4 @@ duoshuo: wangdaodao
 github: wangdaodao
 pygments: true
 safe: true
-paginate: 20
+paginate: 10
