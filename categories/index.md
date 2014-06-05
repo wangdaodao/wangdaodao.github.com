@@ -19,7 +19,7 @@ layout: page
 {% endfor %}
 {% endfor %}
 </ul>
-<script src="/media/js/jquery.tagcloud.js" type="text/javascript" charset="utf-8"></script> 
+<!-- <script src="/media/js/jquery.tagcloud.js" type="text/javascript" charset="utf-8"></script> 
 <script type="text/javascript">
 $.fn.tagcloud.defaults = {
     size: {start: 1, end: 1, unit: 'em'},
@@ -28,4 +28,4 @@ $.fn.tagcloud.defaults = {
 $(function () {
     $('#tag_cloud a').tagcloud();
 });
-</script>
+</script> -->
