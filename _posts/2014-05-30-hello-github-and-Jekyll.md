@@ -19,7 +19,7 @@ tags: [github,jekyll]
 
 另外，代码高亮也可以用gist来搞了，不用那么费心了！例如这样：
 
-<script src="https://gist.github.com/wangdaodao/4059549.js"></script>
+<script type="text/javascript" src="https://gist.github.com/wangdaodao/4059549.js"></script>
 
 来一枚二维码图片吧！
 

@@ -15,4 +15,4 @@ tags: [jekyll,themes]
 
 源码在此
 
-<script src="https://gist.github.com/wangdaodao/984bc8e140a31b3dd8dd.js"></script>
+<script type="text/javascript" src="https://gist.github.com/wangdaodao/984bc8e140a31b3dd8dd.js"></script>
