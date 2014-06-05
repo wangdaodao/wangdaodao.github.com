@@ -12,7 +12,7 @@ tags: [optimization,front end]
 
 先说客观，就是用工具来测量出来的，Yslow 和 Page-Speed 就是这样的工具！分享一个网址，输入地址就可以把这两个分数都测试出来，并且把优化方案和建议还有压缩好的图片都输出了！[http://gtmetrix.com](http://gtmetrix.com)<a href="http://gtmetrix.com"></a>
 
-[![2014012313043711111](/uploads/2014/01/2014012313043711111.jpg)](http://gtmetrix.com/reports/wangdaodao.com/4n0U6p7p)
+![2014012313043711111](/uploads/2014/01/2014012313043711111.jpg)
 
 我总结出来，就是减少加载次数，合理的运用 Css Sprite 和 Img Sprite，压缩前端展示的东西（img，css，js，html），编写高质量代码去除冗余的嵌套（有点难）！
 
