@@ -46,6 +46,10 @@ object,iframe{ display:block; margin:4px auto; }
 .content{ font-size:1.6em; line-height:2; padding: 5px 0; }
 .content h1{ padding:5px 0; }
 .content img{ max-width:98%; display:block; margin:10px 0; box-shadow:2px 2px 6px #999;}
+.listing-item{ list-style-type:none;overflow: hidden;text-overflow: ellipsis;white-space: nowrap;width: 90%;color: #D00; }
+.listing-item a{ padding-left:1em; }
+.listing-item .time{ color:#999; }
+.listing-seperator{ font-weight:bold;list-style-type:none; }
 .meta{ font-size:.65em; color:#888; padding:5px 0; }
 .post em{background: #eee;color: #666;padding: 0 5px;margin: 0 2px;border: 1px solid #DDD;border-radius: 3px; }
 /*上下篇*/
@@ -61,10 +65,6 @@ object,iframe{ display:block; margin:4px auto; }
 #tag_cloud{ margin-bottom: 1em; }
 #tag_cloud a{margin-right: .5em;}
 #tag_cloud a:hover{ color:#333; text-decoration:none; }
-.listing-item{ list-style-type:none;overflow: hidden;text-overflow: ellipsis;white-space: nowrap;width: 90%;color: #D00; }
-.listing-item a{ padding-left:1em; }
-.listing-item .time{ color:#999; }
-.listing-seperator{ font-weight:bold;list-style-type:none; }
 /*翻页*/
 .paginator { font-size:.85em; color: #aaa; margin: 20px 0; line-height:2; display: block; }
 .paginator a,.paginator span{ padding: 0 4px; margin: 2px; text-decoration: none; }
@@ -74,11 +74,6 @@ object,iframe{ display:block; margin:4px auto; }
 .disabled{ cursor: not-allowed; }
 .gist{ font-size: 12px; line-height:1.6; }
 .gist-meta{display: none;}
-.label { font-size:11.25px; font-weight:700; color:#fff; text-transform:uppercase; background-color:#999; border-radius:3px; padding:1px 3px 2px; }
-.label-important { background-color:#b94a48; }
-.label-warning { background-color:#f89406; }
-.label-success { background-color:#468847; }
-.label-info { background-color:#3a87ad; }
 /*豆瓣*/
 #douban li{float: left;margin-right:10px;}
 #douban img{width: 68px;height: 96px;}
