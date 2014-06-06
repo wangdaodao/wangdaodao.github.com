@@ -102,11 +102,11 @@ var dbapi = {
         //     movies.push({stus:item.stus,indexs:dbapi.fixNum(item.maxnum)}); 
         // });
 
-        $.each(books,function(i,item){  
-            $.each(item.indexs,function(t,idx){
-                setTimeout(dbapi.appendScript(dbapi.bookurl(item.stus,idx.begin,idx.end)),300);
-            });             
-        });
+        // $.each(books,function(i,item){  
+        //     $.each(item.indexs,function(t,idx){
+        //         setTimeout(dbapi.appendScript(dbapi.bookurl(item.stus,idx.begin,idx.end)),300);
+        //     });             
+        // });
 
         // $.each(movies,function(i,item){ 
         //     $.each(item.indexs,function(t,idx){
