@@ -17,8 +17,8 @@ $(document).ready(function() {
    var strHtml = '<ul>';
    for (var i = 0; i < data.photos.total; i++) {
     var photo = data.photos.photo[i];
-    strHtml += '<li><a href="http://www.flickr.com/photos/likebeta/' + photo.id + '/" target="_blank">';
-    strHtml += '<img src="http://farm' + photo.farm + '.static.flickr.com/' + photo.server + '/' + photo.id + '_' + photo.secret + '_m.jpg" />';
+    strHtml += '<li><a href="http://www.flickr.com/photos/93942673@N02/' + photo.id + '/" >';
+    strHtml += '<img src="http://farm' + photo.farm + '.static.flickr.com/' + photo.server + '/' + photo.id + '_' + photo.secret + '_s.jpg" />';
     strHtml += '</a></li>';
    }
    strHtml += '</ul>';
