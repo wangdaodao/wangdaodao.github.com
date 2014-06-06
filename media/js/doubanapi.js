@@ -26,9 +26,9 @@ var dbapi = {
         var html='';        
         $.each(items,function(i,item){
             html+='<a href="'
-                +item.link+'" target="_blank"><img src="'
+                +item.link+'" ><img src="'
                 +item.src+'" alt="'+item.title
-                +'" title="'+item.title+'"border="0" /></a>';
+                +'" title="'+item.title+'" /></a>';
         });
         return html;
     },
@@ -38,9 +38,9 @@ var dbapi = {
     bookurl:function(stus,begin,end){
         return this.allurl("book",stus,begin,end);
     },
-    movieurl:function(stus,begin,end){
-        return this.allurl("movie",stus,begin,end);
-    },
+    // movieurl:function(stus,begin,end){
+    //     return this.allurl("movie",stus,begin,end);
+    // },
     allurl:function  (typ,stus,begin,end) {
         if (end ===0) return;
         if(!dbapi[typ + stus +"_SHOW"]){
@@ -94,13 +94,13 @@ var dbapi = {
     show:function(options){
         this.opts = $.extend({}, this.defaults, options);
         var books = [];
-        var movies = [];
+        // var movies = [];
         $.each(this.opts.book,function (i,item) {
             books.push({stus:item.stus,indexs:dbapi.fixNum(item.maxnum)});  
         });
-        $.each(this.opts.movie,function (i,item) {
-            movies.push({stus:item.stus,indexs:dbapi.fixNum(item.maxnum)}); 
-        });
+        // $.each(this.opts.movie,function (i,item) {
+        //     movies.push({stus:item.stus,indexs:dbapi.fixNum(item.maxnum)}); 
+        // });
 
         $.each(books,function(i,item){  
             $.each(item.indexs,function(t,idx){
@@ -108,11 +108,11 @@ var dbapi = {
             });             
         });
 
-        $.each(movies,function(i,item){ 
-            $.each(item.indexs,function(t,idx){
-                setTimeout(dbapi.appendScript(dbapi.movieurl(item.stus,idx.begin,idx.end)),1000);
-            });             
-        });     
+        // $.each(movies,function(i,item){ 
+        //     $.each(item.indexs,function(t,idx){
+        //         setTimeout(dbapi.appendScript(dbapi.movieurl(item.stus,idx.begin,idx.end)),1000);
+        //     });             
+        // });     
     },
     /**
      * 可选配置项
@@ -123,13 +123,14 @@ var dbapi = {
         place:"douban",
         user:"",
         api:"",
-        book:[{stus:"reading",maxnum:20},{stus:"read",maxnum:500},{stus:"wish",maxnum:100}],
-        movie:[{stus:"watched",maxnum:500},{stus:"wish",maxnum:200}],
+        book:[{stus:"reading",maxnum:100},{stus:"read",maxnum:100}],
+        // book:[{stus:"reading",maxnum:100},{stus:"read",maxnum:100},{stus:"wish",maxnum:100}],
+        // movie:[{stus:"watched",maxnum:500},{stus:"wish",maxnum:200}],
         bookreadingtitle:"正读...",
-        bookreadtitle:"读过...",
-        bookwishtitle:"想读...",
-        moviewatchedtitle:"看过...",
-        moviewishtitle:"想看..."
+        bookreadtitle:"读过..."
+        // bookwishtitle:"想读...",
+        // moviewatchedtitle:"看过...",
+        // moviewishtitle:"想看..."
     }
 }
 //--dbapi.end--
