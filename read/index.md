@@ -10,10 +10,6 @@ comments: no
 <script type="text/javascript" src="/media/js/douban.js"></script>
 <script type="text/javascript">
  var dbapi = new DoubanApi();
- var dbapi = {
-        user:"wang_daodao", //这里换成你的豆瓣ID
-        api:"05236daf832df7500f6a490e8989e5f0"          //这里换成你的豆瓣APIKEY
-    }
  $(document).ready(function(){
   dbapi.show();
  });
