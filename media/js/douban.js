@@ -10,6 +10,7 @@ function DoubanApi() {
         //bookwishtitle:"想读..."
     };
 }
+
 DoubanApi.prototype.make_api_url = function(type,user,key,status,begin,end) {
     var url = "http://api.douban.com/people/" + user + "/collection?cat=" + type 
         + "&start-index=" + begin + "&max-results=" + end + "&status=" + status 
