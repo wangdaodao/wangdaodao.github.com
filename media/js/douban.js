@@ -1,8 +1,8 @@
 function DoubanApi() {
     this.defaults = {
         place:"douban",
-        user:"wang_daodao",
-        api:"05236daf832df7500f6a490e8989e5f0",
+        user:"",
+        api:"",
         //book:[{status:"reading",maxnum:100},{status:"read",maxnum:100},{status:"wish",maxnum:100}],//去掉了想读
         book:[{status:"reading",maxnum:100},{status:"read",maxnum:100}],
         bookreadingtitle:"在读...",
@@ -10,11 +10,10 @@ function DoubanApi() {
         //bookwishtitle:"想读..."
     };
 }
-
 DoubanApi.prototype.make_api_url = function(type,user,key,status,begin,end) {
     var url = "http://api.douban.com/people/" + user + "/collection?cat=" + type 
         + "&start-index=" + begin + "&max-results=" + end + "&status=" + status 
-        + "&alt=json";
+        + "&alt=json&callback=dbapi." + type + status + "_show";
     if (key.lenght > 0) {
         url += "&apikey=" + key;
     }
