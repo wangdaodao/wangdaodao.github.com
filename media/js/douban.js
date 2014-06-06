@@ -13,7 +13,7 @@ function DoubanApi() {
 DoubanApi.prototype.make_api_url = function(type,user,key,status,begin,end) {
     var url = "http://api.douban.com/people/" + user + "/collection?cat=" + type 
         + "&start-index=" + begin + "&max-results=" + end + "&status=" + status 
-        + "&alt=xd&callback=dbapi." + type + status + "_show";
+        + "&alt=json";
     if (key.lenght > 0) {
         url += "&apikey=" + key;
     }
