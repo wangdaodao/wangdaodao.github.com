@@ -10,9 +10,7 @@ comments: no
 <script type="text/javascript" src="/media/js/douban.js"></script>
 <script type="text/javascript">
 $(document).ready(function() {
- api_key="21b13b1556f5eabe5239dd7d590c70ac";
- user_id="93942673@N02";
-  $.getJSON('http://api.flickr.com/services/rest/?method=flickr.photos.search&api_key='+api_key+'&user_id='+user_id+'&format=json&per_page=50&page=1&jsoncallback=?', 
+  $.getJSON('http://api.flickr.com/services/rest/?method=flickr.photos.search&api_key=21b13b1556f5eabe5239dd7d590c70ac&user_id=93942673@N02&format=json&per_page=50&page=1&jsoncallback=?', 
   function(data) {
    if (data.stat != 'ok') return;
    if (data.photos.total <= 0) return;
