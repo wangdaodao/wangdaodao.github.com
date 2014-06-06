@@ -1,8 +1,11 @@
-/*------------------------------------
-* Theme :     White-Mobil
-* Code :       hi@wangdaodao.com
-* Update :    2014-06-05
-* --------------------------------- */
+/*
+-------------------------------------------
+  Theme          white                              
+  Coder          hi@wangdaodao.com            
+  Update         2014-06-05                           
+-------------------------------------------
+*/
+@charset "utf-8";
 /*整体*/
 #container{ width:90%; margin:0 auto; overflow: hidden; padding-top: 10px; }
 /*导航*/
