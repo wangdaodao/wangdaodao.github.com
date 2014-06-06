@@ -9,7 +9,7 @@ $(document).ready(function() {
    for (var i = 0; i < data.photos.total; i++) {
     var photo = data.photos.photo[i];
     strHtml += '<li><a href="http://www.flickr.com/photos/'+user+'/' + photo.id + '/" >';
-    strHtml += '<img src="http://farm' + photo.farm + '.static.flickr.com/' + photo.server + '/' + photo.id + '_' + photo.secret + '_s.jpg" />';
+    strHtml += '<img src="http://farm' + photo.farm + '.static.flickr.com/' + photo.server + '/' + photo.id + '_' + photo.secret + '_s.jpg" alt="'+photo.id+'" />';
     strHtml += '</a></li>';
    }
    strHtml += '</ul>';
