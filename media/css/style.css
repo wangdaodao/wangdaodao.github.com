@@ -79,7 +79,6 @@ object,iframe{ display:block; margin:4px auto; }
 #douban li{float: left;margin-right:10px;}
 #douban a{display: block;}
 #douban img{width: 68px;height: 96px;}
-.douban-title{clear: both;}
 /*Flickr*/
 #flickr li{float: left;margin-right:10px;}
 #flickr img{width: 75px;height: 75px;}
