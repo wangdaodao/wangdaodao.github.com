@@ -52,7 +52,7 @@ var dbapi = {
                 if ($("#"+typ+stus).length === 0){
                     var title = this.defaults[typ+stus+"title"]?this.defaults[typ+stus+"title"]:
                                  ">>>"+typ.toUpperCase() +"-"+stus.toUpperCase()+">>>";
-                    $("<span/>").addClass("douban-title").text(title).appendTo(mainplace);
+                    $("<h3/>").addClass("douban-title").text(title).appendTo(mainplace);
                     $("<div/>").attr("id",typ+stus).addClass("douban-list").appendTo(mainplace);                    
                 }                   
                 $("#"+typ+stus).append(this.render(this.parseJSON(json)));              
