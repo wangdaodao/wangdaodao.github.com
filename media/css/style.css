@@ -77,6 +77,8 @@ object,iframe{ display:block; margin:4px auto; }
 .disabled{ cursor: not-allowed; }
 .gist{ font-size: 12px; line-height:1.6; }
 .gist-meta{display: none;}
+.gist .gist-file{border-bottom: none;}
+.gist .gist-file .gist-data{border-bottom: none;}
 /*豆瓣*/
 .douban-list{overflow: hidden;}
 #douban li{float: left;margin-right:10px;}
