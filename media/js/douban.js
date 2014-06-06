@@ -16,6 +16,7 @@ DoubanApi.prototype.make_api_url = function(type,user,key,status,begin,end) {
         + "&start-index=" + begin + "&max-results=" + end + "&status=" + status 
         + "&alt=xd&callback=dbapi." + type + status + "_show&apikey="+key;
 }
+
 DoubanApi.prototype.make_list_item = function(items) {
     var html = '';
     $.each(items,function(i,item){
