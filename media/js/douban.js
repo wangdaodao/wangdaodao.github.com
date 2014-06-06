@@ -91,8 +91,7 @@ DoubanApi.prototype.all_url = function(type,status,begin,end) {
             if ($("#" + type + status).length === 0) {
                 var title = this.defaults[type + status + "title"];
                 $('<h3 class="douban-title">' + title + '</h3>').appendTo(mainplace);
-                $('<div id="' + type + status + '" class="douban-list"><ul></ul></div>').appendTo(mainplace);
-                $('<div class="clear"></div>').appendTo(mainplace);
+                $('<div id="' + type + status + '" class="douban-list"><ul></ul><div class="clear"></div></div>').appendTo(mainplace);
             }
             $("#" + type + status + " > ul").append(this.make_list_item(this.parse_json(json)));
         };
