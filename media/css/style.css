@@ -75,8 +75,9 @@ object,iframe{ display:block; margin:4px auto; }
 .gist{ font-size: 12px; line-height:1.6; }
 .gist-meta{display: none;}
 /*豆瓣*/
-.douban-list{overflow: hidden;}
-#douban a{display: block;float: left;margin-right:10px;}
+#douban ul{overflow: hidden;}
+#douban li{float: left;margin-right:10px;}
+#douban a{display: block;}
 #douban img{width: 68px;height: 96px;}
 /*Flickr*/
 #flickr li{float: left;margin-right:10px;}
