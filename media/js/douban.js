@@ -11,12 +11,14 @@ function DoubanApi() {
     };
 }
 DoubanApi.prototype.make_api_url = function(type,user,key,status,begin,end) {
-    var key ="0a64de495d862d7e1f2e9adc1892887a";
     var url = "http://api.douban.com/people/" + user + "/collection?cat=" + type 
         + "&start-index=" + begin + "&max-results=" + end + "&status=" + status 
-        + "&alt=xd&callback=dbapi." + type + status + "_show&apikey="+key;
+        + "&alt=xd&callback=dbapi." + type + status + "_show";
+    if (key.lenght > 0) {
+        url += "&apikey=" + key;
+    }
+    return url;
 }
-
 DoubanApi.prototype.make_list_item = function(items) {
     var html = '';
     $.each(items,function(i,item){
