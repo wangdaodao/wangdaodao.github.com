@@ -55,6 +55,8 @@ object,iframe{ display:block; margin:4px auto; }
 .listing-seperator{ font-weight:bold;list-style-type:none; }
 .meta{ font-size:.65em; color:#888; padding:5px 0; }
 .post em{background: #eee;color: #666;padding: 0 5px;margin: 0 2px;border: 1px solid #DDD;border-radius: 3px; }
+.post h2{font-size: 1.25em}
+.post h3{font-size: 1em}
 /*上下篇*/
 .other-post{ text-align: right; padding: 15px 0; }
 .pageNav{ font-weight:bold; font-size:1.25em; }
