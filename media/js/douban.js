@@ -2,7 +2,7 @@ function DoubanApi() {
     this.defaults = {
         place:"douban",
         user:"wang_daodao",
-        api:"05236daf832df7500f6a490e8989e5f0",
+        api:"0a64de495d862d7e1f2e9adc1892887a",
         //book:[{status:"reading",maxnum:100},{status:"read",maxnum:100},{status:"wish",maxnum:100}],//去掉了想读
         book:[{status:"reading",maxnum:100},{status:"read",maxnum:100}],
         bookreadingtitle:"在读...",
@@ -11,10 +11,11 @@ function DoubanApi() {
     };
 }
 DoubanApi.prototype.make_api_url = function(type,user,key,status,begin,end) {
-    var key ="05236daf832df7500f6a490e8989e5f0";
+    var key ="0a64de495d862d7e1f2e9adc1892887a";
     var url = "http://api.douban.com/people/" + user + "/collection?cat=" + type 
         + "&start-index=" + begin + "&max-results=" + end + "&status=" + status 
         + "&alt=xd&callback=dbapi." + type + status + "_show&apikey="+key;
+}
 DoubanApi.prototype.make_list_item = function(items) {
     var html = '';
     $.each(items,function(i,item){
