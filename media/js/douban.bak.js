@@ -11,7 +11,9 @@ function DoubanApi() {
     };
 }
 DoubanApi.prototype.make_api_url = function(type,user,key,status,begin,end) {
-    var url = "http://wangdaodao.com/cache/46817017bookreading.json";
+    var url = "http://api.douban.com/people/" + user + "/collection?cat=" + type 
+        + "&start-index=" + begin + "&max-results=" + end + "&status=" + status 
+        + "&alt=xd&callback=dbapi." + type + status + "_show";
     if (key.lenght > 0) {
         url += "&apikey=" + key;
     }
