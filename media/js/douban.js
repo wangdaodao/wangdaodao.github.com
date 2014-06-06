@@ -14,12 +14,7 @@ DoubanApi.prototype.make_api_url = function(type,user,key,status,begin,end) {
     var key ="05236daf832df7500f6a490e8989e5f0";
     var url = "http://api.douban.com/people/" + user + "/collection?cat=" + type 
         + "&start-index=" + begin + "&max-results=" + end + "&status=" + status 
-        + "&alt=xd&callback=dbapi." + type + status + "_show";
-    if (key.lenght > 0) {
-        url += "&apikey=" + key;
-    }
-    return url;
-}
+        + "&alt=xd&callback=dbapi." + type + status + "_show&apikey="+key;
 DoubanApi.prototype.make_list_item = function(items) {
     var html = '';
     $.each(items,function(i,item){
