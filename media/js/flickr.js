@@ -14,6 +14,6 @@ $(document).ready(function() {
    }
    strHtml += '</ul>';
    $('#flickr').html(strHtml);
-   $("#flickr a").slimbox();
+   // $("#flickr a").slimbox();
   });
  })
