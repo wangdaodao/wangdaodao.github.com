@@ -17,6 +17,3 @@ if(E.offsetHeight!=o){j(E).animate({height:o,top:M},h.resizeDuration,h.resizeEas
 }}function y(){q.onload=null;q.src=m.src=n.src=d;j([E,t]).stop(true);j([k,C,t]).hide();}function r(){if(c>=0){y();c=w=z=-1;j(E).hide();j(D).stop().fadeOut(h.overlayFadeDuration,u);
 }return false;}})(jQuery);
 //适用范围需自行调整
-jQuery(document).ready(function($){
-  $("#flickr a").slimbox();
-});
