@@ -1,7 +1,7 @@
 ---
 title: Links
 layout: page
-comments: yes
+comments: no
 ---
 
 只要你对你的博客负责（经常更新有意义的文章），就可以来申请友链！
