@@ -57,6 +57,25 @@ object,iframe{ display:block; margin:4px auto; }
 .post em{background: #eee;color: #666;padding: 0 5px;margin: 0 2px;border: 1px solid #DDD;border-radius: 3px; }
 .post h2{font-size: 1.25em}
 .post h3{font-size: 1em}
+.post-table{
+ width: 100%;
+overflow: auto;
+display: block;
+}
+.post-table tr {
+border-top: 1px solid #CCC;
+background-color: white;
+}
+.post-table tr:nth-child(2n) {
+background-color: #F8F8F8;
+}
+.post-table th {
+font-weight: bold;
+}
+.post-table th, .post-table td {
+border: 1px solid #DDD;
+padding: 6px 13px;
+}
 /*上下篇*/
 .other-post{ text-align: right; padding: 15px 0; }
 .pageNav{ font-weight:bold; font-size:1.25em; }
