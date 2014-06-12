@@ -9,7 +9,7 @@ tags: [google]
 
 IP 地址来源：<a href="http://www.kookle.co.nr">http://www.kookle.co.nr</a>
 
-<table width="100%">
+<table class="post-table">
  <tbody>
   <tr>
    <th colspan="3">Bulgaria</th>
