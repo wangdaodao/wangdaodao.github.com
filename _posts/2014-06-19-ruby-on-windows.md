@@ -11,7 +11,7 @@ tags: [ruby]
 
 [rubyinstaller](http://rubyinstaller.org/)：自行下载需要的ruby版本，我这里用的Ruby 1.9.3
 
-可能需要的原料：mysql，这样我只用mysql-connector，自行搜索下载。
+可能需要的原料：*mysql*，这样我只用*mysql-connector*，自行搜索下载。
 
 安装完*rubyinstaller*，可以查看下版本
 
@@ -37,7 +37,7 @@ tags: [ruby]
 
 [![libv8完成](/uploads/2014/06/ruby4.png)](/uploads/2014/06/ruby4.png)
 
-再次执行*bundle*，提示有错，没有装*mysql2*，搜索下载*mysql-connector*，我这里用的是32位，下载后解压到任意盘符下，我这里是*C盘*，然后执行命令：
+再次执行*bundle*，提示有错，没有装*mysql2*，搜索下载*mysql-connector*，我这里用的是**32位**，下载后解压到任意盘符下，我这里是*C盘*，然后执行命令：
 
     gem install mysql2 --platform=ruby -v '0.3.16' -- '--with-mysql-dir="C:\mysql-connector"
 
@@ -45,7 +45,7 @@ tags: [ruby]
 
 [![mysql2](/uploads/2014/06/ruby7.png)](/uploads/2014/06/ruby7.png)
 
-我安装完**0.3.15**又提示我没安装**'0.3.16**
+我安装完**0.3.15**又提示我没安装**0.3.16**
 
 [![mysql2安装完成](/uploads/2014/06/ruby8.png)](/uploads/2014/06/ruby8.png)
 
@@ -57,4 +57,4 @@ tags: [ruby]
 
 [![项目启动](/uploads/2014/06/ruby9.png)](/uploads/2014/06/ruby9.png)
 
-后记：项目中用到了*therubyracer*包，但是搜索了下，发现windows下面没有解决办法：[therubyracer gem on windows](http://stackoverflow.com/questions/6356450/therubyracer-gem-on-windows)，真坑，如果真需要，linux或者mac下搞吧……
+后记：项目中用到了*therubyracer*包，但是搜索了下，发现*windows*下面没有解决办法：[therubyracer gem on windows](http://stackoverflow.com/questions/6356450/therubyracer-gem-on-windows)，真坑，如果真需要，*linux*或者*mac*下搞吧……
