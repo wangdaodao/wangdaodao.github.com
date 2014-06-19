@@ -4,7 +4,7 @@ layout: post
 comments: no
 title: 在ubuntu下工作（02）
 categories: 工作
-tags: [ubuntu]
+tags: [ubuntu,svn]
 ---
 
 ###安装Subversion
