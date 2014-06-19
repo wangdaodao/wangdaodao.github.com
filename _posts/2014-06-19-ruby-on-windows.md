@@ -7,11 +7,15 @@ categories: 工作
 tags: [ruby]
 ---
 
-在*windows*下搭建*ruby*开发环境，需要原料：
+在*windows*下搭建*ruby*开发环境
+
+需要原料：
 
 [rubyinstaller](http://rubyinstaller.org/)：自行下载需要的ruby版本，我这里用的Ruby 1.9.3
 
-可能需要的原料：*mysql*，这样我只用*mysql-connector*，自行搜索下载。
+可能需要的原料：
+
+*mysql*，这样我只用*mysql-connector*，自行搜索下载。
 
 安装完*rubyinstaller*，可以查看下版本
 
