@@ -45,9 +45,9 @@ tags: [ruby]
 
     gem install mysql2 --platform=ruby -v '0.3.16' -- '--with-mysql-dir="C:\mysql-connector"
 
-[![mysql2](/uploads/2014/06/ruby7.png)](/uploads/2014/06/ruby7.png)
-
 [![mysql2](/uploads/2014/06/ruby5.png)](/uploads/2014/06/ruby5.png)
+
+[![mysql2](/uploads/2014/06/ruby7.png)](/uploads/2014/06/ruby7.png)
 
 我安装完**0.3.15**又提示我没安装**0.3.16**
 
