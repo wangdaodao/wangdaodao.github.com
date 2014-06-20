@@ -70,4 +70,5 @@ tags: [git]
 
 这样就把index.html删除了，删除之后，别忘记了commit啊！
 
-另外，建议还是系统的看看[《Pro Git 中文版》](http://progit.org/book/zh/)，这样才靠谱。
+附：
+[http://rogerdudler.github.io/git-guide/index.zh.html](http://rogerdudler.github.io/git-guide/index.zh.html)
