@@ -86,7 +86,7 @@
 * 利用业余时间自己开发[`Dao-UI组件`][6]，已经使用在部分项目中。
 * CSS3制作logo系列：[大智慧][7]、[京港地铁][8]、[android机器人][9]、[QQ电脑管家][10]、[Chrome][11]。
 * 利用业余时间累计制作了 6 套[`WordPress`][12]主题，通过`W3C`标准验证。
-* 一些教程：[LET'S TALK ABOUT CSS][13]
+* 一些教程：[LET'S TALK ABOUT CSS][13]、[Sass-简明指南][14]
 * 此简历更新于2014-04-30
 
 [1]: http://wangdaodao.com "王叨叨"
@@ -102,3 +102,4 @@
 [11]: http://wangdaodao.github.com/demo/chrome.html
 [12]: http://baike.baidu.com/view/23618.htm
 [13]: http://wangdaodao.github.io/ppt/css/let's_talk_about_css.html
+[14]: http://git.wangdaodao.com/work/sass/index.html
