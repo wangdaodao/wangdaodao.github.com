@@ -13,4 +13,6 @@ tags: [life]
 
 加一张我微信二维码吧！
 
+doubanclaim38cdb45f11b2fbd1
+
 ![微信二维码](/uploads/2014/05/wxqrcode.png)
