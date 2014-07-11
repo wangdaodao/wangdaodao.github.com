@@ -1,16 +1,16 @@
 #关于本博客
 
-此博客使用Jekyll，曾经托管在[GitHub](https://github.com/)上，由于国内的各种墙，现在托管在[GitCafe](https://gitcafe.com/)上，文章主要以技术类为主，生活类为辅！发现了这个无名的主题（[作者的博客](http://lhzhang.com/)），决定开始在现有的设计上进行代码重构和优化，增强了浏览器兼容性；去掉了冗余代码；添加了响应式布局；代码通过了*W3C*验证；另外主题附上了**豆瓣的书单**和**Flickr的相册**，看起来更文（zhuang）艺（bi）了……
+此博客使用Jekyll，同时托管在[GitHub](https://wangdaoda.github.io/)和[GitCafe](https://wangdaodao.gitcafe.com/)上，文章主要以技术类为主，生活类为辅！发现了这个无名的主题（[作者的博客](http://lhzhang.com/)），决定开始在现有的设计上进行代码重构和优化，增强了浏览器兼容性；去掉了冗余代码；添加了响应式布局；代码通过了*W3C*验证；另外主题附上了**豆瓣的书单**和**Flickr的相册**，看起来更文（zhuang）艺（bi）了……
 
 既然现在的主题我不知道叫什么名字，那么我就给她起一个命名为  **White**  ，因为她很淡，很素，很宁静……
 
-如果你也喜欢现在我修改好的主题，欢迎[Watch and Fork](https://gitcafe.com/wangdaodao/wangdaodao/watchers_and_forks)，我会不定期的更新主题的，不过在你使用的时候，请保留底部的  **版权链接**  算是对我劳动的一点尊重吧，我想这应该不算太难！
+如果你也喜欢现在我修改好的主题，欢迎Fork，我会不定期的更新主题的，不过在你使用的时候，请保留底部的  **版权链接**  算是对我劳动的一点尊重吧，我想这应该不算太难！
 
 感谢开源，为我们的生活带来的无限的乐趣……
 
 博客评论使用多说，自定义样式如下：
 
-    #ds-thread #ds-reset .ds-meta,.ds-powered-by,.ds-toolbar-buttons,.ds-post-likes,.ds-post-repost,.ds-post-report,.ds-icon-reply{
+   #ds-thread #ds-reset .ds-meta,.ds-powered-by,.ds-toolbar-buttons,.ds-post-likes,.ds-post-repost,.ds-post-report,.ds-icon-reply{
      display: none;
     }
     #ds-reset .ds-gradient-bg,#ds-thread #ds-reset .ds-textarea-wrapper{
