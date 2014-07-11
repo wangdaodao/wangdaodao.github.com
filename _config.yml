@@ -1,0 +1,12 @@
+markdown: rdiscount
+permalink: /:year-:month-:day/:title.html
+url: http://wangdaodao.gitcafe.com
+name: 王叨叨
+author: wangdaodao
+qq: 249886288
+email: hi@wangdaodao.com
+duoshuo: wangdaodao
+github: wangdaodao
+pygments: true
+safe: true
+paginate: 15
