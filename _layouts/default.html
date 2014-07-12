@@ -28,7 +28,7 @@
 <meta name="author" content="{{ site.author }}" />
 <title>{% if page.path == 'index.html' %}{{ site.name }}{% else %}{% unless page.id %}{{ site.name }} - {% endunless %}{{ page.title }}{% endif %}</title>
 <link rel="shortcut icon" href="/favicon.ico" />
-<link href="/feed/" rel="alternate" title="{{ site.author }}" type="application/atom+xml" />
+<link href="/feed" rel="alternate" title="{{ site.author }}" type="application/rss+xml" />
 <link rel="stylesheet" type="text/css" href="/media/css/style.css" />
 <link rel="stylesheet" type="text/css" href="/media/css/mobil.css"  media="screen and (min-width: 320px) and (max-width: 760px)" />
 {% if page.code %}<link rel="stylesheet" type="text/css" href="http://apps.bdimg.com/libs/highlight.js/8.0/styles/monokai_sublime.min.css" />{% endif %}
