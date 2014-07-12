@@ -20,7 +20,7 @@ tags: [wireless_router]
 
 没图我说什（J）么（B）
 
-![WirelessMon](/uploads/2104/07/WirelessMon.jpg)
+![WirelessMon](/uploads/2014/07/WirelessMon.jpg)
 
 主要原理是同一信道干扰，导致电脑掉线！！！用WirelessMon搜下，看看哪个信道用的少，就换成少的！
 
