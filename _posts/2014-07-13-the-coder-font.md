@@ -3,7 +3,7 @@ date: 2014-07-13
 layout: post
 comments: yes
 code: no
-title: 关于字体
+title: 关于编程字体
 categories: 生活
 tags: [font]
 ---
@@ -22,7 +22,7 @@ tags: [font]
 * 可轻易区分左右引号 - 最好是对称的；
 * 清晰的标点符号，特别是大括号小括号和中括号；
 
-网上已经推荐了好多字体了，对与我来说，中文还是习惯了**微软雅黑**，英文觉得**Consolas**，所以就有了这种混合字体**Yahei Consolas Hybrid**。
+网上已经推荐了好多字体了，对与我来说，中文还是习惯了**微软雅黑**，英文觉得**Consolas**，既然又想土鳖又想土豪，所以就有了这种混合字体**Yahei Consolas Hybrid**。
 
 ![Yahei Consolas Hybrid](/uploads/2014/07/Yahei-Consolas-Hybrid.png)
 
