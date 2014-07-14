@@ -3,12 +3,10 @@ date: 2014-07-14
 layout: post
 comments: yes
 code: yes
-title: Emmet使用手册
+title: Emmet使用手册：语法
 categories: 笔记
 tags: [emmet]
 ---
-
-## 语法
 
 ### Child: >
     
