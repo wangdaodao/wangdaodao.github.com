@@ -10,7 +10,7 @@
 
 博客评论使用多说，自定义样式如下：
 
-   #ds-thread #ds-reset .ds-meta,.ds-powered-by,.ds-toolbar-buttons,.ds-post-likes,.ds-post-repost,.ds-post-report,.ds-icon-reply{
+    #ds-thread #ds-reset .ds-meta,.ds-powered-by,.ds-toolbar-buttons,.ds-post-likes,.ds-post-repost,.ds-post-report,.ds-icon-reply{
      display: none;
     }
     #ds-reset .ds-gradient-bg,#ds-thread #ds-reset .ds-textarea-wrapper{
