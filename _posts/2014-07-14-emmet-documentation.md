@@ -130,13 +130,13 @@ tags: [emmet]
 
     #header
     <div id="header"></div>
-    -----
+-----
     .title
     <div class="title"></div>
-    -----
+-----
     form#search.wide
     <form id="search" class="wide"></form>
-    -----
+-----
     p.class1.class2.class3
     <p class="class1 class2 class3"></p>
 
@@ -144,10 +144,10 @@ tags: [emmet]
 
     p[title="Hello world"]
     <p title="Hello world"></p>
-    -----
+-----
     td[rowspan=2 colspan=3 title]
     <td rowspan="2" colspan="3" title=""></td>
-    -----
+-----
     [a='value1' b="value2"]
     <div a="value1" b="value2"></div>
 
@@ -155,7 +155,7 @@ tags: [emmet]
 
     a{Click me}
     <a href="">Click me</a>
-    -----
+-----
     p>{Click }+a{here}+{ to continue}
     <p>Click <a href="">here</a> to continue</p>
 
@@ -163,15 +163,15 @@ tags: [emmet]
 
     .class
     <div class="class"></div>
-    -----
+-----
     em>.class
     <em><span class="class"></span></em>
-    -----
+-----
     ul>.class
     <ul>
         <li class="class"></li>
     </ul>
-    -----
+-----
     table>.row>.col
     <table>
         <tr class="row">
