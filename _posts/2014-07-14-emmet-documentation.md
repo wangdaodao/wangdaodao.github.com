@@ -3,7 +3,7 @@ date: 2014-07-14
 layout: post
 comments: yes
 code: yes
-title: Emmet使用手册：语法
+title: Emmet使用手册
 categories: 笔记
 tags: [emmet]
 ---
@@ -178,3 +178,5 @@ tags: [emmet]
             <td class="col"></td>
         </tr>
     </table>
+
+更多内容请查看官方文档：[Cheat-Sheet](http://docs.emmet.io/cheat-sheet/)
