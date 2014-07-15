@@ -8,7 +8,7 @@ categories: 笔记
 tags: [emmet]
 ---
 
-### Child: >
+### Child: `>` (子元素)
     
     nav>ul>li
     <nav>
@@ -17,14 +17,14 @@ tags: [emmet]
         </ul>
     </nav>
 
-### Sibling: +
+### Sibling: `+` (兄弟元素)
 
     div+p+bq
     <div></div>
     <p></p>
     <blockquote></blockquote>
 
-### Climb-up: ^
+### Climb-up: `^` (返回上层)
 
     div+div>p>span+em^bq
     <div></div>
@@ -32,7 +32,9 @@ tags: [emmet]
         <p><span></span><em></em></p>
         <blockquote></blockquote>
     </div>
------
+
+
+
     div+div>p>span+em^^bq
     <div></div>
     <div>
@@ -40,7 +42,7 @@ tags: [emmet]
     </div>
     <blockquote></blockquote>
 
-### Grouping: ()
+### Grouping: `()` (分组)
 
     div>(header>ul>li*2>a)+footer>p
     <div>
