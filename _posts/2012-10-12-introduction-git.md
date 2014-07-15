@@ -4,7 +4,7 @@ layout: post
 comments: yes
 code: yes
 title: 01-Git起步
-categories: 教程
+categories: 笔记
 tags: [git]
 ---
 

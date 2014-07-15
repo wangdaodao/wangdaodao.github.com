@@ -3,7 +3,7 @@ date: 2013-09-13
 layout: post
 comments: yes
 title: VirtualBox安装Android 4.0
-categories: 工作
+categories: 笔记
 tags: [android]
 ---
 

@@ -3,7 +3,7 @@ date: 2014-01-24
 layout: post
 comments: yes
 title: 从前端优化网站
-categories: 工作
+categories: 笔记
 tags: [optimization,front_end]
 ---
 

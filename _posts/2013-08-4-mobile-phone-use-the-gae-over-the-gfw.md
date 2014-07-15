@@ -3,7 +3,7 @@ date: 2013-08-4
 layout: post
 comments: yes
 title: 手机GAE翻墙
-categories: 教程
+categories: 笔记
 tags: [gae,gfw]
 ---
 

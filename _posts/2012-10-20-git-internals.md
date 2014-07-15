@@ -4,7 +4,7 @@ layout: post
 comments: yes
 code: yes
 title: 09-Git内部原理
-categories: 教程
+categories: 笔记
 tags: [git]
 ---
 

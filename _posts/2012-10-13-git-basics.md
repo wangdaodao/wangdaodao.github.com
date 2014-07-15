@@ -4,7 +4,7 @@ layout: post
 comments: yes
 code: yes
 title: 02-Git基础
-categories: 教程
+categories: 笔记
 tags: [git]
 ---
 

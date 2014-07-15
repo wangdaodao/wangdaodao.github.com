@@ -4,7 +4,7 @@ layout: post
 comments: yes
 code: yes
 title: 03-Git分支
-categories: 教程
+categories: 笔记
 tags: [git]
 ---
 

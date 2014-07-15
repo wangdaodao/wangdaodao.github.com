@@ -4,7 +4,7 @@ layout: post
 comments: yes
 code: yes
 title: 05-分布式Git
-categories: 教程
+categories: 笔记
 tags: [git]
 ---
 

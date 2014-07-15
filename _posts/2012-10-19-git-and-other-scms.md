@@ -4,7 +4,7 @@ layout: post
 comments: yes
 code: yes
 title: 08-Git与其他系统
-categories: 教程
+categories: 笔记
 tags: [git]
 ---
 

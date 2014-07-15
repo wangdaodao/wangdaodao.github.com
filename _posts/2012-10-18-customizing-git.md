@@ -4,7 +4,7 @@ layout: post
 comments: yes
 code: yes
 title: 07-自定义Git
-categories: 教程
+categories: 笔记
 tags: [git]
 ---
 

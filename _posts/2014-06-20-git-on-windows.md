@@ -4,7 +4,7 @@ layout: post
 comments: yes
 code: yes
 title: 初探Git
-categories: 工作
+categories: 笔记
 tags: [git]
 ---
 

@@ -4,7 +4,7 @@ layout: post
 comments: yes
 code: yes
 title: 在Windows下搭建Ruby开发环境
-categories: 工作
+categories: 笔记
 tags: [ruby]
 ---
 

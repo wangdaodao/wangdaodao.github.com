@@ -3,7 +3,7 @@ date: 2014-05-31
 layout: post
 comments: yes
 title: Sublime text 快捷键总结
-categories: 工作
+categories: 笔记
 tags: [sublime_text]
 ---
 
@@ -120,3 +120,5 @@ Emmet技巧：
 将图片资源转换成 data url 形式：将光标移动到 *background: url()* 中的图片位置的地方，一个快捷键瞬间转换：*Ctrl+'*
 
 自动添加图片的尺寸大小：将光标放在图片地址上，一个快捷键统统搞定：*Ctrl+U*
+
+更多技巧请查看：[Emmet使用手册](http://git.wangdaodao.com/2014-07-14/emmet-documentation.html)

@@ -3,7 +3,7 @@ date: 2014-06-2
 layout: post
 comments: yes
 title: CSS命名规则
-categories: 工作
+categories: 笔记
 tags: [css]
 ---
 

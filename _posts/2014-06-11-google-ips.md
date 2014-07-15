@@ -3,7 +3,7 @@ date: 2014-06-11
 layout: post
 comments: yes
 title: 谷歌全球IP
-categories: 工作
+categories: 笔记
 tags: [google]
 ---
 

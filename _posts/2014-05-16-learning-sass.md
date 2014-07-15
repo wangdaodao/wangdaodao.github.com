@@ -3,7 +3,7 @@ date: 2014-05-16
 layout: post
 comments: yes
 title: Sass入门
-categories: 工作
+categories: 笔记
 tags: [sass]
 ---
 

@@ -4,7 +4,7 @@ layout: post
 comments: yes
 code: yes
 title: 04-服务器上的Git
-categories: 教程
+categories: 笔记
 tags: [git]
 ---
 

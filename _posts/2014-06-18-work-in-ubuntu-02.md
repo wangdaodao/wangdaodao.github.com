@@ -4,7 +4,7 @@ layout: post
 comments: yes
 code: yes
 title: SVN常用命令
-categories: 工作
+categories: 笔记
 tags: [ubuntu,svn]
 ---
 

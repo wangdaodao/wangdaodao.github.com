@@ -4,7 +4,7 @@ layout: post
 comments: yes
 code: yes
 title: 局域网Git建立共享仓库
-categories: 工作
+categories: 笔记
 tags: [git]
 ---
 

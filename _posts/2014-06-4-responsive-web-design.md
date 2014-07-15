@@ -4,7 +4,7 @@ layout: post
 comments: yes
 code: yes
 title: 给现在用的主题加上了响应式菜单
-categories: 工作
+categories: 笔记
 tags: [jekyll,themes]
 ---
 
