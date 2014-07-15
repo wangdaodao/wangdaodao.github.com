@@ -14,7 +14,7 @@ tags: [wireless_router]
 
 路由器：磊科NW714，刷了最新的固件
 
-无线网卡：Atheros AR9285 Wireless Network Adapter，驱动版本9.2.0.500
+无线网卡（坑爹货）：Atheros AR9285 Wireless Network Adapter，驱动版本9.2.0.500
 
 软件工具：无线网络检测连接工具(PassMark WirelessMon)
 
@@ -26,4 +26,4 @@ tags: [wireless_router]
 
 什么，就这样就解决了？
 
-对的，针对我的症状，用此办法就解决了（抠鼻屎）……
+对的，针对我的症状，用此办法解决了我频繁掉线的问题了（抠鼻屎）……
