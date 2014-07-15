@@ -32,9 +32,7 @@ tags: [emmet]
         <p><span></span><em></em></p>
         <blockquote></blockquote>
     </div>
-
-
-
+-----
     div+div>p>span+em^^bq
     <div></div>
     <div>
@@ -72,7 +70,7 @@ tags: [emmet]
         <p></p>
     </footer>
 
-### Multiplication: *
+### Multiplication: `*` (乘法)
 
     ul>li*5
     <ul>
@@ -83,7 +81,7 @@ tags: [emmet]
         <li></li>
     </ul>
 
-### Item numbering: $
+### Item numbering: `$` (编号)
 
     ul>li.item$*5
     <ul>
@@ -107,7 +105,9 @@ tags: [emmet]
         <li class="item004"></li>
         <li class="item005"></li>
     </ul>
------
+
+使用 `@` 修饰符，可以改变编号的方向（升序或降序）及起点。
+
     ul>li.item$@-*5
     <ul>
         <li class="item5"></li>
@@ -126,7 +126,7 @@ tags: [emmet]
         <li class="item7"></li>
     </ul>
 
-### ID and CLASS attributes
+### ID and CLASS attributes (属性操作符)
 
     #header
     <div id="header"></div>
@@ -140,7 +140,7 @@ tags: [emmet]
     p.class1.class2.class3
     <p class="class1 class2 class3"></p>
 
-### Custom attributes
+### Custom attributes (自定义属性)
 
     p[title="Hello world"]
     <p title="Hello world"></p>
@@ -151,7 +151,7 @@ tags: [emmet]
     [a='value1' b="value2"]
     <div a="value1" b="value2"></div>
 
-### Text: {}
+### Text: `{}` (文本)
 
     a{Click me}
     <a href="">Click me</a>
@@ -159,7 +159,7 @@ tags: [emmet]
     p>{Click }+a{here}+{ to continue}
     <p>Click <a href="">here</a> to continue</p>
 
-### Implicit tag names
+### Implicit tag names (隐式标签名称)
 
     .class
     <div class="class"></div>
