@@ -8,7 +8,7 @@ categories: 笔记
 tags: [emmet]
 ---
 
-### Child: `>` (子元素)
+### Child(子元素): `>` 
     
     nav>ul>li
     <nav>
@@ -17,14 +17,14 @@ tags: [emmet]
         </ul>
     </nav>
 
-### Sibling: `+` (兄弟元素)
+### Sibling(兄弟元素): `+` 
 
     div+p+bq
     <div></div>
     <p></p>
     <blockquote></blockquote>
 
-### Climb-up: `^` (返回上层)
+### Climb-up(返回上层): `^` 
 
     div+div>p>span+em^bq
     <div></div>
@@ -40,7 +40,7 @@ tags: [emmet]
     </div>
     <blockquote></blockquote>
 
-### Grouping: `()` (分组)
+### Grouping(分组): `()` 
 
     div>(header>ul>li*2>a)+footer>p
     <div>
@@ -70,7 +70,7 @@ tags: [emmet]
         <p></p>
     </footer>
 
-### Multiplication: `*` (乘法)
+### Multiplication(乘法): `*` 
 
     ul>li*5
     <ul>
@@ -81,7 +81,7 @@ tags: [emmet]
         <li></li>
     </ul>
 
-### Item numbering: `$` (编号)
+### Item numbering(编号): `$` 
 
     ul>li.item$*5
     <ul>
@@ -126,6 +126,14 @@ tags: [emmet]
         <li class="item7"></li>
     </ul>
 
+### Text(文本): `{}` 
+
+    a{Click me}
+    <a href="">Click me</a>
+-----
+    p>{Click }+a{here}+{ to continue}
+    <p>Click <a href="">here</a> to continue</p>
+
 ### ID and CLASS attributes (属性操作符)
 
     #header
@@ -150,14 +158,6 @@ tags: [emmet]
 -----
     [a='value1' b="value2"]
     <div a="value1" b="value2"></div>
-
-### Text: `{}` (文本)
-
-    a{Click me}
-    <a href="">Click me</a>
------
-    p>{Click }+a{here}+{ to continue}
-    <p>Click <a href="">here</a> to continue</p>
 
 ### Implicit tag names (隐式标签名称)
 
