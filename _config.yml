@@ -1,12 +1,12 @@
 markdown: rdiscount
 permalink: /:year-:month-:day/:title.html
-url: http://git.wangdaodao.com/
-name: 王叨叨
-author: wangdaodao
-qq: 249886288
-email: hi@wangdaodao.com
-duoshuo: wangdaodao
-github: wangdaodao
+url: http://blog.dengck.com/
+name: 邓成凯
+author: Clark-Deng
+qq: 
+email: im@dengck.com
+duoshuo: dechinkey
+github: Dechinkey
 pygments: true
 safe: true
 paginate: 15
