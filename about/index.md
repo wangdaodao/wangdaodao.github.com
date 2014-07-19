@@ -13,6 +13,8 @@ comments: yes
 
 感谢开源，为我们的生活带来的无限的乐趣……
 
+![profile](http://clark-deng.com/wp-content/uploads/2014/06/myotee1402156204369.png)
+
 ----
 
 ###联系方式：
