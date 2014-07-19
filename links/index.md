@@ -8,26 +8,20 @@ comments: no
 
 ##好朋友
 
-* [扯远了](http://heshizi.com/)：博客无图但求有真相！
-* [西门的后花园](http://ons.me/)：一个热爱网络的年轻人的博客！
-* [牧风](http://mufeng.me/)：呼吸风的气息！
-* [Willin Kan](http://kan.willin.org/typecho/)：Typecho echo type Typecho tech！
-* [王某某](http://wangmoumou.com/)：Efforts would be paid off！
-* [土木坛子](https://tumutanzi.com/)：谭智军的个人网站！
-* [羽中漫步](http://www.jzwalk.com/)：Jasper's Walkabout Blog！
+* [Fred_Wu](http://www.fredsneverland.com/)
 
-##榜样
+##价值博客
 
 * [玉伯](http://lifesinger.github.com)：文笔很好，技术很强！
+* [CoolShell](http://coolshell.cn/):  陈皓
+* [Martix67](http://www.matrix67.com/blog):数学爱好者，<<思考的乐趣>>作者
+* [冯大辉](http://dbanotes.net):丁香园CTO
+* [BYVoid](https://www.byvoid.com/):清华CS姚班大牛，90后，<<Node.JS指南>>及OpenCC作者
+* [刘未鹏](http://mindhacks.cn/):C++大牛，著名博文<<我在南大的七年>>作者，Top Language发起者，著有<<暗时间>>
+* [张驰源](http://freemind.pluskid.org/):浙大本硕，MIT Phd,关于机器学习的博文非常有价值
+* [徐宥](http://blog.youxu.info/):Google工程师，南大数学系毕业
 
-##资源
+##其他
+* [wangdaodoa](http://blog.wangdaodoa.com):博客模板提供者
 
-* [百度静态资源公共库](http://cdn.code.baidu.com/)
-* [360网站卫士常用前端公共库CDN服务](http://libs.useso.com/)
-* [Codecademy](http://www.codecademy.com/zh)
-
-##做公益
-
-* [宝贝回家](http://www.baobeihuijia.com/)：关爱儿童我们共同的责任！
-* [免费午餐](http://www.mianfeiwucan.org/)：每天捐赠3元为贫困地区学童提供免费午餐！
-* [壹基金](http://www.onefoundation.cn/)：壹基金官方网站！
+###如果对本页面的链接有任何意见。比如更改介绍或者告诉其他牛人的博客地址亦或交换链接，请联系：im@dengck.com
