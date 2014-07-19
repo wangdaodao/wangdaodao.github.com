@@ -1,6 +1,5 @@
 ---
 title: Read
-layout: page
 comments: no
 ---
 
