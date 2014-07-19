@@ -43,21 +43,7 @@
       <div class="content">
         {{ content }}      </div>
       
-      {% if site.duoshuo %}
-	<div class="ds-thread" data-thread-key="{{ page.id }}" data-url="{{ page.url }}" data-title="{{ page.title }}"></div> 
-	<div class="ds-thread"></div>
-	<script type="text/javascript">
-	var duoshuoQuery = {short_name:"{{ site.duoshuo.dechinkey }}"};
-	(function() {
-		var ds = document.createElement('script');
-		ds.type = 'text/javascript';ds.async = true;
-		ds.src = 'http://static.duoshuo.com/embed.js';
-		ds.charset = 'UTF-8';
-		(document.getElementsByTagName('head')[0] 
-		|| document.getElementsByTagName('body')[0]).appendChild(ds);
-	})();
-	</script>
-{% endif %}
+      
       
       <div id="footer">
         <p><small><a rel="license" href="http://creativecommons.org/licenses/by-sa/3.0/cn/" title="许可协议">{% assign first_post = site.posts | last %}&copy; {{ first_post.date | date: "%Y" }} - {{ site.time | date: "%Y" }}</a> <a href="/about/">{{ site.author }}</a> Powered by <a href="http://jekyllrb.com" title="Jekyll">Jekyll</a> &amp; <a href="http://github.com/" title="GitHub">GitHub</a> | <a title="Designer" href="http://lhzhang.com/">linghua.zhang</a> &amp; <a title="Coder" href="http://wangdaodao.com">wangdaodao</a></small></p><p><small>Valid <a href="http://validator.w3.org/check?uri=referer">XHTML 1.1</a> &amp; <a href="http://jigsaw.w3.org/css-validator/check/referer">CSS3</a></small></p>
