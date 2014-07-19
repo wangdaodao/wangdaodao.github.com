@@ -17,4 +17,4 @@ comments: no
 
 # 我看过的书
 
-<script type="text/javascript" src="http://www.douban.com/service/badge/dechinkey/?selection=latest&picsize=small&hideself=on&show=collection&n=16&hidelogo=on&cat=book&columns=4"></script>
+<script type="text/javascript" src="http://www.douban.com/service/badge/dechinkey/?selection=latest&amp;picsize=medium&amp;hideself=on&amp;show=collection&amp;n=20&amp;hidelogo=on&amp;cat=book&amp;columns=4"></script>
