@@ -45,8 +45,6 @@ tags: [android]
 
 ![格式化分区](/uploads/2013/09/7.png)
 
-<img src="http://wangdaodao.com/wp-content/uploads/2013/09/7.png" alt="7" width="580" height="381" class="aligncenter size-full wp-image-7318" />
-
 然后Adndroid就自己展开文件，这个过程很快，比安装Windows快多了：
 
 ![展开文件](/uploads/2013/09/8.png)

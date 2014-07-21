@@ -18,5 +18,3 @@ tags: [sass]
 然后我这里用的是ST3，Sass插件也挺多，我这里装了一个*SASS Build*基本就够用了，写完了*Ctrl+b*运行编译就可以了（还可以压缩Sass Compressed，在Tools--Build System里面选）。
 
 这里不讨论Sass或者Less的优缺点了，不过值得提的是Sass现在有Ruby社区的支持和Compass开源的CSS框架，我相信在项目中使用Sass还是一个不错的选择！
-
-最后放一个我总结的教程：[Sass简明指南](http://git.wangdaodao.com/work/sass/index.html)
