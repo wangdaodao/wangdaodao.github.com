@@ -25,6 +25,8 @@ comments: no
 * [百度静态资源公共库](http://cdn.code.baidu.com/)
 * [360网站卫士常用前端公共库CDN服务](http://libs.useso.com/)
 * [Codecademy](http://www.codecademy.com/zh)
+* [NEC](http://nec.netease.com/)
+* [NEJ](http://nej.netease.com/)
 
 ##做公益
 
