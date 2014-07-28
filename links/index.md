@@ -28,6 +28,11 @@ comments: no
 * [NEC](http://nec.netease.com/)
 * [NEJ](http://nej.netease.com/)
 
+##好玩
+
+* [segmentfault](http://segmentfault.com/)
+* [GuruDigger](http://gurudigger.com/)
+
 ##做公益
 
 * [宝贝回家](http://www.baobeihuijia.com/)：关爱儿童我们共同的责任！
