@@ -36,7 +36,6 @@
      color: #444;
     }
     #ds-thread #ds-reset .ds-textarea-wrapper textarea{
-     height: 111px;
      width: 99%;
      border: 1px solid #CCC;
     }
@@ -121,9 +120,18 @@
     #ds-thread #ds-reset li.ds-post-placeholder{
      padding: 20px 0;
     }
-    #ds-thread #ds-reset .ds-sync{
+    #ds-thread #ds-reset{
      top: 10px;
+    }
+    #ds-reset span.ds-sync{
+        display: none;
     }
     .ds-login-buttons{
      padding-bottom: 15px;
+    }
+    .ds-dialog-footer{
+        display: none;
+    }
+    #ds-wrapper #ds-reset .ds-dialog-close{
+        top: 13px;
     }
