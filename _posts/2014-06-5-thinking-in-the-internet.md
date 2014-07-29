@@ -11,6 +11,11 @@ tags: [reading_notes]
 
 [![互联网思维剑谱](/uploads/2014/06/thinking-in-the-internet.jpg)](/uploads/2014/06/thinking-in-the-internet.jpg)
 
+[![互联网思维剑谱](/uploads/2014/06/thinking-in-the-internet4.jpg)](/uploads/2014/06/thinking-in-the-internet4.jpg)
+
+[![互联网思维剑谱](/uploads/2014/06/thinking-in-the-internet2.jpg)](/uploads/2014/06/thinking-in-the-internet2.jpg)
+
+[![互联网思维剑谱](/uploads/2014/06/thinking-in-the-internet3.jpg)](/uploads/2014/06/thinking-in-the-internet3.jpg)
 
 ## 1、用户思维
 “独孤九剑”第一招是总诀式，第一招学不会，后面的招数就很难领悟。互联网思维也一样。互联网思维，第一个，也是最重要的，就是用户思维。用户思维，是指在价值链各个环节中都要“以用户为中心”去考虑问题。
