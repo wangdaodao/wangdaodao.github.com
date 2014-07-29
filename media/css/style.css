@@ -57,6 +57,8 @@ object,iframe{ display:block; margin:4px auto; }
 .post table th { font-weight: bold; }
 .post table th, .post table td { border-bottom: 1px solid #DDD; padding: 6px 13px; }
 .post table tbody tr:hover td,.post table tbody tr:hover th{background-color:#F8F8F8;}
+.alipay{text-align: right;}
+.alipay img{display: inline-block;}
 /*上下篇*/
 .other-post{ text-align: right; padding: 15px 0; }
 .pageNav{ font-weight:bold; font-size:1.25em; }
