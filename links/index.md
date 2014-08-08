@@ -27,11 +27,13 @@ comments: no
 * [Codecademy](http://www.codecademy.com/zh)
 * [NEC](http://nec.netease.com/)
 * [NEJ](http://nej.netease.com/)
+* [Package Control](https://sublime.wbond.net/)
 
 ##好玩
 
 * [segmentfault](http://segmentfault.com/)
 * [GuruDigger](http://gurudigger.com/)
+* [Ruby China](https://ruby-china.org/)
 
 ##做公益
 
