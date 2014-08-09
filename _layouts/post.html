@@ -6,7 +6,7 @@ layout: default
           {{ content }}
         </div>
         <p class="alipay">
-            <img src="/uploads/alipay.jpg" alt="请我喝咖啡">
+            <img src="/uploads/alipay.jpg" title="请我喝咖啡" alt="请我喝咖啡" />
         </p>
         <div class="other-post"><span><a {% if page.previous %} href="{{ page.previous.url }}" class="pageNav"{% endif %} {% unless page.previous %} class="pageNavInvalid" {% endunless %} >上一篇</a>&nbsp;&nbsp;&nbsp;<a {% if page.next %} href="{{ page.next.url }}" class="pageNav"{% endif %} {% unless page.next %} class="pageNavInvalid" {% endunless %} >下一篇</a></span></div>
 {% if page.comments %}{% include comments.md %}{% endif %}
