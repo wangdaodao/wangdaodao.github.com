@@ -23,8 +23,8 @@ hr{ margin:.7em 0; border-top:1px dashed #d0d0d0; border-bottom:1px dashed #f9f9
 ins{ text-decoration:none; }
 del{ text-decoration:line-through; }
 pre{ margin:.5em 0; line-height:1.6; display:block; overflow:auto; }
-code{background: #eee; color: #666; padding: 0 5px; margin: 0 2px; border: 1px solid #DDD; border-radius: 3px;font-family:"Consolas","Monaco","Courier New"; }
-pre code{ padding: 10px;margin: 0;border-radius:0;display: block;white-space: pre-wrap;  }
+code{ background: #eee; color: #666; padding: 0 5px; margin: 0 2px; border: 1px solid #DDD; border-radius: 3px; font-family:"Consolas","Monaco","Courier New"; }
+pre code{ padding: 10px; margin: 0; border-radius:0; display: block; white-space: pre-wrap; }
 blockquote{ display:block; text-align:justify; border-left:4px solid #eeeeee; margin:1em 0em; padding-left:1.5em; }
 blockquote p{ margin:0; padding:0; }
 object,iframe{ display:block; margin:4px auto; }
@@ -41,7 +41,7 @@ object,iframe{ display:block; margin:4px auto; }
 .header{ padding:7px 0; border-bottom: 1px solid #ccc; }
 .content{ font-size:1.6em; line-height:2; padding: 5px 0; }
 .content h1{ padding:5px 0; }
-.content img{ max-width:98%; display:block; margin:10px 0; box-shadow: 0 1px 3px rgba(0, 0, 0, 0.1);padding: 0.5%;background-color: #fff;border: 1px solid #CCC;}
+.content img{ max-width:98%; display:block; margin:10px 0; box-shadow: 0 1px 3px rgba(0, 0, 0, 0.1); padding: 0.5%; background-color: #fff; border: 1px solid #CCC; }
 .listing-item{ list-style-type:none; overflow: hidden; text-overflow: ellipsis; white-space: nowrap; width: 90%; color: #D00; }
 .listing-item a{ padding-left:1em; }
 .listing-item .time{ color:#999; }
@@ -50,19 +50,20 @@ object,iframe{ display:block; margin:4px auto; }
 .article em{ background: #eee; color: #666; padding: 0 5px; margin: 0 2px; border: 1px solid #DDD; border-radius: 3px; }
 .article h2{ font-size: 1.25em}
 .article h3{ font-size: 1em}
-.article p{margin: .5em 0;}
-.article ul,.article ol{padding-left: 2em;}
-.article ul li {list-style: outside disc;}
-.article ol li {list-style: outside decimal-leading-zero;}
-.article table{ width: 100%; overflow: auto; border-collapse: collapse; border-spacing: 0;text-align: left;margin-bottom:15px; }
-.article table caption {padding: 6px 13px;font-weight: bold; border: 1px solid #DDD;border-bottom: none;}
-.article table tr {background-color: white; }
+.article strong{ color: #d00; }
+.article p{ margin: .5em 0; }
+.article ul,.article ol{ padding-left: 2em; }
+.article ul li { list-style: outside disc; }
+.article ol li { list-style: outside decimal-leading-zero; }
+.article table{ width: 100%; overflow: auto; border-collapse: collapse; border-spacing: 0; text-align: left; margin-bottom:15px; }
+.article table caption { padding: 6px 13px; font-weight: bold; border: 1px solid #DDD; border-bottom: none; }
+.article table tr { background-color: white; }
 .article table tr:nth-child(2n) { background-color: #F8F8F8; }
-.article table th { font-weight: bold;background-color: #DADADA; }
+.article table th { font-weight: bold; background-color: #DADADA; }
 .article table th, .article table td { border: 1px solid #DDD; padding: 6px 13px; }
-.article table tbody tr:hover td,.article table tbody tr:hover th{background-color:#F8F8F8;}
-.alipay{text-align: right;}
-.alipay img{display: inline-block;}
+.article table tbody tr:hover td,.article table tbody tr:hover th{ background-color:#F8F8F8; }
+.alipay{ text-align: right; }
+.alipay img{ display: inline-block; }
 /*上下篇*/
 .other-post{ text-align: right; padding: 15px 0; }
 .pageNav{ font-weight:bold; font-size:1.25em; }
@@ -73,7 +74,7 @@ object,iframe{ display:block; margin:4px auto; }
 #footer a { color: #888; text-decoration: none; }
 #footer a:hover { border-bottom: 1px dashed #bbb; text-decoration: none; }
 /*标签*/
-#tag_cloud{ margin-bottom: 1em;word-wrap:break-word; }
+#tag_cloud{ margin-bottom: 1em; word-wrap:break-word; }
 #tag_cloud a{ margin-right: .5em; }
 #tag_cloud a:hover{ color:#333; text-decoration:none; }
 /*翻页*/
@@ -87,11 +88,11 @@ object,iframe{ display:block; margin:4px auto; }
 .gist-meta{ display: none; }
 /*豆瓣*/
 .douban-list{ overflow: hidden; }
-#douban ul{padding: 0;}
-#douban li{ float: left; margin-right:10px;list-style: none; }
+#douban ul{ padding: 0; }
+#douban li{ float: left; margin-right:10px; list-style: none; }
 #douban a{ display: block; }
 #douban img{ width: 68px; height: 96px; }
 /*Flickr*/
-#flickr ul{padding: 0;}
+#flickr ul{ padding: 0; }
 #flickr li{ float: left; margin-right:10px; }
 #flickr img{ width: 75px; height: 75px; }
