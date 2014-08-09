@@ -3,7 +3,7 @@ date: 2014-06-24
 layout: post
 comments: yes
 code: yes
-title: Sublime Text 3坏了
+title: Sublime Text 3设置
 categories: 生活
 tags: [sublime_text]
 ---
