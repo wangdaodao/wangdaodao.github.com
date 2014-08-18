@@ -1,0 +1,107 @@
+/* Kill IE6 */
+
+#killie6,
+#killie6 div,
+#killie6 a,
+#killie6 p,
+#killie6 span {
+    text-align: left;
+    margin: 0;
+    padding: 0;
+    border: 0;
+}
+
+#killie6 {
+    z-index: 9999;
+    width: 279px;
+    color: #ccc;
+    position: absolute;
+    bottom: 10px;
+    right: 10px;
+    line-height: 20px;
+    font-size: 12px;
+}
+
+#killie6 p.killie6text,
+#killie6 p.killie6text strong,
+#killie6 p.killie6browsers {
+    margin-bottom: 10px;
+    line-height: 20px;
+    font-family: Verdana, Tahoma, "BitStream vera Sans", Helvetica, "宋体", sans-serif !important;
+}
+
+#killie6 .killie6c {
+    width: 255px;
+    background: #2a2a2a;
+    padding: 8px 12px;
+    height: 108px;
+    overflow: hidden;
+    font-weight: normal;
+}
+
+#killie6 .killie6r1,
+#killie6 .killie6r2,
+#killie6 .killie6r4 {
+    background: #2a2a2a;
+    height: 1px;
+    overflow: hidden;
+}
+
+#killie6 .killie6r1 {
+    margin: 0 1px;
+}
+
+#killie6 .killie6r2 {
+    margin: 0 2px;
+}
+
+#killie6 .killie6r4 {
+    margin: 0 4px;
+}
+
+#killie6 .killie6browsers {
+    clear: both;
+}
+
+#killie6 .killie6browsers a {
+    color: #a8c779;
+    text-decoration: none;
+    height: 16px;
+    line-height: 16px;
+    padding-left: 20px;
+    margin-left: 12px;
+    background: url(kill-ie6.png) -56px 0 no-repeat;
+    display: inline-block;
+    float: left;
+    font-weight: normal;
+    font-family: Arial, "宋体", sans-serif !important;
+}
+
+#killie6 .killie6browsers a:hover {
+    text-decoration: underline;
+}
+
+#killie6 a.killie6ie8 {
+    margin-left: 0;
+}
+
+#killie6 a.killie6chrome {
+    background-position: -56px -16px;
+}
+
+#killie6 a.killie6firefox {
+    background-position: -56px -32px;
+}
+
+#killie6 a.killie6opera {
+    background-position: -56px -48px;
+}
+
+#killie6 span.killie6pic {
+    background: url(kill-ie6.png) no-repeat;
+    width: 56px;
+    height: 73px;
+    float: left;
+    display: inline-block;
+    margin: 5px 10px 5px 0;
+}
