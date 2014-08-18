@@ -1,5 +1,8 @@
 /* Kill IE6 */
-
+html{
+    background-image:url(about:blank);
+    background-attachment:fixed;
+}
 #killie6,
 #killie6 div,
 #killie6 a,
