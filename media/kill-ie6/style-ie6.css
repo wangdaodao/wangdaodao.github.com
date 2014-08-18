@@ -15,8 +15,9 @@
     z-index: 9999;
     width: 279px;
     color: #ccc;
-    position: absolute;
-    bottom: 10px;
+    position:absolute;
+    bottom:auto;
+    top:expression(eval(document.documentElement.scrollTop+document.documentElement.clientHeight-this.offsetHeight-(parseInt(this.currentStyle.marginTop,10)||0)-(parseInt(this.currentStyle.marginBottom,10)||0)));
     right: 10px;
     line-height: 20px;
     font-size: 12px;
