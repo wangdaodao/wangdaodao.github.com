@@ -2,10 +2,11 @@
 title: Home
 layout: page
 ---
-      <ul class="listing">{% for post in paginator.posts %}{% capture y %}{{post.date | date:"%Y"}}{% endcapture %}
+      <ul class="listing">
 <li>
 <dl>
   {% if year != y %}{% assign year = y %}<dt class="listing-seperator">{{ y }}</dt>{% endif %}
+  {% for post in paginator.posts %}{% capture y %}{{post.date | date:"%Y"}}{% endcapture %}
   <dd class="listing-item"><span class="time">{{ post.date | date:"%Y-%m-%d" }}</span><a href="{{ post.url }}" title="{{ post.title }}">{{ post.title }}</a>{% if site.truncate %}<p>{{ post.content | strip_html | truncate: site.truncate }}</p>{% endif%}</dd>{% endfor %}
 </dl>
 </li>
