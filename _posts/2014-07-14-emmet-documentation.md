@@ -5,7 +5,7 @@ comments: yes
 code: yes
 title: Emmet使用手册
 categories: 笔记
-tags: [emmet,sublime_text]
+tags: [sublime_text]
 ---
 
 ### Child(子元素): `>` 
