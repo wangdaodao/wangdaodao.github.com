@@ -121,4 +121,4 @@ Emmet技巧：
 
 自动添加图片的尺寸大小：将光标放在图片地址上，一个快捷键统统搞定：*Ctrl+U*
 
-更多技巧请查看：[Emmet使用手册](http://git.wangdaodao.com/2014-07-14/emmet-documentation.html)
+更多技巧请查看：[Emmet使用手册](/2014-07-14/emmet-documentation.html)
