@@ -6,7 +6,7 @@ layout: page
       <li>
         <dl>
           <dt class="listing-seperator">{{ y }}</dt>{% endif %}
-          <dd class="listing-item"><span class="time">{{ post.date | date:"%Y-%m-%d" }}</span><a href="{{ post.url }}" title="{{ post.title }}">{{ post.title }}</a>{% if site.truncate %}<p>{{ post.content | strip_html | truncate: site.truncate }}</p>{% endif%}</dd>
+          <dd class="listing-item"><span class="time">{{ post.date | date:"%Y-%m-%d" }}</span><a href="{{ post.url }}" title="{{ post.title }}">{{ post.title }}</a>{% if site.truncate %}<p>{{ post.content | strip_html | truncate: site.truncate }}</p></dd>{% endif%}
         </dl>
       </li>{% endfor %}
           </ul>
