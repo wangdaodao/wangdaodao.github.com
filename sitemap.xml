@@ -12,8 +12,8 @@ title : Sitemap
       {% else %}
         <lastmod>{{ post.lastmod | date_to_xmlschema }}</lastmod>
       {% endif %}
-      <changefreq>weekly</changefreq>
-      <priority>1.0</priority>
+      <changefreq>daily</changefreq>
+      <priority>0.7</priority>
     </url>
   {% endfor %}
   {% for page in site.pages %}
