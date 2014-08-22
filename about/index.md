@@ -17,7 +17,7 @@ comments: yes
 ###联系方式：
 
 {% if site.qq %}
-ＱＱ：[{{ site.qq }}](http://wpa.qq.com/msgrd?v=3&uin={{ site.qq }}&site=qq&menu=yes)
+QQ：[{{ site.qq }}](http://wpa.qq.com/msgrd?v=3&uin={{ site.qq }}&site=qq&menu=yes)
 {% endif %}
 网站：[{{ site.name }}]({{ site.url }})
 
