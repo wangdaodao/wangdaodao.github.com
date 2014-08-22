@@ -1,0 +1,9 @@
+article.none,.biglogo.past{
+  display: none!important;
+}
+article.current{
+  display: block!important;
+}
+.biglogo{
+  text-align: center;
+}
