@@ -1,0 +1,6 @@
+User-agent: *
+Disallow: /uploads
+Disallow: /media
+Disallow: /_layouts
+Disallow: /_includes
+Sitemap: http://wangdaodao.github.com/sitemap.xml
