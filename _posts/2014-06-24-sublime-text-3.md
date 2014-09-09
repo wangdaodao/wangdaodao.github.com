@@ -33,38 +33,18 @@ tags: [sublime_text]
 * Theme - [Nil](https://sublime.wbond.net/packages/Theme%20-%20Nil)
 * Theme - [Soda](https://sublime.wbond.net/packages/Theme%20-%20Soda)
 
-## Emmet.sublime-settings
+## 注册码
 
-    {
-        "snippets": {
-            "css": {
-                "snippets": {
-                    // put snippets definition here
-                    "bsh": "box-shadow:$1;",
-                    "tsh": "text-shadow:$1",
-                }
-            },
-            "html": {
-                "snippets": {
-                    // put snippets definition here\
-                    "if:ie6": "<!--[if lte IE 6]>\n\t${child}|\n<![endif]-->",
-                    "if:ie": "<!--[if IE]>\n\t${child}|\n<![endif]-->",
-                },
-                "abbreviations": {
-                    "html:4": "!!!xxs+doc4[xmlns=http://www.w3.org/1999/xhtml xml:lang=${lang}]",
-                    "style": "<style type=\"text/css\"></style>",
-                    "sty": "<style type=\"text/css\"></style>",
-                    "link:c": "<link rel=\"stylesheet\" href=\"${1:style}.css\" />",
-                    "script": "<script type=\"text/javascript\"></script>",
-                    "scr": "<script type=\"text/javascript\"></script>",
-                    "script:s": "<script type=\"text/javascript\" src=\"\"></script>",
-                    "scr:s": "<script type=\"text/javascript\" src=\"\"></script>",
-                    "table+": "table[width=\"100%\" cellspacing=\"0\" cellpadding=\"0\"]>(caption)+(thead>tr>th)+(tbody>tr>td)+(tfoot>tr>td)",
-                    "fst+": "fieldset>(legend+form)",
-                }
-            }
-        },
-        "preferences": {
-            "css.valueSeparator": ":"
-        }
-    }
+    —– BEGIN LICENSE —–
+    Andrew Weber
+    Single User License
+    EA7E-855605
+    813A03DD 5E4AD9E6 6C0EEB94 BC99798F
+    942194A6 02396E98 E62C9979 4BB979FE
+    91424C9D A45400BF F6747D88 2FB88078
+    90F5CC94 1CDC92DC 8457107A F151657B
+    1D22E383 A997F016 42397640 33F41CFC
+    E1D0AE85 A0BBD039 0E9C8D55 E1B89D5D
+    5CDB7036 E56DE1C0 EFCC0840 650CD3A6
+    B98FC99C 8FAC73EE D2B95564 DF450523
+    —— END LICENSE ——
