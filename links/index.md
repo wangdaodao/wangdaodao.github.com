@@ -35,6 +35,7 @@ comments: no
 * [segmentfault](http://segmentfault.com/)
 * [GuruDigger](http://gurudigger.com/)
 * [Ruby China](https://ruby-china.org/)
+* [Div.IO](http://div.io/digg)
 
 ##做公益
 
