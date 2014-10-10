@@ -36,6 +36,7 @@ comments: no
 * [GuruDigger](http://gurudigger.com/)
 * [Ruby China](https://ruby-china.org/)
 * [Div.IO](http://div.io/digg)
+* [Subtle Patterns](http://subtlepatterns.com)
 
 ##做公益
 
