@@ -1,11 +1,9 @@
 ---
-title: IPlist
+title: Google可用IP
 layout: page
 comments: yes
 code: yes
 ---
-
-不定期更新谷歌可用IP！
 
 ### 20141024可用IP
 
