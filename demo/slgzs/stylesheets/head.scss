@@ -270,8 +270,8 @@
       background-color:#fff;
       text-indent: 0;
       position: absolute;
-      top: auto;
-      left:auto;
+      top: 50px;
+      left:0;
       li{
         border-top:1px dashed $gray-color2;
         margin-bottom: 8px;
@@ -294,6 +294,7 @@
     margin-left: 10px;
     li{
       display: inline-block;
+      float: left;
     }
     a{
       color: #fff;
