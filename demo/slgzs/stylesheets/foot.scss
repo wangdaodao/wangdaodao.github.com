@@ -1,0 +1,41 @@
+@charset "utf-8";
+.g-ft{
+  margin-top: 50px;
+  background-color: $green-color1;
+  color: #fff;
+  border-top: 1px solid #078351;
+  .m-ft-border{
+    border-top: 1px solid #38E8A0;
+    padding: 25px 0;
+    border-bottom: 1px solid #078351;
+  }
+  a{
+    color: #fff;
+  }
+}
+.g-ft-help{
+  li{
+    width: 180px;
+    display: inline-block;
+    float: left;
+    font-size: 14px;
+    line-height: 26px;
+  }
+  dt{
+    font-size: 18px;
+    margin-bottom: 10px;
+    font-weight: bold;
+  }
+}
+.g-ft-hotline{
+  text-align: center;
+  font-size: 16px;
+  dt{
+    font-size: 26px;
+    margin-bottom: 10px;
+  }
+}
+.g-ft-cr{
+  border-top: 1px solid #38E8A0;
+  padding:15px 0;
+}

@@ -1,0 +1,234 @@
+@charset "utf-8";
+// 首页幻灯
+.m-home-banner{
+  width:840px;
+  height:280px;
+  position:relative;
+  overflow:hidden;
+  margin:10px 0 10px 260px;
+}
+.m-home-banner-btn{
+  display:none;
+}
+.m-home-banner-btn a{
+  display:block;
+  line-height:40px;
+  position:absolute;
+  top:120px;
+  width:40px;
+  height:40px;
+  background-color: #000;
+  opacity:0.3;
+  color: rgb(255, 255, 255);
+  overflow: hidden;
+  z-index:4;
+}
+.m-home-banner-prevBtn{
+  left:5px;
+}
+.m-home-banner-nextBtn{
+  right:5px;
+}
+.m-home-banner-img{
+  font-size:0;
+  *word-spacing:-1px;
+  letter-spacing: -3px;/* IE6、7 */ 
+  position:relative;
+}
+.m-home-banner-img li{
+  display:inline-block;
+  *display:inline;
+  *zoom:1;
+  vertical-align: top;/* IE6、7 */ 
+  letter-spacing: normal;
+  word-spacing: normal;
+  font-size:12px;
+}
+.m-home-banner i{
+  background:url(../images/home-ico.png)  no-repeat;
+  width: 15px;
+  height: 23px;
+  cursor:pointer;
+  margin: 8px 0 0 12px;
+  display:block;
+}
+.m-home-banner .m-home-banner-nextBtn i{
+  background-position:0 -246px;
+}
+.m-home-banner .m-home-banner-prevBtn i{
+  background-position:0 -222px;
+}
+.m-home-banner-circle{
+  position:absolute;
+  left:50%;
+  bottom: 15px;
+  height: 13px;
+  text-align: center;
+  font-size: 0;
+  border-radius: 10px;
+  background:rgba(255,255,255,0.3);
+}
+.m-home-banner-circle li{
+  border-radius: 10px;
+  margin:2px;
+  display: inline-block;
+  display: -moz-inline-stack;
+  vertical-align: middle;
+  zoom: 1;
+}
+.m-home-banner-circle li a{
+  display: block;
+  padding-top: 9px;
+  width: 9px;
+  height: 0;
+  border-radius: 50%;
+  background: #B7B7B7;
+  overflow: hidden;
+}
+.m-home-banner-circle .selected a{
+  background:$green-color1;
+}
+// 任务看板
+.m-home-rw{
+  width:840px;
+  margin-left: 260px;
+  h2{
+    font-size: 24px;
+    font-weight: normal;
+  }
+  ul{
+    font-size: 16px;
+    margin-top: 10px;
+  }
+  li{
+    line-height: 30px;
+    @extend %text-overflow;
+    width: 390px;
+    float: left;
+    margin-right: 25px;
+  }
+  em{
+    font-weight: bold;
+    color: $green-color1;
+    margin-right: 5px;
+  }
+}
+// 首页主体内容
+.g-home-bd{
+  color: $gray-color4;
+  .m-home-title{
+    font-weight: normal;
+    font-size: 24px;
+    border-bottom: 3px solid $green-color1;
+    margin-top: 30px;
+    span{
+      position: relative;
+      top: 10px;
+      a{
+        margin-left: 10px;
+      }
+    }
+  }
+  .m-home-lc{
+    ol{
+      padding:10px 0;
+    }
+    .m-home-lc-step{
+      width: 130px;
+      display: inline-block;
+      text-align: center;
+      padding-top:60px;
+      height: 30px;
+      background: transparent url(../images/lc-ico.png) center 0 no-repeat;
+      font-size: 16px;
+    }
+    .m-home-lc-arrow{
+      width: 55px;
+      height: 90px;
+      display: inline-block;
+      background: transparent url(../images/home-ico.png) 24px -289px no-repeat;
+    }
+    .m-home-lc-ico1{
+      background-position:center 0;
+    }
+    .m-home-lc-ico2{
+      background-position:center -121px;
+    }
+    .m-home-lc-ico3{
+      background-position:center -232px;
+    }
+    .m-home-lc-ico4{
+      background-position:center -356px;
+    }
+    .m-home-lc-ico5{
+      background-position:center -487px;
+    }
+    .m-home-lc-ico6{
+      background-position:center -617px;
+    }
+  }
+  .m-home-gc{
+    .m-home-gc-content{
+      margin-top: 10px;
+    }
+    img{
+      width: 69px;
+      height: 69px;
+      border-radius:2px;
+      border: 1px solid $gray-color2;
+      margin-right: 10px;
+    }
+    h3{
+      font-weight: normal;
+    }
+    dt{
+      font-size: 18px;
+    }
+    .m-home-gc-box{
+      padding:10px;
+      width: 315px;
+      height: 70px;
+      display: block;
+      border:2px solid #fff;
+      margin:10px 15px 0 0;
+      -webkit-transition: all .3s;
+      -moz-transition: all .3s;
+      -ms-transition: all .3s;
+      -o-transition: all .3s;
+      transition: all .3s;
+      &:hover{
+        color: $gray-color4;
+        border:2px solid $green-color1;
+      }
+    }
+    .m-home-gc-info{
+      display:block;
+      width: 230px;
+      em{
+        display: block;
+        font-size: 14px;
+        font-weight: bold;
+        width: 220px;
+        margin-bottom: 7px;
+        @extend %text-overflow;
+      }
+      span{
+        display: block;
+        line-height: 21px;
+        height: 41px;
+        overflow: hidden;
+      }
+    }
+    .m-home-qy{
+      padding-right: 10px;
+      border-right:1px solid $gray-color2;
+      width: 710px;
+      dd{
+        float: left;
+      }
+    }
+    .m-home-gr{
+      padding-left: 20px;
+    }
+  }
+}
