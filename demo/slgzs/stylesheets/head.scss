@@ -23,11 +23,12 @@
 }
 .m-top-drop{
   position: relative;
+  z-index: 999;
   .m-top-drop-menu{
     background: #FFF;
     display: none;
     position: absolute;
-    z-index: 8;
+    z-index: 998;
     top: 29px;
     right: 0;
     width: 200px;
@@ -46,7 +47,7 @@
   &.ui-arrow-hover{
     .ui-arrow-bottom{
       position: relative;
-      z-index: 9;
+      z-index: 999;
       border:1px solid $gray-color2;
       background-color: #FFF;
       border-bottom:1px solid #FFF;
@@ -57,6 +58,8 @@
 // 头部logo区
 .m-hd-content{
   margin: 30px 0;
+  position: relative;
+  z-index: 888;
 }
 .m-hd-search{
   margin-top: 5px;
@@ -67,16 +70,17 @@
   .j-search-btn{
     position: relative;
     width: 100px;
+    background-color:#F3F3F3;
+    height: 40px;
   }
   #m-hd-search-tag{
     color: #6C6C6C;
-    height: 30px;
+    height: 28px;
     width: 90px;
-    line-height: 30px;
+    line-height: 28px;
     padding:5px;
     font-size: 16px;
     background: #F3F3F3 url(../images/home-ico.png) 80px 13px no-repeat;
-    border-right:1px solid $gray-color2;
     cursor: pointer;
   }
   #m-hd-search-val{
@@ -84,6 +88,9 @@
     padding:5px;
     width: 320px;
     font-size: 16px;
+    border:0;
+    border-left:1px solid $gray-color2;
+    outline: 0;
   }
   #m-hd-search-btn{
     background-color:$green-color1;
@@ -156,9 +163,9 @@
     }
     label{
       position: absolute;
-      top: 2px;
+      top: 8px;
       left: 10px;
-      width: 45px;
+      line-height: 30px;
     }
     li{
       height: 32px;
@@ -251,6 +258,8 @@
   height: 50px;
   line-height: 50px;
   background-color: $green-color1;
+  position: relative;
+  z-index: 777;
   .m-hd-sidenav{
     width: 250px;
     text-indent: 20px;
@@ -281,6 +290,7 @@
       dl{
         font-size: 14px;
         line-height: 24px;
+        zoom: 1;
       }
       a{
         margin-right: 10px;

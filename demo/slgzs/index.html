@@ -42,31 +42,23 @@
     <div class="g-wrap clear">
       <h1 class="f-left"><a class="m-logo" href="index.html">算量工作室</a></h1>
       <form class="m-hd-search f-left" action="">
-        <table width="100%">
-          <tbody>
-            <tr>
-              <td class="j-search-btn">
-                <input id="m-hd-search-tag" class="no-border" readonly="readonly" type="text" value="找服务商" />
-                <ul class="search-value-list j-search-list">
-                  <li style="display:none;">找服务商</li>
-                  <li>找需求</li>
-                </ul>
-              </td>
-              <td>
-                <input id="m-hd-search-val" class="no-border" type="text" />
-              </td>
-              <td><input id="m-hd-search-btn" type="button" value="搜索一下" /></td>
-            </tr>
-          </tbody>
-        </table>
+        <div class="f-left j-search-btn">
+          <input id="m-hd-search-tag" class="no-border" readonly="readonly" type="text" value="找服务商" />
+          <ul class="search-value-list j-search-list">
+            <li style="display:none;">找服务商</li>
+            <li>找需求</li>
+          </ul>
+        </div>
+        <input id="m-hd-search-val" class="no-border f-left" type="text" />
+        <input class="f-left" id="m-hd-search-btn" type="button" value="搜索一下" />
       </form>
       <!-- 登录前 -->
       <div class="m-hd-user f-right">
         <div class="j-hd-login m-hd-login f-left">
           <a class="ui-arrow-bottom m-hd-login-btn font-center" href="####"><img src="http://static11.weikeimg.com/images/common/defalheid.jpg" alt="" />用户登录<i></i></a>
           <form class="form-bd j-hd-box" action="">
-            <p><label>账号：</label><input class="m-hd-username" type="text" /></p>
-            <p><label>密码：</label><input class="m-hd-password" type="password" /></p>
+            <p><label for="username">账号：</label><input id="username" class="m-hd-username" type="text" /></p>
+            <p><label for="password">密码：</label><input id="password" class="m-hd-password" type="password" /></p>
             <p><input class="ui-btn ui-btn-yellow" type="button" value="登录" />&nbsp;&nbsp;<a class="font12 font-green1" href="####">忘记密码</a></p>
           </form>
         </div>
@@ -106,7 +98,7 @@
         <!--  class="j-hd-sidenav-list" -->
         <ul>
           <li style="border:none;">
-            <dl>
+            <dl class="clear">
               <dt><a href="####">投资估算</a></dt>
               <dd><a href="####">估算工程量</a><a href="####">材料价格取定计算</a><a href="####">估算前期费用</a><a href="####">估算其他费用</a></dd>
             </dl>
