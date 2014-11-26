@@ -4,7 +4,7 @@ layout: post
 comments: yes
 code: yes
 title: HTML参考手册
-categories: 工作
+categories: 笔记
 tags: [html]
 ---
 
