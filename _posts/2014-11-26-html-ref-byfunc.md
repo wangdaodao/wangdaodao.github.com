@@ -11,11 +11,13 @@ tags: [html]
 <h3>基础</h3>
 
 <table>
-    <tbody>
+    <thead>
         <tr>
             <th style="width:35%">标签</th>
             <th style="width:65%">描述</th>
         </tr>
+    </thead>
+    <tbody>
 
         <tr>
             <td>
@@ -86,11 +88,13 @@ tags: [html]
 <h3>格式</h3>
 
 <table>
-    <tbody>
+    <thead>
         <tr>
             <th style="width:35%">标签</th>
             <th style="width:65%">描述</th>
         </tr>
+    </thead>
+    <tbody>
 
         <tr>
             <td>
@@ -379,11 +383,13 @@ tags: [html]
 <h3>表单</h3>
 
 <table>
-    <tbody>
+    <thead>
         <tr>
             <th style="width:35%">标签</th>
             <th style="width:65%">描述</th>
         </tr>
+    </thead>
+    <tbody>
 
         <tr>
             <td>
@@ -489,11 +495,13 @@ tags: [html]
 <h3>框架</h3>
 
 <table>
-    <tbody>
+    <thead>
         <tr>
             <th style="width:35%">标签</th>
             <th style="width:65%">描述</th>
         </tr>
+    </thead>
+    <tbody>
 
         <tr>
             <td>
@@ -528,11 +536,13 @@ tags: [html]
 <h3>图像</h3>
 
 <table>
-    <tbody>
+    <thead>
         <tr>
             <th style="width:35%">标签</th>
             <th style="width:65%">描述</th>
         </tr>
+    </thead>
+    <tbody>
 
         <tr>
             <td>
@@ -581,11 +591,13 @@ tags: [html]
 <h3>音频/视频</h3>
 
 <table>
-    <tbody>
+    <thead>
         <tr>
             <th style="width:35%">标签</th>
             <th style="width:65%">描述</th>
         </tr>
+    </thead>
+    <tbody>
 
         <tr>
             <td>
@@ -620,11 +632,13 @@ tags: [html]
 <h3>链接</h3>
 
 <table>
-    <tbody>
+    <thead>
         <tr>
             <th style="width:35%">标签</th>
             <th style="width:65%">描述</th>
         </tr>
+    </thead>
+    <tbody>
 
         <tr>
             <td>
@@ -652,11 +666,13 @@ tags: [html]
 <h3>列表</h3>
 
 <table>
-    <tbody>
+    <thead>
         <tr>
             <th style="width:35%">标签</th>
             <th style="width:65%">描述</th>
         </tr>
+    </thead>
+    <tbody>
 
         <tr>
             <td>
@@ -736,11 +752,13 @@ tags: [html]
 <h3>表格</h3>
 
 <table>
-    <tbody>
+    <thead>
         <tr>
             <th style="width:35%">标签</th>
             <th style="width:65%">描述</th>
         </tr>
+    </thead>
+    <tbody>
 
         <tr>
             <td>
@@ -817,11 +835,13 @@ tags: [html]
 <h3>样式/节</h3>
 
 <table>
-    <tbody>
+    <thead>
         <tr>
             <th style="width:35%">标签</th>
             <th style="width:65%">描述</th>
         </tr>
+    </thead>
+    <tbody>
 
         <tr>
             <td>
@@ -906,11 +926,13 @@ tags: [html]
 <h3>元信息</h3>
 
 <table>
-    <tbody>
+    <thead>
         <tr>
             <th style="width:35%">标签</th>
             <th style="width:65%">描述</th>
         </tr>
+    </thead>
+    <tbody>
 
         <tr>
             <td>
@@ -948,11 +970,13 @@ tags: [html]
 <h3>编程</h3>
 
 <table>
-    <tbody>
+    <thead>
         <tr>
             <th style="width:35%">标签</th>
             <th style="width:65%">描述</th>
         </tr>
+    </thead>
+    <tbody>
 
         <tr>
             <td>
