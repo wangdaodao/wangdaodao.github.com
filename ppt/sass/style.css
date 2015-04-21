@@ -1,0 +1,45 @@
+@charset "utf-8";
+body,h1,h2,h3,h4,h5,h6,hr,p,blockquote,dl,dd,ul,ol,pre,fieldset,legend,button,input,textarea,th,td{ margin:0; padding:0; }
+button,input,select,textarea{ font:12px/1.5 "Microsoft YaHei",微软雅黑, Tahoma,Helvetica,Arial,"\5b8b\4f53",sans-serif; }
+body{ font:12px/1.5 "Microsoft YaHei",微软雅黑,Arial,Verdana,Sans-Serif; color:#000; position:relative; width:100%; height:100%; margin:0 auto; background-color: #fff; font-size:62.5%; }
+html{ width:100%; height:100%; }
+h1,h2,h3,h4,h5,h6{ font-size:100%; font-weight: normal; }
+address,cite,dfn,em,var{ font-style:normal; }
+small{ font-size:12px; }
+ul,ol{ list-style:none; }
+a{ text-decoration:none; color: #fff; border-bottom: 1px solid #fff; margin: 0 .5em; }
+a:link,a:visited{ text-decoration:none; }
+a:hover,a:active{ text-decoration:none; }
+abbr,acronym{ border:0; font-variant:normal; }
+sup{ vertical-align:text-top; }
+sub{ vertical-align:text-bottom; }
+blockquote,q{ quotes:none; }
+blockquote:before,blockquote:after,q:before,q:after{ content:''; content:none; }
+legend{ color:#000; }
+fieldset,img{ border:none; }
+img{ vertical-align:middle; }
+button,input,select,textarea{ font-size:100%; }
+table{ border-collapse:collapse; border-spacing:0; }
+caption{ text-align:left; }
+hr{ border:none; height:1px; }
+ins{ text-decoration:none; }
+del{ text-decoration:line-through; }
+h1{ font-size: 3em; }
+h2{ font-size: 2em; border-bottom: 1px double #fff; }
+h3{ font-size: 1.5em; }
+code { display: block; padding:0 0.5em;background: #000 url(images/code.png) 0 0 repeat;color: #0f0; font-family: Courier New!important; margin: .5em 0; font-size: .7em;line-height: 30px; white-space: pre-wrap;}
+.wrap{ width:61.8%; margin: 0 auto; }
+#main{ }
+#main li{ overflow: hidden; position: relative; font-size: 2em; padding: 1em 0; line-height: 2; color: #fff; }
+#main img { max-width: 100%; display: block; margin: .5em 0; box-shadow: 2px 2px 6px #000; }
+.bg0{ background-color: #fff; }
+.bg0 h1,.bg0 h2{ text-align: center; color:#000; }
+.bg1{ background-color:#16A085; }
+.bg2{ background-color:#27AE60; }
+.bg3{ background-color: #2980B9; }
+.bg4{ background-color: #8E44AD; }
+#main .bg5{ background-color: #F39C12; color: #000; }
+.bg6{ background-color: #D35400; }
+.bg7{ background-color: #C0392B; }
+.bg8{ background-color: #2C3E50; }
+.ml{ position: fixed; top: 5%; right: 2%; font-size: 1.6em; }

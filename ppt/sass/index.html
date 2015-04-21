@@ -1,0 +1,666 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<title>Sass简明指南</title>
+<meta content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0;" name="viewport" />
+<meta http-equiv="Cache-Control" content="max-age=7200" />
+<meta http-equiv="X-UA-Compatible" content ="IE=edge,chrome=1" />
+<link rel="stylesheet" href="style.css" />
+<link rel="stylesheet" href="mobil.css"  media="screen and (min-width: 320px) and (max-width: 760px)" />
+<!--[if lte IE 6]>
+<style type="text/css">
+.ml{display:none;}
+</style>
+<![endif]-->
+</head>
+<body>
+	<ul id="main">
+		<li class="bg0">
+			<div class="wrap">
+				<h1>Sass简明指南</h1>
+				<h2>作者：王叨叨</h2>
+			</div>
+		</li>
+            <li class="bg1">
+              <div class="wrap">
+                <h2>什么是CSS预处理器？</h2>
+                <p>CSS预处理器定义了一种新的语言，其基本思想是，用一种专门的编程语言，为CSS增加了一些编程的特性（变量，简单逻辑，函数），将CSS作为目标生成文件，然后开发者就只要使用这种语言进行编码工作。CSS预处理器技术已经非常的成熟，而且也涌现出了很多种不同的CSS预处理器语言，比如说：Sass（SCSS）、LESS、Stylus等。</p>
+              </div>
+            </li>
+            <li class="bg1">
+              <div class="wrap">
+                <h2>为什么使用Sass？</h2>
+                <p>1. Sass 整体严谨、严密功能也更强大一些；</p>
+                <p>2. Sass在市面上有一些成熟的框架，比如说Compass，而且有很多框架也在使用Sass；</p>
+                <p>3. 更高效地写出高可维护性的CSS；</p>
+                <p>……</p>
+              </div>
+            </li>
+		<li class="bg2">
+			<div class="wrap">
+				<h2  name="001" id="001">1&nbsp;&nbsp;Sass安装</h2>
+				<p>因为sass依赖于ruby环境，所以装sass之前先确认装了ruby。这里只介绍Windows下安装，Linux范和Mac豪请自行安装……</p>
+				<p>Windows下载<a href="http://rubyinstaller.org/downloads" target="_blank">rubyinstaller</a></p>
+				<p>在安装的时候，请勾选Add Ruby executables to your PATH这个选项，添加环境变量，不然以后使用编译软件的时候会提示找不到ruby环境</p>
+				<a href="img/ruby.png"><img src="img/ruby.png" alt="添加环境变量" /></a>
+				<p>安装完之后，在命令行下面输入：</p>
+    <pre><code>#查看ruby版本
+ruby -v
+#查看gem版本
+gem -v</code></pre>
+        <p>如果上面都正确的显示了，就可以安装Sass了，输入命令：</p>
+        <code>gem install sass</code>
+        或者：
+        <code>gem install sass –no-ri –no-rdoc</code>
+        <p>查看sass版本的命令行为：</p>
+        <code>sass -v</code>
+        <p>升级sass版本的命令行为：</p>
+        <code>gem update sass</code>
+        <a href="img/cmd0.jpg"><img src="img/cmd0.jpg" alt="查看版本" /></a>
+			</div>
+		</li>
+		<li class="bg3">
+      <div class="wrap">
+        <h2 name="002" id="002">2&nbsp;&nbsp;Sass语法</h2>
+        <h3>2.1&nbsp;&nbsp;文件后缀名</h3>
+        <p>Sass有两种后缀名文件：一种后缀名为sass，不使用大括号和分号；另一种就是我们这里使用的scss文件，这种和我们平时写的CSS文件格式差不多，使用大括号和分号。建议使用后缀名为scss的文件，以避免Sass后缀名的严格格式要求报错。</p>
+        <pre><code>//文件后缀名为sass的语法
+body
+  background: #eee
+  font-size:12px
+p
+  background: #0982c1
+//文件后缀名为scss的语法  
+body {
+  background: #eee;
+  font-size:12px;
+}
+p{
+  background: #0982c1;
+} </code></pre>
+      </div>
+    </li>
+		<li class="bg4">
+      <div class="wrap">
+        <h3>2.2&nbsp;&nbsp;导入</h3>
+        <p>sass的导入(@import)规则和CSS的有所不同，编译时会将@import的scss文件合并进来只生成一个CSS文件。但是如果你在sass文件中导入css文件如@import 'reset.css'，那效果跟普通CSS导入样式文件一样，导入的css文件不会合并到编译后的文件中，而是以@import方式存在。</p>
+        <p>所有的sass导入文件都可以忽略后缀名.scss。一般来说基础的文件命名方法以_开头，如_mixin.scss。这种文件在导入的时候可以不写下划线，可写成@import "mixin"。</p>
+        <p>被导入sass文件a.scss：</p>
+        <pre><code>//a.scss
+//-------------------------------
+body {
+  background: #eee;
+}</code></pre>
+        <p>需要导入样式的sass文件b.scss：</p>
+        <pre><code>@import "reset.css";
+@import "a";
+p{
+  background: #0982c1;
+} </code></pre>
+        <p>转译出来的b.css样式：</p>
+        <pre><code>@import "reset.css";
+body {
+  background: #eee;
+}
+p{
+  background: #0982c1;
+}</code></pre>
+        <p>根据上面的代码可以看出，b.scss编译后，reset.css继续保持import的方式，而a.scss则被整合进来了。</p>
+      </div>
+    </li>
+		<li class="bg5">
+      <div class="wrap">
+        <h3>2.3&nbsp;&nbsp;注释</h3>
+        <p>sass有两种注释方式，一种是标准的css注释方式/* */，另一种则是//双斜杆形式的单行注释，不过这种单行注释不会被转译出来。</p>
+        <p>标准的css注释</p>
+        <pre><code>/*
+*我是css的标准注释
+*设置body内距
+*/
+body{
+  padding:5px;
+} </code></pre>
+        <p>双斜杆单行注释，单行注释不会输入到CSS中。</p>
+        <pre><code>//我是双斜杠表示的单行注释
+//设置body内距
+body{
+  padding:5px; //5px
+} </code></pre>
+      </div>
+    </li>
+		<li class="bg6">
+      <div class="wrap">
+        <h3>2.4&nbsp;&nbsp;变量</h3>
+        <p>sass的变量必须是<strong>&nbsp;$&nbsp;</strong>开头，后面紧跟变量名，而变量值和变量名之间就需要使用冒号(:)分隔开（就像CSS属性设置一样），如果值后面加上!default则表示默认值。这里不深入介绍，有兴趣可以自行了解！</p>
+        <p>普通变量：定义之后可以在全局范围内使用。</p>
+        <pre><code>//sass style
+//-------------------------------
+$fontSize: 12px;
+body{
+    font-size:$fontSize;
+}
+//css style
+//-------------------------------
+body{
+    font-size:12px;
+}</code></pre>
+        <p>默认变量：sass的默认变量仅需要在值后面加上!default即可。</p>
+        <pre><code>//sass style
+//-------------------------------
+$baseLineHeight: 1.5 !default;
+body{
+    line-height: $baseLineHeight; 
+}
+//css style
+//-------------------------------
+body{
+    line-height:1.5;
+}</code></pre>
+        <p>sass的默认变量一般是用来设置默认值，然后根据需求来覆盖的，覆盖的方式也很简单，只需要在默认变量之前重新声明下变量即可。</p>
+        <pre><code>//sass style
+//-------------------------------
+$baseLineHeight: 2;
+$baseLineHeight: 1.5 !default;
+body{
+    line-height: $baseLineHeight; 
+}
+//css style
+//-------------------------------
+body{
+    line-height:2;
+}</code></pre>
+        <p>可以看出现在编译后的line-height为2，而不是我们默认的1.5。默认变量的价值在进行组件化开发的时候会非常有用。</p>
+      </div>
+    </li>
+		<li class="bg7">
+      <div class="wrap">
+        <h3>2.5&nbsp;&nbsp;嵌套</h3>
+        <p>sass的嵌套包括两种：一种是选择器的嵌套；另一种是属性的嵌套。我们一般说起或用到的都是选择器的嵌套。</p>
+        <p>选择器嵌套：所谓选择器嵌套指的是在一个选择器中嵌套另一个选择器来实现继承，从而增强了sass文件的结构性和可读性。在选择器嵌套中，可以使用&表示父元素选择器</p>
+        <pre><code>//sass style
+//-------------------------------
+#top_nav{
+  line-height: 40px;
+  text-transform: capitalize;
+  background-color:#333;
+  li{
+    float:left;
+  }
+  a{
+    display: block;
+    padding: 0 10px;
+    color: #fff;
+    &:hover{
+      color:#ddd;
+    }
+  }
+}
+//css style
+//-------------------------------
+#top_nav{
+  line-height: 40px;
+  text-transform: capitalize;
+  background-color:#333;
+}  
+#top_nav li{
+  float:left;
+}
+#top_nav a{
+  display: block;
+  padding: 0 10px;
+  color: #fff;
+}
+#top_nav a:hover{
+  color:#ddd;
+}</code></pre>
+        <p>属性嵌套：所谓属性嵌套指的是有些属性拥有同一个开始单词，如border-width，border-color都是以border开头。拿个官网的实例看下：</p>
+        <pre><code>//sass style
+//-------------------------------
+.fakeshadow {
+  border: {
+    style: solid;
+    left: {
+      width: 4px;
+      color: #888;
+    }
+    right: {
+      width: 2px;
+      color: #ccc;
+    }
+  }
+}
+//css style
+//-------------------------------
+.fakeshadow {
+  border-style: solid;
+  border-left-width: 4px;
+  border-left-color: #888;
+  border-right-width: 2px;
+  border-right-color: #ccc; 
+}</code></pre>
+      </div>
+    </li>
+		<li class="bg8">
+      <div class="wrap">
+        <h3>2.6&nbsp;&nbsp;@mixin</h3>
+        <p>sass中使用@mixin声明混合，可以传递参数，参数名以$符号开始，多个参数以逗号分开，也可以给参数设置默认值。声明的@mixin通过@include来调用。</p>
+        <p>无参数mixin</p>
+        <pre><code>//sass style
+//-------------------------------
+@mixin center-block {
+    margin-left:auto;
+    margin-right:auto;
+}
+.demo{
+    @include center-block;
+}
+//css style
+//-------------------------------
+.demo{
+    margin-left:auto;
+    margin-right:auto;
+}</code></pre>
+        <p>有参数mixin</p>
+        <pre><code>//sass style
+//-------------------------------   
+@mixin opacity($opacity:50) {
+  opacity: $opacity / 100;
+  filter: alpha(opacity=$opacity);
+}
+//css style
+//-------------------------------
+.opacity{
+  @include opacity; //参数使用默认值
+}
+.opacity-80{
+  @include opacity(80); //传递参数
+}</code></pre>
+        <p></p>
+      </div>
+    </li>
+		<li class="bg1">
+      <div class="wrap">
+        <h3>2.7&nbsp;&nbsp;%placeholder</h3>
+        <p>sass中，选择器继承可以让选择器继承另一个选择器的所有样式，并联合声明。使用选择器的继承，要使用关键词@extend，后面紧跟需要继承的选择器。</p>
+        <pre><code>//sass style
+//-------------------------------
+h1{
+  border: 4px solid #ff9aa9;
+}
+.speaker{
+  @extend h1;
+  border-width: 2px;
+}
+//css style
+//-------------------------------
+h1,.speaker{
+  border: 4px solid #ff9aa9;
+}
+.speaker{
+  border-width: 2px;
+}</code></pre>
+        <p>占位选择器%：从sass 3.2.0以后就可以定义占位选择器%。这种选择器的优势在于：如果不调用则不会有任何多余的css文件，避免了以前在一些基础的文件中预定义了很多基础的样式，然后实际应用中不管是否使用了@extend去继承相应的样式，都会解析出来所有的样式。占位选择器以%标识定义，通过@extend调用。</p>
+        <pre><code>//sass style
+//-------------------------------
+%ir{
+  color: transparent;
+  text-shadow: none;
+  background-color: transparent;
+  border: 0;
+}
+%clearfix{
+  @if $lte7 {
+    *zoom: 1;
+  }
+  &:before,
+  &:after {
+    content: "";
+    display: table;
+    font: 0/0 a;
+  }
+  &:after {
+    clear: both;
+  }
+}
+#header{
+  h1{
+    @extend %ir;
+    width:300px;
+  }
+}
+.ir{
+  @extend %ir;
+}
+//css style
+//-------------------------------
+#header h1,
+.ir{
+  color: transparent;
+  text-shadow: none;
+  background-color: transparent;
+  border: 0;
+}
+#header h1{
+  width:300px;
+}</code></pre>
+        <p>如上代码，定义了两个占位选择器%ir和%clearfix，其中%clearfix这个没有调用，所以解析出来的css样式也就没有clearfix部分。占位选择器的出现，使css文件更加简练可控，没有多余。所以可以用其定义一些基础的样式文件，然后根据需要调用产生相应的css。</p>
+      </div>
+    </li>
+    <li class="bg2">
+      <div class="wrap">
+        <h3>解惑：什么时候用@mixin，什么时候用%placeholder</h3>
+        <p>如果你需要使用变量，最好使用@mixin，否则使用%placeholder。主要有两个原因：</p>
+        <p>首先，你不能在一个%placeholder中使用变量。其实可以，但你不能将变量传递到%placeholder中，所以你不能像@mixin一样根据上下文生成特定的CSS。</p>
+        <p>第二，当不根据上下文传入变量时，在Sass中使用@mixin，会使用它们变得更为复杂。简单的说，在Sass中每次重复复制@mixin，那他的输出，不仅会造成重复的CSS代码，还会让你的样式文件越来越庞大。</p>
+        <p>看下面例子：</p>
+        <pre><code>@mixin center {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+.container {
+  @include center;
+}
+.image-cover {
+  @include center;
+}</code></pre>
+        <p>编译出来的样式</p>
+        <pre><code>.container {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+.image-cover {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}</code></pre>
+        <p>请注意，重复的CSS出来了。如果只有三行重复，这并没有什么危害，但是如果你的@mixin不只三行代码，或者在你的项目中重复十几次调用定义的@mixin，那么重复的代码有可能就会变成三百行。如果我们使用%placeholder来改造这个示例：</p>
+        <pre><code>%center {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+.container {
+  @extend %center;
+}
+.image-cover {
+  @extend %center;
+}</code></pre>
+        <p>编译出来的样式：</p>
+        <pre><code>.container, .image-cover {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}</code></pre>
+        <p>所以当你知道一些样式永久不变，而且会重复出现多次的时候，你就可以使用@extend扩展一个定义好的%placeholder。这样可以避免Sass生成重复的代码，让你的样式表更简洁。</p>
+      </div>
+    </li>
+    <li class="bg3">
+      <div class="wrap">
+        <h3>2.8&nbsp;&nbsp;条件判断及循环</h3>
+        <p>@if判断 :@if可一个条件单独使用，也可以和@else结合多条件使用</p>
+        <pre><code>//sass style
+//-------------------------------
+$lte7: true;
+$type: monster;
+.ib{
+    display:inline-block;
+    @if $lte7 {
+        *display:inline;
+        *zoom:1;
+    }
+}
+p {
+  @if $type == ocean {
+    color: blue;
+  } @else if $type == matador {
+    color: red;
+  } @else if $type == monster {
+    color: green;
+  } @else {
+    color: black;
+  }
+}
+//css style
+//-------------------------------
+.ib{
+    display:inline-block;
+    *display:inline;
+    *zoom:1;
+}
+p {
+  color: green; 
+}</code></pre>
+        <p>for循环：for循环有两种形式，分别为：@for $var from start through end和@for $var from start to end。$i表示变量，start表示起始值，end表示结束值，这两个的区别是关键字through表示包括end这个数，而to则不包括end这个数。</p>
+        <pre><code>//sass style
+//-------------------------------
+@for $i from 1 through 3 {
+  .item-#{$i} { width: 2em * $i; }
+}
+//css style
+//-------------------------------
+.item-1 {
+  width: 2em; 
+}
+.item-2 {
+  width: 4em; 
+}
+.item-3 {
+  width: 6em; 
+}</code></pre>
+        <p>@each循环
+语法为：@each $var in list or map。其中$var表示变量，而list和map表示list类型数据和map类型数据。sass 3.3.0新加入了多字段循环和map数据循环。</p>
+<pre><code>//sass style
+//-------------------------------
+$animal-list: puma, sea-slug, egret, salamander;
+@each $animal in $animal-list {
+  .#{$animal}-icon {
+    background-image: url('/images/#{$animal}.png');
+  }
+}
+//css style
+//-------------------------------
+.puma-icon {
+  background-image: url('/images/puma.png'); 
+}
+.sea-slug-icon {
+  background-image: url('/images/sea-slug.png'); 
+}
+.egret-icon {
+  background-image: url('/images/egret.png'); 
+}
+.salamander-icon {
+  background-image: url('/images/salamander.png'); 
+}</code></pre>
+      </div>
+    </li>
+    <li class="bg4">
+      <div class="wrap">
+        <h3>2.9&nbsp;&nbsp;函数</h3>
+        <p>sass定义了很多函数可供使用，当然你也可以自己定义函数，以@fuction开始。sass的官方函数链接为：<a href="http://sass-lang.com/documentation/Sass/Script/Functions.html">SASS Fuction</a>，实际项目中我们使用最多的应该是颜色函数，而颜色函数中又以lighten减淡和darken加深为最，其调用方法为lighten($color,$amount)和darken($color,$amount)，它们的第一个参数都是颜色值，第二个参数都是百分比。</p>
+        <pre><code>//sass style
+//-------------------------------                     
+$baseFontSize:  10px !default;
+$gray:  #ccc !defualt;        
+// pixels to rems 
+@function pxToRem($px) {
+  @return $px / $baseFontSize * 1rem;
+}
+body{
+  font-size:$baseFontSize;
+  color:lighten($gray,10%);
+}
+.test{
+  font-size:pxToRem(16px);
+  color:darken($gray,10%);
+}
+//css style
+//-------------------------------
+body{
+  font-size:10px;
+  color:#E6E6E6;
+}
+.test{
+  font-size:1.6rem;
+  color:#B3B3B3;
+}</code></pre>
+      </div>
+    </li>
+    <li class="bg5">
+      <div class="wrap">
+        <h3>2.10&nbsp;&nbsp;运算</h3>
+        <p>sass具有运算的特性，可以对数值型的Value(如：数字、颜色、变量等)进行加减乘除四则运算。请注意运算符前后请留一个空格，不然会出错。</p>
+        <pre><code>//sass style
+//-----------------------------------
+.container { width: 100%; }
+article[role="main"] {
+  float: left;
+  width: 600px / 960px * 100%;
+}
+aside[role="complimentary"] {
+  float: right;
+  width: 300px / 960px * 100%;
+}
+//css style
+//-----------------------------------
+.container {
+  width: 100%;
+}
+article[role="main"] {
+  float: left;
+  width: 62.5%;
+}
+aside[role="complimentary"] {
+  float: right;
+  width: 31.25%;
+}</code></pre>
+      </div>
+    </li>
+    <li class="bg6">
+      <div class="wrap">
+        <h2 name="003" id="003">3&nbsp;&nbsp;Sass编译</h2>
+        <h3>3.1&nbsp;&nbsp;命令行编译</h3>
+        <p>单文件转换命令</p>
+        <code>sass style.scss style.css</code>
+        <a href="img/cmd1.jpg"><img src="img/cmd1.jpg" alt="单文件转换命令" /></a>
+        <p>单文件监听命令</p>
+        <code>sass --watch style.scss:style.css</code>
+        <a href="img/cmd2.jpg"><img src="img/cmd2.jpg" alt="单文件监听命令" /></a>
+        <p>文件夹监听命令</p>
+        <code>sass --watch sassstyle:stylesheets</code>
+        <a href="img/cmd3.jpg"><img src="img/cmd3.jpg" alt="文件夹监听命令" /></a>
+        <p>css文件转成sass/scss文件</p>
+        <code>sass-convert style.css style.sass<br />sass-convert style.css style.scss</code>
+        <p>运行命令行帮助文档，可以获得所有的配置选项</p>
+        <code>sass -h</code>
+        <a href="img/cmd.jpg"><img src="img/cmd.jpg" alt="帮助文档" /></a>
+        <p>我们一般常用的有--style，--sourcemap，--debug-info等。</p>
+        <pre><code>sass --watch style.scss:style.css --style compact
+sass --watch style.scss:style.css --sourcemap
+sass --watch style.scss:style.css --style expanded --sourcemap
+sass --watch style.scss:style.css --debug-info</code></pre>    
+<p>--style表示解析后的css是什么格式，有四种取值分别为：nested，expanded，compact，compressed。<br />
+--sourcemap表示开启sourcemap调试。开启sourcemap调试后，会生成一个后缀名为.css.map文件。<br />
+--debug-info表示开启debug信息，升级到3.3.0之后因为sourcemap更高级，这个debug-info就不太用了。</p>
+<p>四种style生成后的css</p>
+<pre><code>// nested
+#main {
+  color: #fff;
+  background-color: #000; 
+}
+  #main p {
+    width: 10em; 
+}
+.huge {
+  font-size: 10em;
+  font-weight: bold;
+  text-decoration: underline;
+}
+// expanded
+#main {
+  color: #fff;
+  background-color: #000;
+}
+#main p {
+  width: 10em;
+}
+.huge {
+  font-size: 10em;
+  font-weight: bold;
+  text-decoration: underline;
+}
+// compact
+#main { color: #fff; background-color: #000; }
+#main p { width: 10em; }
+.huge { font-size: 10em; font-weight: bold; text-decoration: underline; }
+// compressed
+#main{color:#fff;background-color:#000}#main p{width:10em}.huge{font-size:10em;font-weight:bold;text-decoration:underline}</code></pre>
+      </div>
+    </li>
+    <li class="bg7">
+      <div class="wrap">
+        <h3>3.2&nbsp;&nbsp;GUI编译</h3>
+        <p>推荐使用<a href="http://koala-app.com/index-zh.html">koala</a></p>
+        <a href="img/koala.png"><img src="img/koala.png" alt="koala" /></a>
+        <a href="img/koala.jpg"><img src="img/koala.jpg" alt="koala" /></a>
+      </div>
+    </li>
+    <li class="bg8">
+      <div class="wrap">
+        <h3>3.3&nbsp;&nbsp;Sublime Text安装<a href="https://github.com/jaumefontal/SASS-Build-SublimeText2"></a>SASS Build编译</h3>
+        <p>安装完之后，使用快捷键"Ctrl+b"来执行编译！</p>
+        <a href="img/st1.jpg"><img src="img/st1.jpg" alt="执行编译" /></a>
+        <p>设置编译：编译模式，我这里选择的是压缩编译。</p>
+        <a href="img/st2.jpg"><img src="img/st2.jpg" alt="压缩编译" /></a>
+        <p>注意一点，编码必须是UTF-8，否则会报错！</p>
+      </div>
+    </li>
+        <li class="bg1">
+      <div class="wrap">
+        <h2 name="004" id="004">4&nbsp;&nbsp;Sass调试</h2>
+        <h3>4.1&nbsp;&nbsp;Chrome浏览器调试</h3>
+        <p>F12打开调试面板，点击调试面板右上角的齿轮图标打开设置，在general选项中勾选Enable CSS source map 和 Auto-reload generated CSS。</p>
+        <a href="img/chrome-sourcemap0.jpg"><img src="img/chrome-sourcemap0.jpg" alt="Chrome浏览器调试" /></a>
+        <a href="img/chrome-sourcemap1.jpg"><img src="img/chrome-sourcemap1.jpg" alt="Chrome浏览器调试" /></a>
+        <p>开启--sourcemap编译，f12打开调试面板，就可以看到原先右边的css文件变成了我们现在的scss文件</p>
+        <a href="img/chrome-sourcemap2.jpg"><img src="img/chrome-sourcemap2.jpg" alt="Chrome浏览器调试" /></a>
+        <p>点击scss文件，会跳到source里面的scss源文件，现在可以在里面进行修改，修改完成后可以右键选择save或save as命令，然后替换我们本地的scss源文件，刷新chrome就可以看到变化（注意，解析样式需要一定时间）。以后只要ctrl+s保存修改就可以在浏览器中看到修改效果了。</p>
+        <a href="img/chrome-sourcemap3.jpg"><img src="img/chrome-sourcemap3.jpg" alt="Chrome浏览器调试" /></a>
+      </div>
+    </li>
+    <li class="bg2">
+      <div class="wrap">
+        <h3>4.2&nbsp;&nbsp;FireFox浏览器调试</h3>
+        <p>debug-info调试：firefox可以安装插件<a href="https://addons.mozilla.org/en-US/firefox/addon/firesass-for-firebug/">FireSass</a>使用debug-info来调试。开启--debug-info编译，f12打开firebug，就可以看到原先右边的css文件变成了我们现在的scss文件</p>
+        <a href="img/debug-scss.jpg"><img src="img/debug-scss.jpg" alt="FireFox浏览器调试" /></a>
+        <p>sourcemap调试：firefox 29 将会开始支持sourcemap，注意是火狐自带的调试功能，而不是firebug。开启--sourcemap编译，右键“查看元素”采用火狐自带的调试功能，打开调试面板，在样式上右键选择“显示原始来源”。</p>
+        <a href="img/firefox-sourcemap1.jpg"><img src="img/firefox-sourcemap1.jpg" alt="FireFox浏览器调试" /></a>
+        <p>点击scss文件，这样就跳到了scss文件。如下图：</p>
+        <a href="img/firefox-sourcemap2.jpg"><img src="img/firefox-sourcemap2.jpg" alt="FireFox浏览器调试" /></a>
+        <p>然后就可以进行我们的修改了，修改之后点击保存或者'ctrl+s'弹出我们要保存到哪里，同谷歌一样直接覆盖到我们本地的源文件就ok了。</p>
+        <a href="img/firefox-sourcemap3.jpg"><img src="img/firefox-sourcemap3.jpg" alt="FireFox浏览器调试" /></a>
+      </div>
+    </li>
+    <li class="bg3">
+      <div class="wrap">
+        <h2 name="005" id="005">5&nbsp;&nbsp;感谢&amp;附录</h2>
+        <p>制作此简明指南离不开网络资源，感谢已挂的<a href="http://google.com/">Google</a>！</p>
+        <p>感谢<a href="http://gitcafe.com/signup?invited_by=wangdaodao">GitCafe</a>提供的托管服务。</p>
+        <p>简明指南代码来自<a href="http://www.w3cplus.com/sassguide/index.html">w3cplus</a></p>
+        <p>SASS官方网站：<a href="http://sass-lang.com/">SASS</a></p>
+        <p>SASS文档：<a href="http://sass-lang.com/documentation/file.SASS_REFERENCE.html">SASS_REFERENCE</a></p>
+        <p>SASS函数列表： <a href="http://sass-lang.com/documentation/Sass/Script/Functions.html">Functions</a></p>
+      </div>
+    </li>
+</ul>
+<ul class="ml">
+  <li><a href="#001">1.Sass安装</a></li>
+  <li><a href="#002">2.Sass语法</a></li>
+  <li><a href="#003">3.Sass编译</a></li>
+  <li><a href="#004">4.Sass调试</a></li>
+  <li><a href="#005">5.感谢附录</a></li>
+</ul>
+</body>
+</html>
