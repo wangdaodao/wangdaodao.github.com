@@ -29,6 +29,7 @@ comments: no
 * [NEJ](http://nej.netease.com/)
 * [Package Control](https://sublime.wbond.net/)
 * [占位图](http://placehold.it/)
+* [W3Help](http://w3help.org/zh-cn/kb/)
 
 ##好玩
 
