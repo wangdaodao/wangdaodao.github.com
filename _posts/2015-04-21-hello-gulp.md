@@ -5,12 +5,12 @@ comments: yes
 code: yes
 title: 前端构建工具gulp入门教程
 categories: 笔记
-tags: [front_end]
+tags: [front_end,gulp]
 ---
 
 ## 第1步：安装Node
 
-首先，最基本也最重要的是，我们需要搭建node环境。访问[http://nodejs.org](http://nodejs.org)，然后点击大大的绿色的 `install` 按钮，下载完成后直接运行程序，就一切准备就绪。[npm](https://www.npmjs.com/)会随着安装包一起安装，稍后会用到它。
+首先，最基本也最重要的是，我们需要搭建node环境。访问 [nodejs.org](http://nodejs.org)，然后点击大大的绿色的 `install` 按钮，下载完成后直接运行程序，就一切准备就绪。[npm](https://www.npmjs.com/)会随着安装包一起安装，稍后会用到它。
 
 为了确保Node已经正确安装，我们执行几个简单的命令。
 
@@ -37,29 +37,29 @@ tags: [front_end]
 
 我们将要使用Gulp插件来完成我们以下任务：
 
-> 1. sass的编译（gulp-sass）
-> 2. 自动添加css前缀（gulp-autoprefixer）
-> 3. 压缩css（gulp-minify-css）
-> 4. js代码校验（gulp-jshint）
-> 5. 合并js文件（gulp-concat）
-> 6. 压缩js代码（gulp-uglify）
-> 7. 压缩图片（gulp-imagemin）
-> 8. 自动刷新页面（gulp-livereload）
-> 9. 图片缓存，只有图片替换了才压缩（gulp-cache）
+> 1. sass的编译（gulp-sass）  
+> 2. 自动添加css前缀（gulp-autoprefixer）  
+> 3. 压缩css（gulp-minify-css）  
+> 4. js代码校验（gulp-jshint）  
+> 5. 合并js文件（gulp-concat）  
+> 6. 压缩js代码（gulp-uglify）  
+> 7. 压缩图片（gulp-imagemin）  
+> 8. 自动刷新页面（gulp-livereload）  
+> 9. 图片缓存，只有图片替换了才压缩（gulp-cache）  
 > 10. 更改提醒（gulp-notify）
 
 安装这些插件需要运行如下命令：
 
     npm install gulp-sass gulp-autoprefixer gulp-minify-css gulp-jshint gulp-concat gulp-uglify gulp-imagemin gulp-notify gulp-rename gulp-livereload gulp-cache --save-dev
 
-更多插件可以看这里[http://gulpjs.com/plugins/](http://gulpjs.com/plugins/)
+更多插件可以看这里[gulpjs.com/plugins/](http://gulpjs.com/plugins/)
 
 接着我们要创建一个gulpfile.js在根目录下，gulp只有四个[API](https://github.com/gulpjs/gulp/blob/master/docs/API.md)： `task`，`watch`，`src`，和 `dest`
 
-> `task` 这个API用来创建任务，在命令行下可以输入 `gulp test` 来执行test的任务。
-> `watch` 这个API用来监听任务。
-> `src` 这个API设置需要处理的文件的路径，可以是多个文件以数组的形式[main.scss, vender.scss]，也可以是正则表达式/**/*.scss。
-> `dest` 这个APIAPI设置生成文件的路径，一个任务可以有多个生成路径，一个可以输出未压缩的版本，另一个可以输出压缩后的版本。
+> `task`这个API用来创建任务，在命令行下可以输入 `gulp test` 来执行test的任务。  
+> `watch`这个API用来监听任务。  
+> `src`这个API设置需要处理的文件的路径，可以是多个文件以数组的形式`[main.scss, vender.scss]`，也可以是正则表达式`/**/*.scss`。  
+> `dest`这个API设置生成文件的路径，一个任务可以有多个生成路径，一个可以输出未压缩的版本，另一个可以输出压缩后的版本。
 
 ### 3.1 加载插件：
 
@@ -227,9 +227,9 @@ tags: [front_end]
 
 ## 总结
 
-> 1. 安装Node
-> 2. 安装gulp
-> 3. 新建gulpfile.js文件
+> 1. 安装Node  
+> 2. 安装gulp  
+> 3. 新建gulpfile.js文件  
 > 4. 运行
 
 最后是我自己设置的项目文件路径
@@ -238,6 +238,12 @@ tags: [front_end]
     |--/images/--------图片存放目录
     |--/javascripts/---脚本存放目录
     |--/stylesheets/---样式存放目录
+    |--/plugin/--------插件存放目录
     |--gulpfile.js
 
 参考链接：[http://markgoodyear.com/2014/01/getting-started-with-gulp/](http://markgoodyear.com/2014/01/getting-started-with-gulp/)
+
+## Gulpjs 中文文档(彩色)
+
+[![01](/uploads/2015/04/Gulpjs01.jpg)](/uploads/2015/04/Gulpjs01.jpg)
+[![02](/uploads/2015/04/Gulpjs02.jpg)](/uploads/2015/04/Gulpjs02.jpg)
