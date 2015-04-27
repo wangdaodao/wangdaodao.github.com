@@ -22,6 +22,7 @@ comments: no
 
 ##资源
 
+* [Eloquent JavaScript](http://eloquentjavascript.net/index.html)
 * [百度静态资源公共库](http://cdn.code.baidu.com/)
 * [360网站卫士常用前端公共库CDN服务](http://libs.useso.com/)
 * [Codecademy](http://www.codecademy.com/zh)
