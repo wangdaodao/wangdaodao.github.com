@@ -14,6 +14,7 @@
 <meta name="apple-mobile-web-app-capable" content="yes">
 <meta name="format-detection" content="telephone=no">
 <link rel="shortcut icon" type="image/x-icon"  href="//static.glodon.com/static/resources/images/favicon.ico">
+<script src="js/jquery-1.10.1.min.js"></script>
 <script src="js/jquery.mobile.custom.min.js"></script>
 <script src="js/swiper.min.js"></script>
 <script src="js/WeixinAPI.js"></script>
@@ -44,6 +45,19 @@ function getQueryStringByName(name){
   return result[1];
 }
 //egret_h5.startGame();
+$(function() {
+  $('.music').on('tap',function(){
+    if($(this).hasClass('on')){
+      $('audio').get(0).pause();
+      $(this).removeClass();
+      $(this).addClass('music2');
+    }else {
+      $('audio').get(0).play();
+      $(this).removeClass();
+      $(this).addClass('on music rotate');
+    }  
+  })
+})
 </script>
 <link href="css/swiper.min.css" rel="stylesheet" type="text/css">
 <link href="css/style.css" rel="stylesheet" type="text/css">
@@ -64,7 +78,18 @@ function getQueryStringByName(name){
 <!-- /loading -->
 <!-- Swiper -->
 <div class="swiper-container">
+  <div class="music on rotate">
+    <audio autoplay="true" src="js/bg.mp3">您的浏览器不支持audio标签</audio>
+  </div>
   <div class="swiper-wrapper">
+    <!-- page10 -->
+    <!-- <div class="swiper-slide page10" style="background:#408CDF;">
+      <img class="p10_img1" src="img/p10_img1.png" style="width:13.675rem;height:2.55rem" />
+      <img class="p10_img2" src="img/p10_img2.png" style="width:11.7rem;height:18.62rem;" />
+      <section class="u-arrow-bottom">
+        <img src="img/slideArrow.png" />
+      </section>
+    </div> -->
     <!-- page1 -->
     <div class="swiper-slide page1">
       <img class="p1_img1" src="img/p1_img1.png" />
@@ -110,7 +135,7 @@ function getQueryStringByName(name){
     <!-- page7 -->
     <div class="swiper-slide page7" style="background:#99E5FF;">
       <img class="p7_img1" src="img/p7_img1.png" style="width:16rem" />
-      <img class="p7_img2" src="img/p7_img8.png" style="width:3.05rem;height:4.3rem;" />
+      <!-- <img class="p7_img2" src="img/p7_img8.png" style="width:3.05rem;height:4.3rem;" /> -->
       <img class="p7_img3" src="img/p7_img9.png" style="width:4.8rem;height:5.075rem;" />
       <img class="p7_img8" src="img/p4_img11.png" style="width:5rem;" />
       <img class="p7_img9" src="img/p4_img12.png" style="width:7.8rem;" />
@@ -137,7 +162,7 @@ function getQueryStringByName(name){
       <img class="p5_img7" src="img/p9_img7.png" style="width:12rem;" />
       <!-- <img class="p5_img2" src="img/p9_img2.png" style="width:6.425rem;height:3.85rem;" />
       <img class="p5_img3" src="img/p9_img3.png" style="width:5.05rem;height:5.025rem;" /> -->
-      <img class="p5_img5" src="img/p9_img5.png" style="width:5.125rem;height:5.125rem;" />
+      <!-- <img class="p5_img5" src="img/p9_img5.png" style="width:5.125rem;height:5.125rem;" /> -->
       <img class="p5_img6" src="img/p9_img6.png" style="width:10.775rem;height:2.1rem;" />
       <img class="p5_img9" src="img/p4_img9.png">
       <img class="p5_img10" src="img/p9_img9.png">
@@ -188,15 +213,6 @@ function getQueryStringByName(name){
         <img src="img/slideArrow.png" />
       </section>
     </div>
-    
-    <!-- page10 -->
-    <!-- <div class="swiper-slide page10" style="background:#408CDF;">
-    	<img class="p10_img1" src="img/p10_img1.png" style="width:13.675rem;height:2.55rem" />
-      <img class="p10_img2" src="img/p10_img2.png" style="width:11.7rem;height:18.62rem;" />
-      <section class="u-arrow-bottom">
-        <img src="img/slideArrow.png" />
-      </section>
-    </div> -->
     <!-- page11 -->
     <div class="swiper-slide page11" style="background:#408CDF;">
       <img class="p11_img1" src="img/p11_img1.png" style="width:11rem;height:3.4rem" />
