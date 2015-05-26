@@ -47,14 +47,14 @@ function getQueryStringByName(name){
 //egret_h5.startGame();
 jQuery(document).ready(function($) {
   $('.music').on('tap',function(){
-    if($(this).hasClass('rotate')){
+    if($(this).hasClass('music2')){
+      $('audio').get(0).play();
+      $(this).removeClass();
+      $(this).addClass('rotate');
+    }else {
       $('audio').get(0).pause();
       $(this).removeClass();
       $(this).addClass('music2');
-    }else {
-      $('audio').get(0).play();
-      $(this).removeClass();
-      $(this).addClass('music rotate');
     }  
   });
   $(".music").on("touchstart", 
@@ -67,6 +67,7 @@ jQuery(document).ready(function($) {
               try {
                   t.pause()
               } catch(n) {
+                alert(0)
               }
           } else {
               e.addClass("rotate"),
@@ -74,6 +75,7 @@ jQuery(document).ready(function($) {
               try {
                   t.play()
               } catch(n) {
+                alert(1)
               }
           }
       })
@@ -98,7 +100,7 @@ jQuery(document).ready(function($) {
 <!-- /loading -->
 <!-- Swiper -->
 <div class="swiper-container">
-  <div class="music2">
+  <div class="music music2">
     <audio id="audio">
             <source src="http://s1.qhimg.com/static/51b77c0b696d2167.mp3" type="audio/mpeg">
             <source src="http://s3.qhimg.com/static/7384b70bf10c7569.ogg" type="audio/ogg">
