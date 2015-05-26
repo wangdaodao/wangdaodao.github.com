@@ -144,7 +144,7 @@ return false;
 });
 }
 });
-$("#main").unbind("click").bind("click",function(){
+$("body").unbind("click").bind("click",function(){
 //gid 表示歌曲id,只是一个表示，没有值不影响播放
 //song_fileUrl :播放歌曲地址，不能为空，有效地址
 g_audio.elems["id"] = gid;
