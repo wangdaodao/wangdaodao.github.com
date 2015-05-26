@@ -46,18 +46,18 @@ function getQueryStringByName(name){
 }
 //egret_h5.startGame();
 $(function() {
-  // $('.music').on('tap',function(){
-  //   if($(this).hasClass('on')){
-  //     $('audio').get(0).pause();
-  //     $(this).removeClass();
-  //     $(this).addClass('music2');
-  //   }else {
-  //     $('audio').get(0).play();
-  //     $(this).removeClass();
-  //     $(this).addClass('on music rotate');
-  //   }  
-  // })
-  $(".music").on("touchstart", 
+  $('.music').on('tap',function(){
+    if($(this).hasClass('on')){
+      $('audio').get(0).pause();
+      $(this).removeClass();
+      $(this).addClass('music2');
+    }else {
+      $('audio').get(0).play();
+      $(this).removeClass();
+      $(this).addClass('on music rotate');
+    }  
+  })
+  $(".swiper-container").on("touchstart", 
       function() {
           var e = $(this),
           t = $("#audio")[0];
