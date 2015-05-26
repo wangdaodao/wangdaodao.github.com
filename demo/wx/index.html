@@ -66,13 +66,17 @@ $(function() {
               e.addClass('music2');
               try {
                   t.pause()
-              } catch(n) {}
+              } catch(n) {
+                alert(0)
+              }
           } else {
               e.addClass("rotate"),
               e.removeClass('music2');
               try {
                   t.play()
-              } catch(n) {}
+              } catch(n) {
+                alert(1)
+              }
           }
       })
 })
