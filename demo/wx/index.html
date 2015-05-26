@@ -46,30 +46,30 @@ function getQueryStringByName(name){
 }
 //egret_h5.startGame();
 $(function() {
-  $('.music').on('tap',function(){
-    if($(this).hasClass('on')){
-      $('audio').get(0).pause();
-      $(this).removeClass();
-      $(this).addClass('music2');
-    }else {
-      $('audio').get(0).play();
-      $(this).removeClass();
-      $(this).addClass('on music rotate');
-    }  
-  })
-  $(".swiper-wrapper").on("touchstart", 
+  // $('.music').on('tap',function(){
+  //   if($(this).hasClass('on')){
+  //     $('audio').get(0).pause();
+  //     $(this).removeClass();
+  //     $(this).addClass('music2');
+  //   }else {
+  //     $('audio').get(0).play();
+  //     $(this).removeClass();
+  //     $(this).addClass('on music rotate');
+  //   }  
+  // })
+  $(".music").on("touchstart", 
       function() {
           var e = $(this),
           t = $("#audio")[0];
-          if (t.hasClass("rotate")) {
-              t.removeClass("rotate"),
-              t.addClass('music2');
+          if (e.hasClass("rotate")) {
+              e.removeClass("rotate"),
+              e.addClass('music2');
               try {
                   t.pause()
               } catch(n) {}
           } else {
-              t.addClass("rotate"),
-              t.removeClass('music2');
+              e.addClass("rotate"),
+              e.removeClass('music2');
               try {
                   t.play()
               } catch(n) {}
