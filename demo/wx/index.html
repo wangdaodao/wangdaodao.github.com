@@ -46,8 +46,7 @@ function getQueryStringByName(name){
 }
 //egret_h5.startGame();
 $(function() {
-  bindEvents()
-  $('.music').on('touchstart',function(){
+  $('.music').on('tap',function(){
     if($(this).hasClass('on')){
       $('audio').get(0).pause();
       $(this).removeClass();
@@ -58,24 +57,24 @@ $(function() {
       $(this).addClass('on music rotate');
     }  
   });
-  // $(".music").on("touchstart", 
-  //     function() {
-  //         var e = $(this),
-  //         t = $("#audio")[0];
-  //         if (e.hasClass("rotate")) {
-  //             e.removeClass("rotate"),
-  //             e.addClass('music2');
-  //             try {
-  //                 t.pause()
-  //             } catch(n) {}
-  //         } else {
-  //             e.addClass("rotate"),
-  //             e.removeClass('music2');
-  //             try {
-  //                 t.play()
-  //             } catch(n) {}
-  //         }
-  //     })
+  $(".music").on("touchstart", 
+      function() {
+          var e = $(this),
+          t = $("#audio")[0];
+          if (e.hasClass("rotate")) {
+              e.removeClass("rotate"),
+              e.addClass('music2');
+              try {
+                  t.pause()
+              } catch(n) {}
+          } else {
+              e.addClass("rotate"),
+              e.removeClass('music2');
+              try {
+                  t.play()
+              } catch(n) {}
+          }
+      })
 })
 
 </script>
@@ -98,7 +97,7 @@ $(function() {
 <!-- /loading -->
 <!-- Swiper -->
 <div class="swiper-container">
-  <div class="music on">
+  <div class="music">
     <audio id="audio" preload="none" loop>
             <source src="http://s1.qhimg.com/static/51b77c0b696d2167.mp3" type="audio/mpeg">
             <source src="http://s3.qhimg.com/static/7384b70bf10c7569.ogg" type="audio/ogg">
