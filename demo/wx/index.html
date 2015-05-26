@@ -57,7 +57,27 @@ $(function() {
       $(this).addClass('on music rotate');
     }  
   })
+
+  $(".music").on("touchstart", 
+      function() {
+          var e = $(this),
+          t = $("#audio")[0];
+          if (e.hasClass("rotate")) {
+              e.removeClass("rotate"),
+              e.addClass('music2');
+              try {
+                  t.pause()
+              } catch(n) {}
+          } else {
+              e.addClass("rotate"),
+              e.removeClass('music2');
+              try {
+                  t.play()
+              } catch(n) {}
+          }
+      })
 })
+
 </script>
 <link href="css/swiper.min.css" rel="stylesheet" type="text/css">
 <link href="css/style.css" rel="stylesheet" type="text/css">
