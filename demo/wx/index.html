@@ -59,6 +59,17 @@ $(function() {
   })
 })
 </script>
+<script>
+ setTimeout(function(){
+ $(window).scrollTop(1);
+ },0);
+  document.getElementById('music').play();
+ document.addEventListener("WeixinJSBridgeReady", function () {
+        WeixinJSBridge.invoke('getNetworkType', {}, function (e) {
+  document.getElementById('music').play();
+        });
+    }, false);
+</script>
 <link href="css/swiper.min.css" rel="stylesheet" type="text/css">
 <link href="css/style.css" rel="stylesheet" type="text/css">
 </head>
@@ -79,7 +90,7 @@ $(function() {
 <!-- Swiper -->
 <div class="swiper-container">
   <div class="music on rotate">
-    <audio autoplay="true" src="js/bg.ogg">您的浏览器不支持audio标签</audio>
+    <audio id="music" autoplay="true" src="js/bg.ogg">您的浏览器不支持audio标签</audio>
   </div>
   <div class="swiper-wrapper">
     <!-- page10 -->
