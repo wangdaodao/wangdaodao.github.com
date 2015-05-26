@@ -47,7 +47,7 @@ function getQueryStringByName(name){
 //egret_h5.startGame();
 $(function() {
   bindEvents()
-  $('.music').on('tap',function(){
+  $('.music').on('touchstart',function(){
     if($(this).hasClass('on')){
       $('audio').get(0).pause();
       $(this).removeClass();
