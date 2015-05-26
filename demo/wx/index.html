@@ -79,7 +79,10 @@ $(function() {
 <!-- Swiper -->
 <div class="swiper-container">
   <div class="music on rotate">
-    <audio id="car_audio" preload="preload" autoplay="true" src="js/bg.ogg">您的浏览器不支持audio标签</audio>
+    <audio id="audio" preload="none" loop>
+            <source src="http://s1.qhimg.com/static/51b77c0b696d2167.mp3" type="audio/mpeg">
+            <source src="http://s3.qhimg.com/static/7384b70bf10c7569.ogg" type="audio/ogg">
+        </audio>
     <script>
  setTimeout(function(){
  $(window).scrollTop(1);
