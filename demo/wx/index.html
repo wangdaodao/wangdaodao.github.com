@@ -46,7 +46,7 @@ function getQueryStringByName(name){
 }
 //egret_h5.startGame();
 $(function() {
-  $('.audio').on('tap',function(){
+  $('.audio').on('touchstart',function(){
     if($(this).hasClass('music2')){
       $('audio').get(0).play();
       $(this).removeClass();
@@ -57,28 +57,28 @@ $(function() {
       $(this).addClass('music2');
     }  
   });
-  $(".music").on("touchstart", 
-      function() {
-          var e = $(this),
-          t = $("#audio")[0];
-          if (e.hasClass("rotate")) {
-              e.removeClass("rotate"),
-              e.addClass('music2');
-              try {
-                  t.pause()
-              } catch(n) {
-                alert(0)
-              }
-          } else {
-              e.addClass("rotate"),
-              e.removeClass('music2');
-              try {
-                  t.play()
-              } catch(n) {
-                alert(1)
-              }
-          }
-      })
+  // $(".music").on("touchstart", 
+  //     function() {
+  //         var e = $(this),
+  //         t = $("#audio")[0];
+  //         if (e.hasClass("rotate")) {
+  //             e.removeClass("rotate"),
+  //             e.addClass('music2');
+  //             try {
+  //                 t.pause()
+  //             } catch(n) {
+  //               alert(0)
+  //             }
+  //         } else {
+  //             e.addClass("rotate"),
+  //             e.removeClass('music2');
+  //             try {
+  //                 t.play()
+  //             } catch(n) {
+  //               alert(1)
+  //             }
+  //         }
+  //     })
 });
 </script>
 <link href="css/swiper.min.css" rel="stylesheet" type="text/css">
