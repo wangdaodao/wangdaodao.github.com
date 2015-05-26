@@ -57,6 +57,25 @@ $(function() {
   //     $(this).addClass('on music rotate');
   //   }  
   // })
+setTimeout($(".music").on("touchstart", 
+      function() {
+          var e = $(this),
+          t = $("#audio")[0];
+          if (e.hasClass("rotate")) {
+              e.removeClass("rotate"),
+              e.addClass('music2');
+              try {
+                  t.pause()
+              } catch(n) {}
+          } else {
+              e.addClass("rotate"),
+              e.removeClass('music2');
+              try {
+                  t.play()
+              } catch(n) {}
+          }
+      })
+  ,0);
   $(".music").on("touchstart", 
       function() {
           var e = $(this),
