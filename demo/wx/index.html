@@ -45,7 +45,7 @@ function getQueryStringByName(name){
   return result[1];
 }
 //egret_h5.startGame();
-$(function() {
+jQuery(document).ready(function($) {
   $('.music').on('tap',function(){
     if($(this).hasClass('on')){
       $('audio').get(0).pause();
@@ -79,8 +79,7 @@ $(function() {
               }
           }
       })
-})
-
+});
 </script>
 <link href="css/swiper.min.css" rel="stylesheet" type="text/css">
 <link href="css/style.css" rel="stylesheet" type="text/css">
