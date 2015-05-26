@@ -45,7 +45,7 @@ function getQueryStringByName(name){
   return result[1];
 }
 //egret_h5.startGame();
-jQuery(document).ready(function($) {
+$(function() {
   $('.audio').on('tap',function(){
     if($(this).hasClass('music2')){
       $('audio').get(0).play();
