@@ -24,7 +24,7 @@ var domain="####";
 //链接
 var getTicket="####";
 //是否有声音
-var soundPlay=true;
+var soundPlay=false;
 function configData(){
   var content={
     title:"让造价难逃你的火眼金睛",
@@ -46,11 +46,11 @@ function getQueryStringByName(name){
 }
 //egret_h5.startGame();
 jQuery(document).ready(function($) {
-  $('.music').on('tap',function(){
+  $('.audio').on('tap',function(){
     if($(this).hasClass('music2')){
       $('audio').get(0).play();
       $(this).removeClass();
-      $(this).addClass('rotate');
+      $(this).addClass('music rotate');
     }else {
       $('audio').get(0).pause();
       $(this).removeClass();
@@ -100,8 +100,8 @@ jQuery(document).ready(function($) {
 <!-- /loading -->
 <!-- Swiper -->
 <div class="swiper-container">
-  <div class="music music2">
-    <audio id="audio">
+  <div class="audio music2">
+    <audio id="audio" autoplay="false">
             <source src="http://s1.qhimg.com/static/51b77c0b696d2167.mp3" type="audio/mpeg">
             <source src="http://s3.qhimg.com/static/7384b70bf10c7569.ogg" type="audio/ogg">
         </audio>
