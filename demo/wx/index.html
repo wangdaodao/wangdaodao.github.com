@@ -46,6 +46,11 @@ function getQueryStringByName(name){
 }
 //egret_h5.startGame();
 $(function() {
+  var Img = new Image();
+  Img.src = "http://vhome.glodon.com/public/img/mobile/p1_img1.png";
+  Img.onload = function (){
+    $('audio').get(0).play();
+  }
   $('.audio').on('touchstart',function(){
     if($(this).hasClass('music2')){
       $('audio').get(0).play();
