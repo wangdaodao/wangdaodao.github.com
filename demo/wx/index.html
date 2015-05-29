@@ -47,10 +47,15 @@ function getQueryStringByName(name){
 //egret_h5.startGame();
 $(function() {
   var Img = new Image();
-  Img.src = "http://wangdaodao.github.io/demo/wx/img/p1_img1.png";
-  Img.onload = function (){
-    document.getElementById('audio').play();
-  }
+  Img.src = "http://www.baidu.com/img/bd_logo1.png";
+  if (img.complete) {
+      document.getElementById('audio').play();
+    } else {
+      Img.onload = function (){
+        document.getElementById('audio').play();
+      }
+    };
+  
   $('.audio').on('touchstart',function(){
     if($(this).hasClass('music')){
       $('audio').get(0).pause();
