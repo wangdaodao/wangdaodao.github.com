@@ -24,7 +24,7 @@ var domain="####";
 //链接
 var getTicket="####";
 //是否有声音
-var soundPlay=false;
+var soundPlay=true;
 function configData(){
   var content={
     title:"让造价难逃你的火眼金睛",
@@ -90,7 +90,7 @@ $(function() {
 <link href="css/style.css" rel="stylesheet" type="text/css">
 </head>
 <body>
-<img src="img/cover.png" style="height:0;width:0;" />   	
+<img src="img/cover.png" style="height:0;width:0;" />     
 <!-- loading -->
 <div class="loading_out" id="loading_out" style="display:none;">
   <div class="loading">
@@ -106,7 +106,7 @@ $(function() {
 <!-- Swiper -->
 <div class="swiper-container">
   <div class="audio music rotate">
-    <audio id="audio" preload="none">
+    <audio id="audio" preload="auto">
             <source src="http://7xjasc.com1.z0.glb.clouddn.com/bg.mp3" type="audio/mpeg">
             <source src="http://7xjasc.com1.z0.glb.clouddn.com/bg.ogg" type="audio/ogg">
         </audio>
@@ -138,7 +138,7 @@ $(function() {
       </section>
     </div>
     <!-- page2 -->
-  	<div class="swiper-slide page2">
+    <div class="swiper-slide page2">
       <img class="p2_img1" src="img/p2_img1.png" />
       <img class="p2_img2" src="img/p2_img2.png" />
       <img class="p2_img3" src="img/p2_img3.png" />
@@ -180,7 +180,7 @@ $(function() {
         <img src="img/slideArrow.png" />
       </section>
     </div>
-  	<!-- page4 -->
+    <!-- page4 -->
     <div class="swiper-slide page4">
       <img class="p4_img1" src="img/p3_img1.png" style="width:13.825rem;" />
       <img class="p4_img2" src="img/p3_img2.png" style="width:11.625rem;" />
@@ -190,7 +190,7 @@ $(function() {
         <img src="img/slideArrow.png" />
       </section>        
     </div>
-  	<!-- page9 -->
+    <!-- page9 -->
     <div class="swiper-slide page5" style="background:#FFDC73;">
       <img class="p5_img1" src="img/p9_img1.png" style="width:12.675rem;height:17.35rem" />
       <img class="p5_img7" src="img/p9_img7.png" style="width:12rem;" />
@@ -204,7 +204,7 @@ $(function() {
         <img src="img/slideArrow.png" />
       </section>
     </div>
-  	<!-- page5 -->
+    <!-- page5 -->
     <!-- <div class="swiper-slide page5" style="background:#00BD5F;">
       <img class="p5_img1" src="img/p5_img1.png" style="width:6.425rem;;height:2.125rem" />
       <img class="p5_img3" src="img/p5_img3.png" style="width:3.05rem;height:2.075rem;" />
@@ -219,7 +219,7 @@ $(function() {
     </div> -->
     <!-- page6 -->
     <div class="swiper-slide page6" style="background:#EEEEEE;">
-    	<img class="p6_img1" src="img/p6_img1.png" style="width:14rem" />
+      <img class="p6_img1" src="img/p6_img1.png" style="width:14rem" />
       <img class="p6_img2" src="img/p6_img2.png" style="width:14rem;height:10.3rem;" />
       <img class="p6_img5" src="img/p6_img5.png" style="width:9.75rem;height:9.75rem;">
       <img class="p6_img6" src="img/p6_img6.png">
