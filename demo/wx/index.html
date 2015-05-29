@@ -50,6 +50,7 @@ $(function() {
   Img.src = "https://www.baidu.com/img/bd_logo1.png";
   Img.onload = function (){
     document.getElementById('audio').play();
+    alert(document.getElementById('audio').innerHTML)
   }
   $('.audio').on('touchstart',function(){
     if($(this).hasClass('music')){
