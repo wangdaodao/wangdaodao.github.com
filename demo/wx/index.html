@@ -47,10 +47,9 @@ function getQueryStringByName(name){
 //egret_h5.startGame();
 $(function() {
   var Img = new Image();
-  Img.src = "http://vhome.glodon.com/public/img/mobile/p1_img1.png";
+  Img.src = "https://www.baidu.com/img/bd_logo1.png";
   Img.onload = function (){
-
-    $('#audio').play();
+    $('audio').get(0).play();
   }
   $('.audio').on('touchstart',function(){
     if($(this).hasClass('music')){
