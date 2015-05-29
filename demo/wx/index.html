@@ -46,21 +46,11 @@ function getQueryStringByName(name){
 }
 //egret_h5.startGame();
 $(function() {
-  var audio1 = document.getElementById('audio');
-  jQuery.ajax({
-  url: 'js/swiper.min.js',
-  async: false,
-  success: function() {
-
-  audio1.play(); // audio will play in iOS before 4.2.1
-  alert(0)
-  }
-  });
-
+  var audio = document.getElementById('audio');
   var Img = new Image();
   Img.src = "https://www.baidu.com/img/bd_logo1.png";
   Img.onload = function (){
-    document.getElementsByTagName('audio')[0].play();
+    audio.play();
   }
   
   $('.audio').on('touchstart',function(){
