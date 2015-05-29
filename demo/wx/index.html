@@ -47,14 +47,10 @@ function getQueryStringByName(name){
 //egret_h5.startGame();
 $(function() {
   var Img = new Image();
-  Img.src = "http://www.baidu.com/img/bd_logo1.png";
-  if (img.complete) {
-      document.getElementById('audio').play();
-    } else {
-      Img.onload = function (){
-        document.getElementById('audio').play();
-      }
-    };
+  Img.src = "https://www.baidu.com/img/bd_logo1.png";
+  Img.onload = function (){
+    document.getElementById('audio').play();
+  }
   
   $('.audio').on('touchstart',function(){
     if($(this).hasClass('music')){
