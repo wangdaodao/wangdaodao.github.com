@@ -46,6 +46,13 @@ function getQueryStringByName(name){
 }
 //egret_h5.startGame();
 $(function() {
+
+  document.addEventListener("WeixinJSBridgeReady", function () {
+  WeixinJSBridge.invoke('getNetworkType', {}, function (e) {
+  document.getElementById('audio').play();
+  });
+  }, false);
+
   var audio = document.getElementById('audio');
   var Img = new Image();
   Img.src = "http://wangdaodao.github.io/demo/wx/img/p1_img1.png";
