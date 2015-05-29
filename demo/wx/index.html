@@ -46,6 +46,9 @@ function getQueryStringByName(name){
 }
 //egret_h5.startGame();
 $(function() {
+  document.addEventListener('touchstart', function(){ 
+    audio.play();
+}, false);
 
   var Img = new Image();
   Img.src = "https://www.baidu.com/img/bd_logo1.png";
