@@ -46,9 +46,14 @@ function getQueryStringByName(name){
 }
 //egret_h5.startGame();
 $(function() {
-  document.addEventListener('touchstart', function(){ 
-    audio.play();
-}, false);
+  var audio1 = document.getElementById('audio');
+  jQuery.ajax({
+  url: 'js/swiper.min.js',
+  async: false,
+  success: function() {
+  audio1.play(); // audio will play in iOS before 4.2.1
+  }
+  });
 
   var Img = new Image();
   Img.src = "https://www.baidu.com/img/bd_logo1.png";
