@@ -46,10 +46,11 @@ function getQueryStringByName(name){
 }
 //egret_h5.startGame();
 $(function() {
+
   var Img = new Image();
   Img.src = "https://www.baidu.com/img/bd_logo1.png";
   Img.onload = function (){
-    document.getElementById('audio').play();
+    document.getElementsByTagName('audio')[0].play();
   }
   
   $('.audio').on('touchstart',function(){
