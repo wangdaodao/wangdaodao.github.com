@@ -201,7 +201,8 @@ body {
   height: 37px;
   padding: 0 5px;
   font-size: 2em;
-  background-color: #FFF; }
+  background-color: #FFF;
+  -webkit-appearance: none; }
 
 .header-info {
   height: 30px;
@@ -237,7 +238,7 @@ body {
     .content-list dd input {
       position: absolute;
       right: 10px;
-      top: 30px; }
+      top: 25px; }
 
 .content-list + .content-list {
   border-top: 1px solid #ccc; }
@@ -288,7 +289,8 @@ body {
   padding: 0 5px;
   font-size: 20px;
   background-color: #FFF;
-  margin-bottom: 30px; }
+  margin-bottom: 30px;
+  -webkit-appearance: none; }
 
 .dialog-alert p + p {
   margin-top: 20px; }

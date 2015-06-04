@@ -103,6 +103,7 @@ body{
     padding:0 5px;
     font-size: 2em;
     background-color:#FFF;
+    -webkit-appearance:none;
   }
 }
 .header-info{
@@ -144,7 +145,7 @@ body{
     input{
       position: absolute;
       right: 10px;
-      top: 30px;
+      top: 25px;
     }
   }
 }
@@ -200,6 +201,7 @@ body{
     font-size: 20px;
     background-color:#FFF;
     margin-bottom: 30px;
+    -webkit-appearance:none;
   }
   
 }
