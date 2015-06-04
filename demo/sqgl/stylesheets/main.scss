@@ -152,6 +152,24 @@ body{
 .content-list+.content-list{
   border-top:1px solid #ccc;
 }
+.foot-pages{
+  padding:10px;
+  a{
+    color: $blue-color;
+    font-size: 1.8em;
+  }
+  select{
+    border-radius:10px;
+    border:1px solid #CCC;
+    color: #B3B3B3;
+    width: 100%;
+    height: 37px;
+    padding:0 5px;
+    font-size: 20px;
+    background-color:#FFF;
+    text-align: center;
+  }
+}
 // 弹出
 .dialog{
   position:fixed;
@@ -201,7 +219,6 @@ body{
     font-size: 20px;
     background-color:#FFF;
     margin-bottom: 30px;
-    -webkit-appearance:none;
   }
   
 }
