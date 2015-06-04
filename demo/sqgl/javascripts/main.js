@@ -6,8 +6,8 @@
 */
 jQuery(document).ready(function($) {
   $(".binding-lock").on("tap",function(){
-    $(".dialog-binding").show(1500);
     $(".dialog-bg").show();
+    $(".dialog-binding").show();
   });
   $(".cancel-lock").on("tap",function(){
     $(".dialog-alert").show();
