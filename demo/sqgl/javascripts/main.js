@@ -5,15 +5,15 @@
  @Author:
 */
 jQuery(document).ready(function($) {
-  $(".binding-lock").on("tap",function(){
+  $(".binding-lock").on("click",function(){
     $(".dialog-bg").show();
     $(".dialog-binding").show();
   });
-  $(".cancel-lock").on("tap",function(){
+  $(".cancel-lock").on("click",function(){
     $(".dialog-alert").show();
     $(".dialog-bg").show();
   });
-  $(".close").on("tap",function(){
+  $(".close").on("click",function(){
     $(".dialog").hide();
     $(".dialog-bg").hide();
   });
