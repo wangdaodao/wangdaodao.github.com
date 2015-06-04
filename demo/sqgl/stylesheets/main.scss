@@ -143,12 +143,12 @@ body{
       @extend %text-overflow;
       display: inline-block;
     }
-    input{
-      position: absolute;
-      z-index: 9;
-      right: 10px;
-      top: 25px;
-    }
+  }
+  input{
+    position: absolute;
+    z-index: 9;
+    right: 10px;
+    top: 25px;
   }
 }
 .content-list+.content-list{

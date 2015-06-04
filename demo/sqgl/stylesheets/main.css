@@ -236,11 +236,11 @@ body {
     .content-list dd span {
       width: 49%;
       display: inline-block; }
-    .content-list dd input {
-      position: absolute;
-      z-index: 9;
-      right: 10px;
-      top: 25px; }
+  .content-list input {
+    position: absolute;
+    z-index: 9;
+    right: 10px;
+    top: 25px; }
 
 .content-list + .content-list {
   border-top: 1px solid #ccc; }
