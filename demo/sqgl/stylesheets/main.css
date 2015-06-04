@@ -108,6 +108,10 @@ del {
   text-overflow: ellipsis;
   white-space: nowrap; }
 
+input[type=button] {
+  -webkit-appearance: none;
+  outline: none; }
+
 body {
   font-size: 62.5%; }
 

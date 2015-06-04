@@ -5,6 +5,10 @@ $green-color:#22C064;
 $blue-color:#44B2DA;
 $red-color:#D61515;
 $gray-color:#333;
+input[type=button]{
+  -webkit-appearance:none;
+  outline:none
+}
 body{
   font-size:62.5%;
 }
