@@ -6,7 +6,7 @@
 */
 jQuery(document).ready(function($) {
   $(".binding-lock").on("tap",function(){
-    $(".dialog-binding").show();
+    $(".dialog-binding").delay(500).show();
     $(".dialog-bg").show();
   });
   $(".cancel-lock").on("tap",function(){
