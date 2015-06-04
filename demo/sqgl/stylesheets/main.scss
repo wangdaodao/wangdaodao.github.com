@@ -171,6 +171,37 @@ body{
     text-align: center;
   }
 }
+.content-table{
+  table{
+    table-layout: fixed;
+  }
+  th{
+    background-color: #EFEFEF;
+    border-bottom:1px solid #919191;
+    padding:10px 5px;
+    font-size: 1.8em;
+    color: #919191;
+    font-weight: normal;
+  }
+  td{
+    padding:10px 5px;
+    font-size: 1.4em;
+    span{
+      @extend %text-overflow;
+      width: 90%;
+      display: inline-block;
+    }
+  }
+  tbody td{
+    color:$green-color;
+  }
+  tfoot td{
+    color: #919191;
+  }
+  .border-b{
+    border-bottom:1px solid #919191;
+  }
+}
 // 弹出
 .dialog{
   position:fixed;

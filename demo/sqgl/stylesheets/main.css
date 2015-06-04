@@ -103,7 +103,7 @@ del {
 .clear {
   zoom: 1; }
 
-.content-list dd span {
+.content-list dd span, .content-table td span {
   overflow: hidden;
   text-overflow: ellipsis;
   white-space: nowrap; }
@@ -259,6 +259,28 @@ body {
     font-size: 20px;
     background-color: #FFF;
     text-align: center; }
+
+.content-table table {
+  table-layout: fixed; }
+.content-table th {
+  background-color: #EFEFEF;
+  border-bottom: 1px solid #919191;
+  padding: 10px 5px;
+  font-size: 1.8em;
+  color: #919191;
+  font-weight: normal; }
+.content-table td {
+  padding: 10px 5px;
+  font-size: 1.4em; }
+  .content-table td span {
+    width: 90%;
+    display: inline-block; }
+.content-table tbody td {
+  color: #22C064; }
+.content-table tfoot td {
+  color: #919191; }
+.content-table .border-b {
+  border-bottom: 1px solid #919191; }
 
 .dialog {
   position: fixed;

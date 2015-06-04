@@ -9,7 +9,7 @@ jQuery(document).ready(function($) {
     $(".dialog-bg").show();
     $(".dialog-binding").show();
   });
-  $(".cancel-lock").on("click",function(){
+  $(".alert").on("click",function(){
     $(".dialog-alert").show();
     $(".dialog-bg").show();
   });
