@@ -103,7 +103,6 @@ body{
     padding:0 5px;
     font-size: 2em;
     background-color:#FFF;
-    -webkit-appearance:none;
   }
 }
 .header-info{
@@ -121,9 +120,11 @@ body{
 .content-list{
   position: relative;
   padding: 10px;
+  display: block;
   dt{
     font-size: 2em;
     margin-bottom: 10px;
+    color: #000;
     span{
       font-size: 0.7em;
       color: #FFF;
@@ -144,6 +145,7 @@ body{
     }
     input{
       position: absolute;
+      z-index: 9;
       right: 10px;
       top: 25px;
     }
