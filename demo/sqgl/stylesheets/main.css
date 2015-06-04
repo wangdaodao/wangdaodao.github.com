@@ -144,17 +144,11 @@ body {
   text-align: center;
   vertical-align: middle;
   cursor: pointer;
-  background: #22C064; }
+  background-color: #22C064; }
 
 .ui-btn-blue {
   border: 1px solid #44B2DA;
-  background: #44B2DA; }
-
-.ui-btn-gray {
-  color: #333;
-  border: 1px solid #DAD9D7;
-  text-shadow: 0 1px rgba(255, 255, 255, 0.8);
-  background: #F3F3F3; }
+  background-color: #44B2DA; }
 
 .ui-btn-block {
   display: block;
