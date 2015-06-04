@@ -1,0 +1,298 @@
+@charset "UTF-8";
+/*
+ Name:重置样式
+ Description:这里负责重置浏览器样式。
+ Version:1.1
+ Author: wangdaodao
+*/
+body, h1, h2, h3, h4, h5, h6, hr, p, blockquote, dl, dd, ul, ol, pre, fieldset, legend, button, input, textarea, th, td {
+  margin: 0;
+  padding: 0; }
+
+button, input, select, textarea {
+  font: 12px/1.5 "Microsoft YaHei",微软雅黑, Arial, Verdana, Sans-Serif; }
+
+body {
+  font: 12px/1.5 "Microsoft YaHei",微软雅黑, Arial, Verdana, Sans-Serif;
+  color: #000;
+  position: relative;
+  width: 100%;
+  height: 100%;
+  margin: 0 auto; }
+
+html {
+  width: 100%;
+  height: 100%; }
+
+h1, h2, h3, h4, h5, h6 {
+  font-size: 100%; }
+
+address, cite, dfn, em, var {
+  font-style: normal; }
+
+code, kbd, pre, samp, tt {
+  font-family: "Courier New", 9, monospace; }
+
+small {
+  font-size: 12px; }
+
+ul, ol {
+  list-style: none; }
+
+a {
+  text-decoration: none; }
+
+a:link, a:visited, ins {
+  text-decoration: none; }
+
+a:hover, a:active {
+  text-decoration: underline; }
+
+abbr, acronym {
+  border: 0;
+  font-variant: normal; }
+
+sup {
+  vertical-align: text-top; }
+
+sub {
+  vertical-align: text-bottom; }
+
+blockquote, q {
+  quotes: none; }
+
+blockquote:before, blockquote:after, q:before, q:after {
+  content: '';
+  content: none; }
+
+legend {
+  color: #000; }
+
+fieldset, img {
+  border: none; }
+
+img {
+  vertical-align: middle; }
+
+button, input, select, textarea {
+  font-size: 100%; }
+
+table {
+  border-collapse: collapse;
+  border-spacing: 0; }
+
+caption {
+  text-align: left; }
+
+hr {
+  border: none;
+  height: 1px; }
+
+ins {
+  text-decoration: none; }
+
+del {
+  text-decoration: line-through; }
+
+.clear:after {
+  content: "";
+  display: block;
+  height: 0;
+  clear: both; }
+
+.clear {
+  zoom: 1; }
+
+.content-list dd span {
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap; }
+
+body {
+  font-size: 62.5%; }
+
+.font-green {
+  color: #22C064; }
+
+.font-blue {
+  color: #44B2DA; }
+
+.font-left {
+  text-align: left; }
+
+.font-right {
+  text-align: right; }
+
+.font-center {
+  text-align: center; }
+
+.ui-btn {
+  color: #FFF;
+  text-decoration: none;
+  display: inline-block;
+  -webkit-box-sizing: content-box;
+  -moz-box-sizing: content-box;
+  box-sizing: content-box;
+  padding: 5px 12px;
+  overflow: visible;
+  border: 1px solid #22C064;
+  border-radius: 5px;
+  font-size: 16px;
+  letter-spacing: 1px;
+  word-spacing: normal;
+  white-space: nowrap;
+  text-align: center;
+  vertical-align: middle;
+  cursor: pointer;
+  background: #22C064; }
+
+.ui-btn-blue {
+  border: 1px solid #44B2DA;
+  background: #44B2DA; }
+
+.ui-btn-gray {
+  color: #333;
+  border: 1px solid #DAD9D7;
+  text-shadow: 0 1px rgba(255, 255, 255, 0.8);
+  background: #F3F3F3; }
+
+.ui-btn-block {
+  display: block;
+  width: 100%;
+  padding: 5px 0; }
+
+.header {
+  position: fixed;
+  z-index: 99;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100px;
+  border-bottom: 1px solid #CCC;
+  background-color: #fff; }
+
+.header-form {
+  display: block;
+  padding: 10px;
+  border-bottom: 1px solid #CCC;
+  background-color: #F8F8F8; }
+
+.search-form {
+  position: relative; }
+  .search-form .search-form_input {
+    border: 1px solid #CCC;
+    width: 90%;
+    height: 25px;
+    padding: 5px;
+    border-radius: 10px;
+    font-size: 2em; }
+  .search-form .search-form_btn {
+    position: absolute;
+    right: 10%;
+    top: 10px;
+    background: transparent url(../images/search.png) 0 0 no-repeat;
+    border: none;
+    width: 18px;
+    height: 18px; }
+
+.select-form select {
+  border-radius: 10px;
+  border: 1px solid #CCC;
+  color: #B3B3B3;
+  width: 98%;
+  height: 37px;
+  padding: 0 5px;
+  font-size: 2em;
+  background-color: #FFF; }
+
+.header-info {
+  height: 30px;
+  font-size: 2em;
+  padding: 5px 10px;
+  color: #B3B3B3; }
+  .header-info span {
+    color: #22C064; }
+
+.content {
+  padding-top: 100px; }
+
+.content-list {
+  position: relative;
+  padding: 10px; }
+  .content-list dt {
+    font-size: 2em;
+    margin-bottom: 10px; }
+    .content-list dt span {
+      font-size: 0.7em;
+      color: #FFF;
+      padding: 2px;
+      background-color: #44B2DA;
+      border-radius: 5px;
+      margin-left: 10px; }
+  .content-list dd {
+    color: #A6A6A6;
+    font-size: 2em;
+    line-height: 1; }
+    .content-list dd span {
+      width: 49%;
+      display: inline-block; }
+    .content-list dd input {
+      position: absolute;
+      right: 10px;
+      top: 30px; }
+
+.content-list + .content-list {
+  border-top: 1px solid #ccc; }
+
+.dialog {
+  position: fixed;
+  width: 80%;
+  left: 50%;
+  top: 25%;
+  margin-left: -40%;
+  border-radius: 5px;
+  background-color: #fff;
+  z-index: 9999;
+  font-size: 14px;
+  color: #333;
+  display: none; }
+
+.dialog-close {
+  position: absolute;
+  top: 13px;
+  right: 15px;
+  background: transparent url(../images/close.png) 0 0 no-repeat;
+  width: 15px;
+  height: 15px; }
+
+.dialog-body {
+  padding: 50px;
+  overflow: hidden;
+  text-align: center; }
+
+.dialog-bg {
+  width: 100%;
+  height: 100%;
+  background-color: #000;
+  opacity: 0.5;
+  position: fixed;
+  top: 0;
+  left: 0;
+  z-index: 9998;
+  display: none; }
+
+.dialog-form select {
+  border-radius: 10px;
+  border: 1px solid #CCC;
+  color: #B3B3B3;
+  width: 100%;
+  height: 37px;
+  padding: 0 5px;
+  font-size: 20px;
+  background-color: #FFF;
+  margin-bottom: 30px; }
+
+.dialog-alert p + p {
+  margin-top: 20px; }
+
+/*# sourceMappingURL=main.css.map */
