@@ -12,14 +12,12 @@ jQuery(document).ready(function($) {
     // alert($(window).scrollTop())
     // alert($(window).height())
     // alert($(document).height())
+    setTimeout(function(){
     if($(window).scrollTop()+$(window).height()+100 >= $(document).height() ){
         $(".foot-pages").show()
       } else {
-        setTimeout(function(){
           $(".foot-pages").hide()
-         }, 3000)
-        
-      }
+      }}, 3000)
 　　});
   $(".binding-lock").on("click",function(){
     $(".dialog-bg").show();
