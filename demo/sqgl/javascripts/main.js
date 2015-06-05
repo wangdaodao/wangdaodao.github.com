@@ -6,15 +6,15 @@
 */
 jQuery(document).ready(function($) {
   $('body').bind('scrollstart', function(event) {
-　　$(".foot-pages").fadeIn()
+　　$(".foot-pages").show()
 　　});
   $('body').bind('scrollstop', function(event) {
     alert($(window).scrollTop());
     if($(window).scrollTop() == $(document).height() - $(window).height()){
-       $(".foot-pages").fadeIn()
+       $(".foot-pages").show()
       } else {
       setTimeout(function(){
-         $(".foot-pages").fadeOut()
+         $(".foot-pages").hide()
         }, 3000)
       }
 　　});
