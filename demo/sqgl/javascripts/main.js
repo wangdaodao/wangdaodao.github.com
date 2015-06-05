@@ -9,6 +9,7 @@ jQuery(document).ready(function($) {
 　　$(".foot-pages").fadeIn()
 　　});
   $('body').bind('scrollstop', function(event) {
+    alert($(window).scrollTop());
     if($(window).scrollTop() == $(document).height() - $(window).height()){
        $(".foot-pages").fadeIn()
       } else {
