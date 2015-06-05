@@ -9,8 +9,7 @@ jQuery(document).ready(function($) {
 　　$(".foot-pages").show()
 　　});
   $('body').bind('scrollstop', function(event) {
-    alert($(window).scrollTop());
-    if($(window).scrollTop() == $(document).height() - $(window).height()){
+    if ($(this).scrollTop() + $(window).height() + 20 >= $(document).height() && $(this).scrollTop() > 20) {
        $(".foot-pages").show()
       } else {
       setTimeout(function(){
