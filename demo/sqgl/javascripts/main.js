@@ -5,10 +5,10 @@
  @Author:
 */
 jQuery(document).ready(function($) {
-  $('body').bind('scrollstart', function(event) {
+  $('body').on('scrollstart', function(event) {
 　　$(".foot-pages").show()
 　　});
-  $('body').bind('scrollstop', function(event) {
+  $('body').on('scrollstop', function(event) {
     // alert($(window).scrollTop())
     // alert($(window).height())
     // alert($(document).height())
