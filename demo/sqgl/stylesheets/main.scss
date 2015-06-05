@@ -116,6 +116,7 @@ body{
 }
 .content{
   padding-top: 100px;
+  padding-bottom: 60px;
 }
 .content-list{
   position: relative;
@@ -156,6 +157,12 @@ body{
 }
 .foot-pages{
   padding:10px;
+  position: fixed;
+  bottom:0;
+  background-color:#fff;
+  z-index: 99;
+  width: 100%;
+  display: none;
   a{
     color: $blue-color;
     font-size: 1.8em;
