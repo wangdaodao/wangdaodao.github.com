@@ -9,12 +9,15 @@ jQuery(document).ready(function($) {
 　　$(".foot-pages").show()
 　　});
   $('body').bind('scrollstop', function(event) {
-    if($(window).scrollTop()+$(window).height()+30 >= $(document).height() ){
-       $(".foot-pages").show()
+    // alert($(window).scrollTop())
+    // alert($(window).height())
+    // alert($(document).height())
+    if($(window).scrollTop()+$(window).height()+100 <= $(document).height() ){
+        setTimeout(function(){
+          $(".foot-pages").hide()
+         }, 3000)
       } else {
-      setTimeout(function(){
-         $(".foot-pages").hide()
-        }, 3000)
+        $(".foot-pages").show()
       }
 　　});
   $(".binding-lock").on("click",function(){
