@@ -105,6 +105,7 @@ tags: [front_end,ios]
         </footer>
     </body>
 
+对应的样式如下：
 
     header, footer, main {
         display: block;
