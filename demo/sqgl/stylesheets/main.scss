@@ -114,13 +114,17 @@ body{
     color: $green-color;
   }
 }
-.content{
+.main{
   position: absolute;
   top: 100px;
   bottom: 60px;
+  width: 100%;
   /* 使之可以滚动 */
   overflow-y: scroll;
   -webkit-overflow-scrolling: touch;
+}
+.content{
+  
 }
 .content-list{
   position: relative;
@@ -166,7 +170,6 @@ body{
   background-color:#fff;
   z-index: 99;
   width: 100%;
-  display: none;
   a{
     color: $blue-color;
     font-size: 1.8em;

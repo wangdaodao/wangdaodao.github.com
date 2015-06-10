@@ -211,10 +211,11 @@ body {
   .header-info span {
     color: #22C064; }
 
-.content {
+.main {
   position: absolute;
   top: 100px;
   bottom: 60px;
+  width: 100%;
   /* 使之可以滚动 */
   overflow-y: scroll;
   -webkit-overflow-scrolling: touch; }
@@ -256,8 +257,7 @@ body {
   bottom: 0;
   background-color: #fff;
   z-index: 99;
-  width: 100%;
-  display: none; }
+  width: 100%; }
   .foot-pages a {
     color: #44B2DA;
     font-size: 1.8em; }
