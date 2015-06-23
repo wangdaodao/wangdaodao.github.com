@@ -1,0 +1,161 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <title>进度控模块</title>
+  <meta name="description" content="" />
+  <meta name="keywords" content="" />
+  <meta name="format-detection" content="telephone=no" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge, chrome=1" />
+  <meta content="width=device-width,initial-scale=1.0,maximum-scale=1.0,user-scalable=0" name="viewport" />
+  <link rel="stylesheet" href="stylesheets/jquery.mmenu.all.css">
+  <link rel="stylesheet" href="stylesheets/main.css" />
+  <link rel="stylesheet" href="stylesheets/swiper.min.css" />
+  <script type="text/javascript" src="javascripts/jquery1.8.1.min.js"></script>
+  <script type="text/javascript" src="javascripts/jquery.mmenu.js"></script>
+  <script src="javascripts/swiper.min.js"></script>
+  <script type="text/javascript" src="javascripts/main.js"></script>
+</head>
+<body>
+  <div id="page">
+    <div class="header fixed cpjs-header">
+      <a class="logo" href="index.html"></a>
+      进度控模块
+      <a class="menu" href="#menu"></a>
+    </div>
+    <div class="jdk-swiper">
+      <!-- Swiper -->
+      <div class="swiper-container">
+        <div class="swiper-wrapper">
+          <div class="swiper-slide jdk-page1">
+            <div class="swiper-box">
+              <img class="fadeInTop" width="130%" src="images/page6.png" alt="">
+              <dl class="fadeInBottom">
+                <dt>进度控模块</dt>
+                <dd>
+                  <ul>
+                    <li>进度控是一款项目进度管理产品</li>
+                    <li>采用绿色加密通道访问，数据安全可靠</li>
+                    <li>界面简洁清新，功能灵活易用</li>
+                    <li>更有用户参与到产品的研发过程中</li>
+                    <li>贴近用户使用场景，实现有效的进度管控</li>
+                    <li>是一款能真正用的起来的项目进度管理产品</li>
+                  </ul>
+                </dd>
+              </dl>
+            </div>
+          </div>
+          <div class="swiper-slide jdk-page2">
+            <div class="swiper-box">
+              <img class="fadeInRight" width="100%" src="images/j1.png" alt="">
+              <dl class="fadeInLeft">
+                <dt>项目看板</dt>
+                <dd>
+                  <ul>
+                    <li>从进度条中可以清晰的看到</li>
+                    <li>项目进度、团队成员、回款比例等信息</li>
+                    <li>应有尽有一目了然</li>
+                  </ul>
+                </dd>
+              </dl>
+            </div>
+          </div>
+          <div class="swiper-slide jdk-page3">
+            <div class="swiper-box">
+              <img class="fadeInLeft" width="90%" src="images/j2.png" alt="">
+              <dl class="fadeInRight">
+                <dt>任务板</dt>
+                <dd>
+                  <ul>
+                    <li>项目经理分配任务给项目成员</li>
+                    <li>任务的每一步操作全称记录</li>
+                    <li>数据展现直观清楚</li>
+                  </ul>
+                </dd>
+              </dl>
+            </div>
+          </div>
+          <div class="swiper-slide jdk-page4">
+            <div class="swiper-box">
+              <img class="fadeInRight" width="90%" src="images/j3.png" alt="">
+              <dl class="fadeInLeft">
+                <dt>项目简报</dt>
+                <dd>
+                  <ul>
+                    <li>项目信息汇总</li>
+                    <li>项目中每个成员的已完成和未完成的任务对比呈现，快速判断项目健康状况</li>
+                  </ul>
+                </dd>
+              </dl>
+            </div>
+          </div>
+          <div class="swiper-slide jdk-page5">
+            <div class="swiper-box">
+              <img class="fadeInLeft" width="100%" src="images/j4.png" alt="">
+              <dl class="fadeInRight">
+                <dt>文件库</dt>
+                <dd>
+                  <ul>
+                    <li>项目过程中的每个成果文件自动归集整理</li>
+                    <li>员工的每份努力都在这里</li>
+                    <li>积累企业自己的数据库</li>
+                  </ul>
+                </dd>
+              </dl>
+            </div>
+          </div>
+          <div class="swiper-slide jdk-page6">
+            <div class="swiper-box">
+              <img class="fadeInRight" width="90%" src="images/j5.png" alt="">
+              <dl class="fadeInLeft">
+                <dt>项目简报</dt>
+                <dd>
+                  <ul>
+                    <li>项目信息汇总</li>
+                    <li>项目中每个成员的已完成和未完成的任务对比呈现</li>
+                    <li>快速判断项目健康状况</li>
+                  </ul>
+                </dd>
+              </dl>
+            </div>
+          </div>
+        </div>
+        <div class="u-arrow-bottom startUp"></div>
+        <!-- Add Pagination -->
+        <!-- <div class="swiper-pagination"></div> -->
+      </div>
+      <script type="text/javascript">
+        var swiper = new Swiper('.swiper-container', {
+          // pagination: '.swiper-pagination',
+          paginationClickable: true,
+          direction: 'vertical',
+          watchActiveIndex : true,
+          onSlideChangeStart: function(swiper){
+            if (swiper.activeIndex == swiper.slides.length-1) {
+              $(".u-arrow-bottom").hide();
+            } else{
+              $(".u-arrow-bottom").show();
+            };
+          }
+        });
+      </script>
+    </div>
+    <nav id="menu">
+      <ul>
+        <li><a href="zgx.html">高层会中国行</a></li>
+        <li><a href="ayd.html">爱在运动</a></li>
+        <li><a href="sqzk.html">授权专刊</a></li>
+        <li><a href="cpjs.html">产品介绍</a>
+          <ul>
+            <li><a href="cpjs1.html">VV介绍</a></li>
+            <li><a href="cpjs2.html">服务模块</a></li>
+            <li><a href="cpjs3.html">工具模块</a></li>
+            <li><a href="cpjs4.html">云文档模块</a></li>
+            <li><a href="cpjs5.html">进度控</a></li>
+          </ul>
+        </li>
+      </ul>
+    </nav>
+  </div>
+</body>
+</html>

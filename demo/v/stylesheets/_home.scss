@@ -1,0 +1,60 @@
+@charset "utf-8";
+//公共样式
+.home-body{
+  background: transparent url(../images/home.jpg) center center no-repeat;
+  background-size: cover;
+}
+.home-content{
+  height: 80%;
+  p{
+    width: 100%;
+    height: 150px;
+    line-height: 50px;
+    position: absolute;
+    top: 50%;
+    left: 0;
+    margin-top: -75px;
+    text-align: center;
+    font-size: 2.75em;
+    color: #fff;
+    text-shadow: 3px 3px 5px rgba(187,143,96,0.5);
+    font-weight: bold;
+  }
+  span{
+    font-size: 0.8em;
+    display: block;
+  }
+}
+.footer{
+  -moz-box-sizing: border-box;
+  box-sizing: border-box; 
+  width: 100%;
+  td{
+    width: 25%;
+    text-align: center;
+    vertical-align: middle;
+  }
+  a{
+    display: block;
+    padding: 20px 0;
+    font-size: 1.6em;
+    color: #fff;
+  }
+  .zgx-link{
+    background-color:#a9dae9;
+  }
+  .azyd-link{
+    background-color:#59c2a4;
+  }
+  .sqzk-link{
+    background-color:#acd23f;
+  }
+  .cpjs-link{
+    background-color:#0cb3ea;
+  }
+  &.fixed{
+    position: fixed;
+    bottom: 0;
+    left: 0;
+  }
+}

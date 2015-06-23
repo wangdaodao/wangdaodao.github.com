@@ -1,0 +1,156 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <title>VV介绍</title>
+  <meta name="description" content="" />
+  <meta name="keywords" content="" />
+  <meta name="format-detection" content="telephone=no" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge, chrome=1" />
+  <meta content="width=device-width,initial-scale=1.0,maximum-scale=1.0,user-scalable=0" name="viewport" />
+  <link rel="stylesheet" href="stylesheets/jquery.mmenu.all.css">
+  <link rel="stylesheet" href="stylesheets/main.css" />
+  <link rel="stylesheet" href="stylesheets/swiper.min.css" />
+  <script type="text/javascript" src="javascripts/jquery1.8.1.min.js"></script>
+  <script type="text/javascript" src="javascripts/jquery.mmenu.js"></script>
+  <script src="javascripts/swiper.min.js"></script>
+  <script type="text/javascript" src="javascripts/main.js"></script>
+</head>
+<body>
+  <div id="page">
+    <div class="header fixed cpjs-header">
+      <a class="logo" href="index.html"></a>
+      VV介绍
+      <a class="menu" href="#menu"></a>
+    </div>
+    <div class="vv-swiper">
+      <!-- Swiper -->
+      <div class="swiper-container">
+        <div class="swiper-wrapper">
+          <div class="swiper-slide vv-page1">
+            <div class="swiper-box">
+              <img class="fadeInTop" width="90%" src="images/vvpage.png" alt="">
+              <dl class="fadeInBottom">
+                <dt>VV移动端</dt>
+                <dd>
+                  <ul>
+                    <li>扫一扫轻松登录咨询微平台和转移授权。</li>
+                    <li>随时掌控项目进度，团队成员任务情况一目了然。</li>
+                  </ul>
+                </dd>
+              </dl>
+            </div>
+          </div>
+          <div class="swiper-slide vv-page2">
+            <div class="swiper-box">
+              <img class="fadeInLeft" width="70%" src="images/v1.png" alt="">
+              <dl class="fadeInRight">
+                <dt>VV 登录方式</dt>
+                <dd>
+                  <ul>
+                    <li>使用手机号和密码进行登录</li>
+                    <li>使用手机号和验证码登录</li>
+                  </ul>
+                </dd>
+              </dl>
+            </div>
+          </div>
+          <div class="swiper-slide vv-page3">
+            <div class="swiper-box">
+              <img class="fadeInRight" width="70%" src="images/v2.png" alt="">
+              <dl class="fadeInLeft">
+                <dt>查看项目范围</dt>
+                <dd>
+                  <ul>
+                    <li>公司领导：可以查看公司内所有运作的项目</li>
+                    <li>部门经理：可以查看分管部门，自己负责和参与的项目</li>
+                    <li>项目经理：可以查看自己负责和参与的项目</li>
+                    <li>普通员工：可以查看部门和项目的联系人</li>
+                  </ul>
+                </dd>
+              </dl>
+            </div>
+          </div>
+          <div class="swiper-slide vv-page4">
+            <div class="swiper-box">
+              <img class="fadeInLeft" width="70%" src="images/v3.png" alt="">
+              <dl class="fadeInRight">
+                <dt>查看项目进展</dt>
+                <dd>
+                  <ul>
+                    <li>点击项目看板中需要查看进度的项目</li>
+                    <li>通过饼状和柱状图查看项目中人员的工作情况</li>
+                  </ul>
+                </dd>
+              </dl>
+            </div>
+          </div>
+          <div class="swiper-slide vv-page5">
+            <div class="swiper-box">
+              <img class="fadeInRight" width="90%" src="images/v4.png" alt="">
+              <dl class="fadeInLeft">
+                <dt>授权转移</dt>
+                <dd>
+                  <ul>
+                    <li>在首页中点击“扫一扫”按钮，进入扫描界面</li>
+                    <li>扫描PC端中弹出的二维码</li>
+                    <li>授权转移的结果会在VV中显示</li>
+                  </ul>
+                </dd>
+              </dl>
+            </div>
+          </div>
+          <div class="swiper-slide vv-page6">
+            <div class="swiper-box">
+              <img class="fadeInLeft" width="70%" src="images/v5.png" alt="">
+              <dl class="fadeInRight">
+                <dt>联系人界面</dt>
+                <dd>
+                  <ul>
+                    <li>项目联系人：打电话、送短信或查看该联系人的项目</li>
+                    <li>同事：打电话、发短信或查看项目</li>
+                  </ul>
+                </dd>
+              </dl>
+            </div>
+          </div>
+        </div>
+        <div class="u-arrow-bottom startUp"></div>
+        <!-- Add Pagination -->
+        <!-- <div class="swiper-pagination"></div> -->
+      </div>
+      <script type="text/javascript">
+        var swiper = new Swiper('.swiper-container', {
+          // pagination: '.swiper-pagination',
+          paginationClickable: true,
+          direction: 'vertical',
+          watchActiveIndex : true,
+          onSlideChangeStart: function(swiper){
+            if (swiper.activeIndex == swiper.slides.length-1) {
+              $(".u-arrow-bottom").hide();
+            } else{
+              $(".u-arrow-bottom").show();
+            };
+          }
+        });
+      </script>
+    </div>
+    <nav id="menu">
+      <ul>
+        <li><a href="zgx.html">高层会中国行</a></li>
+        <li><a href="ayd.html">爱在运动</a></li>
+        <li><a href="sqzk.html">授权专刊</a></li>
+        <li><a href="cpjs.html">产品介绍</a>
+          <ul>
+            <li><a href="cpjs1.html">VV介绍</a></li>
+            <li><a href="cpjs2.html">服务模块</a></li>
+            <li><a href="cpjs3.html">工具模块</a></li>
+            <li><a href="cpjs4.html">云文档模块</a></li>
+            <li><a href="cpjs5.html">进度控</a></li>
+          </ul>
+        </li>
+      </ul>
+    </nav>
+  </div>
+</body>
+</html>

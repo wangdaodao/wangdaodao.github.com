@@ -1,0 +1,153 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <title>服务模块</title>
+  <meta name="description" content="" />
+  <meta name="keywords" content="" />
+  <meta name="format-detection" content="telephone=no" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge, chrome=1" />
+  <meta content="width=device-width,initial-scale=1.0,maximum-scale=1.0,user-scalable=0" name="viewport" />
+  <link rel="stylesheet" href="stylesheets/jquery.mmenu.all.css">
+  <link rel="stylesheet" href="stylesheets/main.css" />
+  <link rel="stylesheet" href="stylesheets/swiper.min.css" />
+  <script type="text/javascript" src="javascripts/jquery1.8.1.min.js"></script>
+  <script type="text/javascript" src="javascripts/jquery.mmenu.js"></script>
+  <script src="javascripts/swiper.min.js"></script>
+  <script type="text/javascript" src="javascripts/main.js"></script>
+</head>
+<body>
+  <div id="page">
+    <div class="header fixed cpjs-header">
+      <a class="logo" href="index.html"></a>
+      服务模块
+      <a class="menu" href="#menu"></a>
+    </div>
+    <div class="fw-swiper">
+      <!-- Swiper -->
+      <div class="swiper-container">
+        <div class="swiper-wrapper">
+          <div class="swiper-slide fw-page1">
+            <div class="swiper-box">
+              <img class="fadeInTop" width="180%" src="images/fwpage.png" alt="">
+              <dl class="fadeInBottom">
+                <dt>服务模块</dt>
+                <dd>
+                  <ul>
+                    <li>无微不至的VIP专属服务在这里启航！</li>
+                    <li>400电话、专属课堂、现场培训、专属服务、建议留言...</li>
+                  </ul>
+                </dd>
+              </dl>
+            </div>
+          </div>
+          <div class="swiper-slide fw-page2">
+            <div class="swiper-box">
+              <img class="fadeInRight" width="100%" src="images/f1.png" alt="">
+              <dl class="fadeInLeft">
+                <dt>服务新干线</dt>
+                <dd>
+                  <ul>
+                    <li>行业专家的贴心服务，造价人的网上家园</li>
+                    <li>当您需要咨询时－答疑解惑</li>
+                    <li>当您需要学习时－学习课堂、视频点播</li>
+                    <li>当您需要查找资料时－共享资料、造价法规</li>
+                    <li>当您需要升级软件时 －升级下载、信息价</li>
+                    <li>当您阅读专业期刊时－数字造价、现代项目经理人</li>
+                  </ul>
+                </dd>
+              </dl>
+            </div>
+          </div>
+          <div class="swiper-slide fw-page3">
+            <div class="swiper-box">
+              <img class="fadeInLeft" width="85%" src="images/f2.png" alt="">
+              <dl class="fadeInRight">
+                <dt>新学法</dt>
+                <dd>新学法是具有网络学院、官方知识库、案例中心、新干线社区、线下报名、上门申请等模块为一体的网络学习平台，帮助用户快速学习及使用新产品，逐步向服务变革体系转型，从而保障新产品使用率的提升。</dd>
+              </dl>
+            </div>
+          </div>
+          <div class="swiper-slide fw-page4">
+            <div class="swiper-box">
+              <img class="fadeInRight" width="95%" src="images/f3.png" alt="">
+              <dl class="fadeInLeft">
+                <dt>专属课堂</dt>
+                <dd>
+                  <ul>
+                    <li>助您成功的知识加油站</li>
+                    <li>打造VIP的尊贵身份标识</li>
+                  </ul>
+                </dd>
+              </dl>
+            </div>
+          </div>
+          <div class="swiper-slide fw-page5">
+            <div class="swiper-box">
+              <img class="fadeInRight" width="100%" src="images/f4.png" alt="">
+              <dl class="fadeInLeft">
+                <dt>官方知识库</dt>
+                <dd>
+                  <ul>
+                    <li>广联达官方客服正在使用的问题库</li>
+                    <li>每日更新</li>
+                  </ul>
+                </dd>
+              </dl>
+            </div>
+          </div>
+          <div class="swiper-slide fw-page6">
+            <div class="swiper-box">
+              <img class="fadeInRight" width="90%" src="images/f5.png" alt="">
+              <dl class="fadeInLeft">
+                <dt>现场培训</dt>
+                <dd>
+                  <ul>
+                    <li>随时获取最新的实训课程</li>
+                    <li>轻松选课</li>
+                    <li>随时提问</li>
+                  </ul>
+                </dd>
+              </dl>
+            </div>
+          </div>
+        </div>
+        <div class="u-arrow-bottom startUp"></div>
+        <!-- Add Pagination -->
+        <!-- <div class="swiper-pagination"></div> -->
+      </div>
+      <script type="text/javascript">
+        var swiper = new Swiper('.swiper-container', {
+          // pagination: '.swiper-pagination',
+          paginationClickable: true,
+          direction: 'vertical',
+          watchActiveIndex : true,
+          onSlideChangeStart: function(swiper){
+            if (swiper.activeIndex == swiper.slides.length-1) {
+              $(".u-arrow-bottom").hide();
+            } else{
+              $(".u-arrow-bottom").show();
+            };
+          }
+        });
+      </script>
+    </div>
+    <nav id="menu">
+      <ul>
+        <li><a href="zgx.html">高层会中国行</a></li>
+        <li><a href="ayd.html">爱在运动</a></li>
+        <li><a href="sqzk.html">授权专刊</a></li>
+        <li><a href="cpjs.html">产品介绍</a>
+          <ul>
+            <li><a href="cpjs1.html">VV介绍</a></li>
+            <li><a href="cpjs2.html">服务模块</a></li>
+            <li><a href="cpjs3.html">工具模块</a></li>
+            <li><a href="cpjs4.html">云文档模块</a></li>
+            <li><a href="cpjs5.html">进度控</a></li>
+          </ul>
+        </li>
+      </ul>
+    </nav>
+  </div>
+</body>
+</html>

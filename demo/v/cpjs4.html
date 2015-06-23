@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <title>云文档模块</title>
+  <meta name="description" content="" />
+  <meta name="keywords" content="" />
+  <meta name="format-detection" content="telephone=no" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge, chrome=1" />
+  <meta content="width=device-width,initial-scale=1.0,maximum-scale=1.0,user-scalable=0" name="viewport" />
+  <link rel="stylesheet" href="stylesheets/jquery.mmenu.all.css">
+  <link rel="stylesheet" href="stylesheets/main.css" />
+  <link rel="stylesheet" href="stylesheets/swiper.min.css" />
+  <script type="text/javascript" src="javascripts/jquery1.8.1.min.js"></script>
+  <script type="text/javascript" src="javascripts/jquery.mmenu.js"></script>
+  <script src="javascripts/swiper.min.js"></script>
+  <script type="text/javascript" src="javascripts/main.js"></script>
+</head>
+<body>
+  <div id="page">
+    <div class="header fixed cpjs-header">
+      <a class="logo" href="index.html"></a>
+      云文档模块
+      <a class="menu" href="#menu"></a>
+    </div>
+    <div class="ywd-swiper">
+      <!-- Swiper -->
+      <div class="swiper-container">
+        <div class="swiper-wrapper">
+          <div class="swiper-slide ywd-page1">
+            <div class="swiper-box">
+              <img class="fadeInTop" width="70%" src="images/page5.png" alt="">
+              <dl class="fadeInBottom">
+                <dt>云文档模块</dt>
+                <dd>微平台桌面端云文档主要提供把文档放在云端进行存储，并根据用户角色提供对文档不同的访问权限。微平台云文档存储的云服务具有完善的数据备份和容灾机制，用户保存在云端的数据都有多重备份，不会因攻击、断电、软硬件故障造成文件数据丢失，具有稳定、安全、高性能的特点。</dd>
+              </dl>
+            </div>
+          </div>
+          <div class="swiper-slide ywd-page2">
+            <div class="swiper-box">
+              <img class="fadeInRight" width="100%" src="images/y1.png" alt="">
+              <dl class="fadeInLeft">
+                <dt>桌面端云文档界面</dt>
+                <dd>
+                  <ul>
+                    <li>云文档分类：公司文件，项目文件，个人文档</li>
+                    <li>云文档操作：添加文件、新建文件夹、删除</li>
+                  </ul>
+                </dd>
+              </dl>
+            </div>
+          </div>
+          <div class="swiper-slide ywd-page3">
+            <div class="swiper-box">
+              <img class="fadeInLeft" width="100%" src="images/y2.png" alt="">
+              <dl class="fadeInRight">
+                <dt>公司文件</dt>
+                <dd>
+                  <ul>
+                    <li>公司文档管理员可以在公司文件栏目维护公司文件</li>
+                    <li>维护文件夹在文件夹里面上传文件</li>
+                  </ul>
+                </dd>
+              </dl>
+            </div>
+          </div>
+          <div class="swiper-slide ywd-page4">
+            <div class="swiper-box">
+              <img class="fadeInRight" width="100%" src="images/y3.png" alt="">
+              <dl class="fadeInLeft">
+                <dt>项目文件</dt>
+                <dd>
+                  <ul>
+                    <li>是进度控创建的项目任务流转所产生的文档</li>
+                    <li>只能在进度控业务网页版里面新建、修改、删除</li>
+                  </ul>
+                </dd>
+              </dl>
+            </div>
+          </div>
+          <div class="swiper-slide ywd-page5">
+            <div class="swiper-box">
+              <img class="fadeInRight" width="100%" src="images/y4.png" alt="">
+              <dl class="fadeInLeft">
+                <dt>个人文档</dt>
+                <dd>
+                  <ul>
+                    <li>是用户自己上传到云服务器的个人文档</li>
+                    <li>只能这个用户能够查看和维护</li>
+                    <li>可以新建、修改、删除文档和目录</li>
+                  </ul>
+                </dd>
+              </dl>
+            </div>
+          </div>
+        </div>
+        <div class="u-arrow-bottom startUp"></div>
+        <!-- Add Pagination -->
+        <!-- <div class="swiper-pagination"></div> -->
+      </div>
+      <script type="text/javascript">
+        var swiper = new Swiper('.swiper-container', {
+          // pagination: '.swiper-pagination',
+          paginationClickable: true,
+          direction: 'vertical',
+          watchActiveIndex : true,
+          onSlideChangeStart: function(swiper){
+            if (swiper.activeIndex == swiper.slides.length-1) {
+              $(".u-arrow-bottom").hide();
+            } else{
+              $(".u-arrow-bottom").show();
+            };
+          }
+        });
+      </script>
+    </div>
+    <nav id="menu">
+      <ul>
+        <li><a href="zgx.html">高层会中国行</a></li>
+        <li><a href="ayd.html">爱在运动</a></li>
+        <li><a href="sqzk.html">授权专刊</a></li>
+        <li><a href="cpjs.html">产品介绍</a>
+          <ul>
+            <li><a href="cpjs1.html">VV介绍</a></li>
+            <li><a href="cpjs2.html">服务模块</a></li>
+            <li><a href="cpjs3.html">工具模块</a></li>
+            <li><a href="cpjs4.html">云文档模块</a></li>
+            <li><a href="cpjs5.html">进度控</a></li>
+          </ul>
+        </li>
+      </ul>
+    </nav>
+  </div>
+</body>
+</html>
