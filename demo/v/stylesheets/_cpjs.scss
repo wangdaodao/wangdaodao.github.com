@@ -142,7 +142,8 @@
     border-radius:5px;
     width: 100%;
   }
-  input[type="text"]{
+  input[type="text"],
+  input[type="number"]{
     height: 30px;
   }
   input[type="button"]{

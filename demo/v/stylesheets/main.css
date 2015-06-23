@@ -334,7 +334,8 @@ del {
     background-color: #fff;
     border-radius: 5px;
     width: 100%; }
-  .cpjs-page7 input[type="text"] {
+  .cpjs-page7 input[type="text"],
+  .cpjs-page7 input[type="number"] {
     height: 30px; }
   .cpjs-page7 input[type="button"] {
     padding: 10px 0;
