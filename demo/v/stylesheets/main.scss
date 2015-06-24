@@ -66,14 +66,14 @@ nav:not(.mm-menu){
   h2{
     font-size: 2em;
     color: #666;
-    border-bottom:1px solid #ccc;
+    border-bottom:1px solid #ececec;
     padding:10px 0 5px 0;
   }
   ol{
     li{
-      font-size: 1.6em;
+      font-size: 1.4em;
       position: relative;
-      border-bottom: 1px solid #ccc;
+      border-bottom: 1px solid #ececec;
       &:before {
         content: '';
         position: absolute;
@@ -85,7 +85,10 @@ nav:not(.mm-menu){
         border-style: solid;
         border-width: 0 2px 2px 0;
         -webkit-transform: rotate(-45deg);
+        -moz-transform: rotate(-45deg);
+        -o-transform: rotate(-45deg);
         -ms-transform: rotate(-45deg);
+        transform: rotate(-45deg);
       }
       a{
         @extend %text-overflow;
@@ -171,16 +174,15 @@ nav:not(.mm-menu){
     width: 8px;
     height: 8px;
     border-radius: 8px;
-    background: #555;
+    background: #b3b3b3;
     margin: 0 5px;
     opacity: 0.8;
-    border: 1px solid #fff;
     cursor: pointer;
   }
   .swiper-active-switch {
-    background: #fff;
+    background: #04bbff;
   }
   .swiper-visible-switch {
-    background: #fff;
+    background: #04bbff;
   }
 }
