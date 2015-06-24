@@ -62,8 +62,13 @@
 }
 .cpjs-page2{
   background-color:#FDFCF6;
+  color: #666;
   a{
-    color: #666;
+    display: inline-block;
+    border-radius:5px;
+    padding:8px 0;
+    width: 45%;
+    color: #fff;
   }
   dl{
     bottom:10%;
@@ -72,6 +77,14 @@
   img{
     top: 15%;
     left: 5%;
+  }
+  .vvdownload{
+    background-color:#2ebe63;
+    margin-right: 4%;
+  }
+  .vvmore{
+    background-color:#23bbee;
+    margin-left: 4%;
   }
 }
 .cpjs-page3{
@@ -87,6 +100,10 @@
     top: 15%;
     left: 10%;
   }
+  .cpjsmore{
+    margin-left: 10px;
+    color: #fff;
+  }
 }
 .cpjs-page4{
   background-color:#BFEBFE;
@@ -100,6 +117,10 @@
   img{
     top: 15%;
     left: 10%;
+  }
+  .cpjsmore{
+    margin-left: 10px;
+    color: #555;
   }
 }
 .cpjs-page5{
@@ -115,6 +136,10 @@
     top: 15%;
     left: 10%;
   }
+  .cpjsmore{
+    margin-left: 10px;
+    color: #fff;
+  }
 }
 .cpjs-page6{
   background-color:#2F7EBE;
@@ -127,7 +152,11 @@
   }
   img{
     top: 15%;
-    left: 2%;
+    left: 3%;
+  }
+  .cpjsmore{
+    margin-left: 10px;
+    color: #fff;
   }
 }
 .cpjs-page7{
@@ -389,7 +418,7 @@
   }
   img{
     top: 15%;
-    left: 0;
+    left: 2%;
   }
 }
 .gj-page2{
@@ -540,8 +569,8 @@
     left: 0;
   }
   img{
-    top: 0;
-    left: -20%;
+    top: 15%;
+    left: 3%;
   }
 }
 .jdk-page2{
@@ -560,11 +589,11 @@
   background-color:#fff;
   color:#555;
   dl{
-    bottom:5%;
+    top:15%;
     left: 0;
   }
   img{
-    top: 15%;
+    bottom: 0;
     left: 0;
   }
 }
@@ -572,11 +601,11 @@
   background-color:#F1F1F3;
   color:#555;
   dl{
-    bottom:5%;
+    top:15%;
     left: 0;
   }
   img{
-    top: 15%;
+    bottom: 0;
     right: 0;
   }
 }

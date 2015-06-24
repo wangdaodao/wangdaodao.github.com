@@ -40,8 +40,8 @@
             <div class="swiper-box">
               <img class="fadeInLeft" width="90%" src="images/page2.png" alt="">
               <dl class="fadeInRight font-center">
-                <dt><a href="cpjs1.html">VV，让工作更有趣</a></dt>
-                <dd><a href="cpjs1.html">咨询微平台VV移动端最新版本</a></dd>
+                <dt>VV，让工作更有趣</dt>
+                <dd class="clear"><a href="####" onclick="downLoad(this,event)" class="vvdownload">点击下载</a><a class="vvmore" href="cpjs1.html">查看详情</a></dd>
               </dl>
             </div>
           </div>
@@ -50,7 +50,7 @@
               <img class="fadeInRight" width="80%" src="images/page3.png" alt="">
               <dl class="fadeInLeft">
                 <dt><a href="cpjs2.html">服务模块</a></dt>
-                <dd><a href="cpjs2.html">无微不至的VIP专属服务在这里启航！<br>400电话、专属课堂、现场培训、专属服务、建议留言...</a></dd>
+                <dd><a href="cpjs2.html">无微不至的VIP专属服务在这里启航！400电话、专属课堂、现场培训、专属服务、建议留言...</a><a class="cpjsmore" href="cpjs2.html">查看详情&gt;&gt;</a></dd>
               </dl>
             </div>
           </div>
@@ -59,7 +59,7 @@
               <img class="fadeInLeft" width="80%" src="images/page4.jpg" alt="">
               <dl class="fadeInRight">
                 <dt><a href="cpjs3.html">工具模块</a></dt>
-                <dd><a href="cpjs3.html">造价企业的工具宝库，随时随地想用就用！</a></dd>
+                <dd><a href="cpjs3.html">造价企业的工具宝库，随时随地想用就用！</a><a class="cpjsmore" href="cpjs3.html">查看详情&gt;&gt;</a></dd>
               </dl>
             </div>
           </div>
@@ -68,16 +68,16 @@
               <img class="fadeInRight" width="80%" src="images/page5.png" alt="">
               <dl class="fadeInLeft">
                 <dt><a href="cpjs4.html">云文档模块</a></dt>
-                <dd><a href="cpjs4.html">快速，安全的跨平台云端空间，企业内文档安全共享，永不丢失!</a></dd>
+                <dd><a href="cpjs4.html">快速，安全的跨平台云端空间，企业内文档安全共享，永不丢失!</a><a class="cpjsmore" href="cpjs4.html">查看详情&gt;&gt;</a></dd>
               </dl>
             </div>
           </div>
           <div class="swiper-slide cpjs-page6">
             <div class="swiper-box">
-              <img class="fadeInLeft" width="110%" src="images/page6.png" alt="">
-              <dl class="fadeInRight font-center">
+              <img class="fadeInLeft" width="94%" src="images/page6.png" alt="">
+              <dl class="fadeInRight">
                 <dt><a href="cpjs5.html">进度控模块</a></dt>
-                <dd><a href="cpjs5.html">界面简洁清新，功能灵活易用<br>实现有效的进度管控</a></dd>
+                <dd><a href="cpjs5.html">界面简洁清新，功能灵活易用，实现有效的进度管控，是一款能真正用的起来的项目进度管理产品。</a><a class="cpjsmore" href="cpjs5.html">查看详情&gt;&gt;</a></dd>
               </dl>
             </div>
           </div>
@@ -140,6 +140,14 @@
             };
           }
         });
+        function downLoad() {
+            var ua = navigator.userAgent;
+            var src = "https://itunes.apple.com/";
+            if (!(/iphone|ipod|ipad/gi.test(ua))) {
+              src = "http://vcloud.glodon.com/public/software/VV.apk";
+            }
+            window.location.href = src;
+          }
       </script>
     </div>
     <nav id="menu">
