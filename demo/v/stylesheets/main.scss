@@ -79,7 +79,7 @@ nav:not(.mm-menu){
         position: absolute;
         width: 6px;
         height: 6px;
-        top: 20px;
+        top: 16px;
         right: 10px;
         border-color: #ccc;
         border-style: solid;
@@ -93,7 +93,7 @@ nav:not(.mm-menu){
       a{
         @extend %text-overflow;
         display: block;
-        padding:10px 0;
+        padding:9px 0;
         width: 92%;
         color: #666;
       }
@@ -175,7 +175,7 @@ nav:not(.mm-menu){
     height: 8px;
     border-radius: 8px;
     background: #b3b3b3;
-    margin: 0 5px;
+    margin: 0 2px;
     opacity: 0.8;
     cursor: pointer;
   }
