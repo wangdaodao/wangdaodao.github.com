@@ -335,7 +335,7 @@ del {
     border-radius: 5px;
     width: 100%; }
   .cpjs-page7 input[type="text"],
-  .cpjs-page7 input[type="number"] {
+  .cpjs-page7 input[type="tel"] {
     height: 30px; }
   .cpjs-page7 input[type="button"] {
     padding: 10px 0;
@@ -452,30 +452,30 @@ del {
   background-color: #F1F1F3;
   color: #555; }
   .fw-page2 dl {
-    bottom: 5%;
+    top: 10%;
     left: 0; }
   .fw-page2 img {
-    top: 10%;
+    bottom: 0;
     right: 0; }
 
 .fw-page3 {
   background-color: #fff;
   color: #555; }
   .fw-page3 dl {
-    bottom: 5%;
+    top: 10%;
     left: 0; }
   .fw-page3 img {
-    top: 10%;
+    bottom: 0;
     left: 0; }
 
 .fw-page4 {
   background-color: #F1F1F3;
   color: #555; }
   .fw-page4 dl {
-    bottom: 5%;
+    top: 10%;
     left: 0; }
   .fw-page4 img {
-    top: 15%;
+    bottom: 0;
     right: 0; }
 
 .fw-page5 {
@@ -602,10 +602,10 @@ del {
   background-color: #F1F1F3;
   color: #555; }
   .ywd-page4 dl {
-    bottom: 5%;
+    top: 10%;
     left: 0; }
   .ywd-page4 img {
-    top: 15%;
+    bottom: 0;
     right: 0; }
 
 .ywd-page5 {
