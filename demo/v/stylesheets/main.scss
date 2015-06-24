@@ -38,18 +38,18 @@ nav:not(.mm-menu){
     z-index: 9999;
   }
   .menu{
-    background:transparent url(../images/head-ico.png) 0 -55px no-repeat;
     display: block;
-    width: 22px;
+    background:transparent url(../images/head-ico.png) 0 -46px no-repeat;
+    width: 25px;
     height: 40px;
-    background-size:123px 84px;
+    background-size:130px;
     position: absolute;
     top: 0;
     right: 10px;
   }
   .logo{
     display: block;
-    background: transparent url(../images/head-ico.png) 0 8px no-repeat;
+    background: transparent url(../images/head-ico.png) 0 11px no-repeat;
     background-size:80%;
     height: 40px;
     width: 90px;
