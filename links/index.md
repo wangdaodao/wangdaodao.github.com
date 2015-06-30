@@ -31,6 +31,7 @@ comments: no
 * [Package Control](https://sublime.wbond.net/)
 * [占位图](http://placehold.it/)
 * [W3Help](http://w3help.org/zh-cn/kb/)
+* [Can I use](http://caniuse.com/)
 
 ##好玩
 
