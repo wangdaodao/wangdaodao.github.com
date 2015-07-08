@@ -4,7 +4,7 @@ layout: post
 comments: yes
 code: yes
 title: Sublime Text 3设置
-categories: 生活
+categories: 笔记
 tags: [sublime_text]
 ---
 
@@ -16,7 +16,7 @@ tags: [sublime_text]
 
 ## 按 Ctrl+` 调出控制台安装源
 
-    import urllib.request,os,hashlib; h = '7183a2d3e96f11eeadd761d777e62404' + 'e330c659d4bb41d3bdf022e94cab3cd0'; pf = 'Package Control.sublime-package'; ipp = sublime.installed_packages_path(); urllib.request.install_opener( urllib.request.build_opener( urllib.request.ProxyHandler()) ); by = urllib.request.urlopen( 'http://sublime.wbond.net/' + pf.replace(' ', '%20')).read(); dh = hashlib.sha256(by).hexdigest(); print('Error validating download (got %s instead of %s), please try manual install' % (dh, h)) if dh != h else open(os.path.join( ipp, pf), 'wb' ).write(by)
+    import urllib.request,os,hashlib; h = 'eb2297e1a458f27d836c04bb0cbaf282' + 'd0e7a3098092775ccb37ca9d6b2e4b7d'; pf = 'Package Control.sublime-package'; ipp = sublime.installed_packages_path(); urllib.request.install_opener( urllib.request.build_opener( urllib.request.ProxyHandler()) ); by = urllib.request.urlopen( 'http://packagecontrol.io/' + pf.replace(' ', '%20')).read(); dh = hashlib.sha256(by).hexdigest(); print('Error validating download (got %s instead of %s), please try manual install' % (dh, h)) if dh != h else open(os.path.join( ipp, pf), 'wb' ).write(by)
 
 ## 安装插件
 * [Emmet](https://sublime.wbond.net/packages/Emmet)
@@ -25,6 +25,8 @@ tags: [sublime_text]
 * [jQuery](https://sublime.wbond.net/packages/jQuery)
 * [ConvertToUTF8](https://sublime.wbond.net/packages/ConvertToUTF8)
 * [SASS Build](https://sublime.wbond.net/packages/SASS%20Build)
+* [SublimeTmpl](https://packagecontrol.io/packages/SublimeTmpl)
+* [AdvancedNewFile](https://packagecontrol.io/packages/AdvancedNewFile)
 
 ## Sublime Text 3推荐主题
 * Theme - [Spacegray](https://sublime.wbond.net/packages/Theme%20-%20Spacegray)
