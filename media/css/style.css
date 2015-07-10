@@ -86,6 +86,7 @@ object,iframe{ display:block; margin:4px auto; }
 .disabled{ cursor: not-allowed; }
 .gist{ font-size: 12px; line-height:1.6; }
 .gist-meta{ display: none; }
+body #SOHUCS #SOHU_MAIN #powerby_sohu{display: none!important;}
 /*豆瓣*/
 .douban-list{ overflow: hidden; }
 #douban ul{ padding: 0; }
