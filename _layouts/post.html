@@ -1,7 +1,7 @@
 ---
 layout: default
 ---
-<div class="meta"><span class="time">{{ page.date | date:"%Y-%m-%d" }}</span>{% if page.categories.size != 0 %} | <span class="categories">  分类  {% for cat in page.categories %}<a href="/categories/#{{ cat }}" title="{{ cat }}">{{ cat }}</a>&nbsp;  {% endfor %}</span>{% endif %}{% if page.tags.size != 0 %} | <span class="tags">  标签  {% for tag in page.tags %}  <a href="/tags/#{{ tag }}" title="{{ tag }}">{{ tag }}</a>&nbsp;  {% endfor %}</span>{% endif %}</div>
+<div class="meta"><span class="author">{{ site.name }}</span> | <span class="time">{{ page.date | date:"%Y-%m-%d" }}</span>{% if page.categories.size != 0 %} | <span class="categories">  分类  {% for cat in page.categories %}<a href="/categories/#{{ cat }}" title="{{ cat }}">{{ cat }}</a>&nbsp;  {% endfor %}</span>{% endif %}{% if page.tags.size != 0 %} | <span class="tags">  标签  {% for tag in page.tags %}  <a href="/tags/#{{ tag }}" title="{{ tag }}">{{ tag }}</a>&nbsp;  {% endfor %}</span>{% endif %}</div>
         <div class="article">
           {{ content }}
         </div>
