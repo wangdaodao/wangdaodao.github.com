@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge, chrome=1" />
+  <meta content="width=device-width,initial-scale=1.0,maximum-scale=1.0,user-scalable=0" name="viewport" />
+  <link href="static/css/main.css" rel="stylesheet" />
+  <script src="static/js/require.js" data-main="static/js/app" defer async="true" ></script>
+  <title>Front-End Gulp</title>
+</head>
+<body>
+<div id="header">
+  
+  <div class="header-content">
+    <h1 class="logo iconfont">&#xe600;</h1>
+    <p>Front-End Gulp<br>用自动化构建工具增强你的工作流程！
+    <br><a href="javascript:void(0)">开始使用</a></p>
+  </div>
+</div>
+<div id="main">
+  <div class="main-item" name="#1">
+    <h2>概述</h2>
+    <p>FEG 是一个基于 gulp/gulp-plugins 的前端开发集成解决方案。FEG 定义了一系列任务，这些自动执行的任务可以把你从繁杂无聊的复制、粘贴、合并、压缩、重命名、打包等事务中解脱出来，从而更专注于具体业务的开发实现。</p>
+  </div>
+  <div class="main-item" name="#2">
+    <h2>插件</h2>
+    <table width="100%" cellspacing="0" cellpadding="0">
+      <thead>
+        <tr>
+          <th width="200">插件</th>
+          <th>描述</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+          <td><a href="https://www.npmjs.com/package/gulp-sass">gulp-sass<i class="iconfont">&#xe601;</i></a></td>
+          <td>SASS文件编译</td>
+        </tr>
+        <tr>
+          <td><a href="https://www.npmjs.com/package/gulp-clean-css">gulp-clean-css<i class="iconfont">&#xe601;</i></a></td>
+          <td>压缩CSS</td>
+        </tr>
+        <tr>
+          <td><a href="https://www.npmjs.com/package/gulp.spritesmith">gulp.spritesmith<i class="iconfont">&#xe601;</i></a></td>
+          <td>合并雪碧图</td>
+        </tr>
+        <tr>
+          <td><a href="https://www.npmjs.com/package/gulp-file-include">gulp-file-include<i class="iconfont">&#xe601;</i></a></td>
+          <td>引用HTML模版</td>
+        </tr>
+        <tr>
+          <td><a href="https://www.npmjs.com/package/gulp-livereload">gulp-livereload<i class="iconfont">&#xe601;</i></a></td>
+          <td>实时刷新</td>
+        </tr>
+        <tr>
+          <td><a href="https://www.npmjs.com/package/gulp-webserver">gulp-webserver<i class="iconfont">&#xe601;</i></a></td>
+          <td>开启本地服务</td>
+        </tr>
+        <tr>
+          <td><a href="https://www.npmjs.com/package/gulp-zip">gulp-zip<i class="iconfont">&#xe601;</i></a></td>
+          <td>文件打包</td>
+        </tr>
+      </tbody>
+    </table>
+  </div>
+  <div class="main-item">
+    <h2>结构</h2>
+    <pre>
+feg
+|--include          //模版文件
+|--static           //静态文件
+   |--css           //样式文件
+   |--img           //图片文件
+      |--sprite     //雪碧图文件夹
+         |--a       //雪碧图a组
+         |--b       //雪碧图b组
+         |--c       //雪碧图c组
+   |--js            //脚本文件
+      |--app        //项目脚本
+      |--libs       //第三方脚本</pre>
+  </div>
+  <div class="main-item">
+    <h2>安装<em>使用前请安装<a href="http://nodejs.cn/">Node.js<i class="iconfont">&#xe601;</i></a></em></h2>
+    <pre>
+//安装cnpm
+npm install -g cnpm
+
+//进入feg目录安装插件
+cnpm install</pre>
+  </div>
+  <div class="main-item">
+    <h2>使用</h2>
+    <pre>
+//使用帮助
+gulp h
+
+//启动任务
+gulp s
+
+//打包代码
+gulp b</pre>
+  </div>
+  <div class="main-item">
+    <h2>其他</h2>
+    <p>关于雪碧图，这里做了按照文件夹分组合并的方式，具体使用方法请查看 gulpfile.js 代码中的 sprite 任务。如果图标有三态，命名请按照类似： xxx.png（默认），xxx-h.png（划过），xxx-v.png（点击）</p>
+  </div>
+</div>
+<div id="footer">
+  <a href="mailto:hi@wangdaodao.com?subject=About%20FEG">需要帮助</a>
+  
+</div>
+</body>
+</html>
