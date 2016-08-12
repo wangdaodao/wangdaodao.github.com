@@ -5,14 +5,16 @@
   <meta http-equiv="X-UA-Compatible" content="IE=edge, chrome=1" />
   <meta content="width=device-width,initial-scale=1.0,maximum-scale=1.0,user-scalable=0" name="viewport" />
   <link href="static/css/main.css" rel="stylesheet" />
+  <!-- <script src="static/js/require.js" data-main="static/js/app" defer async="true" ></script> -->
   <title>Front-End Gulp</title>
 </head>
 <body>
 <div id="header">
+  
   <div class="header-content">
-    <h1 class="logo iconfont">&#xe600;</h1>
+    <h1 class="logo icon icon-gulp"></h1>
     <p>Front-End Gulp<br>用自动化构建工具增强你的工作流程！
-    <br><a href="http://blog.wangdaodao.com/uploads/2016/08/feg.rar">开始使用</a></p>
+    <br><a href="javascript:void(0)">开始使用</a></p>
   </div>
 </div>
 <div id="main">
@@ -31,31 +33,35 @@
       </thead>
       <tbody>
         <tr>
-          <td><a href="https://www.npmjs.com/package/gulp-sass">gulp-sass<i class="iconfont">&#xe601;</i></a></td>
+          <td><a href="https://www.npmjs.com/package/gulp-sass">gulp-sass<i class="icon icon-a"></i></a></td>
           <td>SASS文件编译</td>
         </tr>
         <tr>
-          <td><a href="https://www.npmjs.com/package/gulp-clean-css">gulp-clean-css<i class="iconfont">&#xe601;</i></a></td>
+          <td><a href="https://www.npmjs.com/package/gulp-clean-css">gulp-clean-css<i class="icon icon-a"></i></a></td>
           <td>压缩CSS</td>
         </tr>
         <tr>
-          <td><a href="https://www.npmjs.com/package/gulp.spritesmith">gulp.spritesmith<i class="iconfont">&#xe601;</i></a></td>
+          <td><a href="https://www.npmjs.com/package/gulp-iconfont">gulp-iconfont<i class="icon icon-a"></i></a></td>
+          <td>把SVG图标制作成字体图标</td>
+        </tr>
+        <tr>
+          <td><a href="https://www.npmjs.com/package/gulp.spritesmith">gulp.spritesmith<i class="icon icon-a"></i></a></td>
           <td>合并雪碧图</td>
         </tr>
         <tr>
-          <td><a href="https://www.npmjs.com/package/gulp-file-include">gulp-file-include<i class="iconfont">&#xe601;</i></a></td>
+          <td><a href="https://www.npmjs.com/package/gulp-file-include">gulp-file-include<i class="icon icon-a"></i></a></td>
           <td>引用HTML模版</td>
         </tr>
         <tr>
-          <td><a href="https://www.npmjs.com/package/gulp-livereload">gulp-livereload<i class="iconfont">&#xe601;</i></a></td>
+          <td><a href="https://www.npmjs.com/package/gulp-livereload">gulp-livereload<i class="icon icon-a"></i></a></td>
           <td>实时刷新</td>
         </tr>
         <tr>
-          <td><a href="https://www.npmjs.com/package/gulp-webserver">gulp-webserver<i class="iconfont">&#xe601;</i></a></td>
+          <td><a href="https://www.npmjs.com/package/gulp-webserver">gulp-webserver<i class="icon icon-a"></i></a></td>
           <td>开启本地服务</td>
         </tr>
         <tr>
-          <td><a href="https://www.npmjs.com/package/gulp-zip">gulp-zip<i class="iconfont">&#xe601;</i></a></td>
+          <td><a href="https://www.npmjs.com/package/gulp-zip">gulp-zip<i class="icon icon-a"></i></a></td>
           <td>文件打包</td>
         </tr>
       </tbody>
@@ -68,6 +74,7 @@ feg
 |--include          //模版文件
 |--static           //静态文件
    |--css           //样式文件
+   |--svg           //SVG图标
    |--img           //图片文件
       |--sprite     //雪碧图文件夹
          |--a       //雪碧图a组
@@ -78,7 +85,7 @@ feg
       |--libs       //第三方脚本</pre>
   </div>
   <div class="main-item">
-    <h2>安装<em>使用前请安装<a href="http://nodejs.cn/">Node.js<i class="iconfont">&#xe601;</i></a></em></h2>
+    <h2>安装<em>使用前请安装<a href="http://nodejs.cn/">Node.js<i class="icon icon-a"></i></a></em></h2>
     <pre>
 //安装cnpm
 npm install -g cnpm
@@ -105,6 +112,7 @@ gulp b</pre>
 </div>
 <div id="footer">
   <a href="mailto:hi@wangdaodao.com?subject=About%20FEG">需要帮助</a>
+  
 </div>
 </body>
 </html>
