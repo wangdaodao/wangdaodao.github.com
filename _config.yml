@@ -1,4 +1,4 @@
-markdown: rdiscount
+markdown: kramdown
 permalink: /:year-:month-:day/:title.html
 url: http://wangdaodao.github.io
 name: 王叨叨
