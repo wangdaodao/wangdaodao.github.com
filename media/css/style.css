@@ -63,8 +63,9 @@ object,iframe{ display:block; margin:4px auto; }
 .article table th, .article table td { border: 1px solid #DDD; padding: 6px 13px; }
 .article table tbody tr:hover td,.article table tbody tr:hover th{ background-color:#F8F8F8; }
 .alipay{ text-align: right;}
-.alipay a{ position: relative;display: none;}
-.alipay img{position: absolute;top: 13px;right:0;max-width: none;}
+.alipay a{ position: relative;}
+.alipay a:hover img{display: block;}
+.alipay img{position: absolute;top: 13px;right:0;max-width: none;display: none;z-index: 9999;}
 /*上下篇*/
 .other-post{ text-align: right; padding: 15px 0; }
 .pageNav{ font-weight:bold; font-size:1.25em; }
