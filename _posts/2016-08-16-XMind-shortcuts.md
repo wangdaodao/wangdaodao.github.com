@@ -10,7 +10,6 @@ tags: [XMind]
 
 Windows | Mac | 描述
 ---- | ---- | ----
-快捷键（Windows） | 快捷键（Mac） | 描述
 Ctrl+N | Command+N | 建立新工作簿
 Ctrl+O | Command+O | 开启工作簿
 Ctrl+S | Command+S | 储存目前工作簿
