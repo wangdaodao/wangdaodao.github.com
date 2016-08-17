@@ -8,6 +8,10 @@ categories: 笔记
 tags: [XMind]
 ---
 
+[XMind绿色版下载](http://www.xmind.net/download/portable/)
+
+[XMind用户使用指南](http://www.xmindchina.net/shouce.html)
+
 Windows | Mac | 描述
 ---- | ---- | ----
 Ctrl+N | Command+N | 建立新工作簿
