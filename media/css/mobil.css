@@ -13,6 +13,7 @@
 .meta {font-size: .85em;}
 .other-post {text-align: center;}
 .alipay{text-align: center;}
+.alipay span{display: none;}
 .alipay img{display: none;}
 /*翻页*/
 .paginator { font-size:1em;}
