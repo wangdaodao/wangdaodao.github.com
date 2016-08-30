@@ -15,6 +15,7 @@
 .alipay{text-align: center;}
 .alipay span{display: none;}
 .alipay img{display: none;}
+.alipay a:hover img{display: none;}
 /*翻页*/
 .paginator { font-size:1em;}
 /*评论*/
