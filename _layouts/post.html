@@ -5,6 +5,6 @@ layout: default
         <div class="article">
           {{ content }}
         </div>
-        <p class="alipay"><span>如果觉得此篇文章对您有帮助，希望可以</span><a href="https://www.paypal.me/daodao/">请我喝雪碧！<img src="../uploads/alipay.png" alt="请我喝雪碧"></a></p>
+        <p class="alipay"><span>如果觉得此篇文章对您有帮助，希望可以</span><a href="https://www.paypal.me/daodao/3cny">请我喝雪碧！<img src="../uploads/alipay.png" alt="请我喝雪碧"></a></p>
         <div class="other-post"><span><a {% if page.previous %} href="{{ page.previous.url }}" class="pageNav"{% endif %} {% unless page.previous %} class="pageNavInvalid" {% endunless %} >上一篇</a>&nbsp;&nbsp;&nbsp;<a {% if page.next %} href="{{ page.next.url }}" class="pageNav"{% endif %} {% unless page.next %} class="pageNavInvalid" {% endunless %} >下一篇</a>&nbsp;&nbsp;&nbsp;<a class="pageNav" href="#">返回顶部</a></span></div>
 {% if page.comments %}{% include comments.md %}{% endif %}
