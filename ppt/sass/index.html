@@ -15,13 +15,13 @@
 <![endif]-->
 </head>
 <body>
-	<ul id="main">
-		<li class="bg0">
-			<div class="wrap">
-				<h1>Sass简明指南</h1>
-				<h2>作者：王叨叨</h2>
-			</div>
-		</li>
+  <ul id="main">
+    <li class="bg0">
+      <div class="wrap">
+        <h1>Sass简明指南</h1>
+        <h2>作者：王叨叨</h2>
+      </div>
+    </li>
             <li class="bg1">
               <div class="wrap">
                 <h2>什么是CSS预处理器？</h2>
@@ -37,14 +37,14 @@
                 <p>……</p>
               </div>
             </li>
-		<li class="bg2">
-			<div class="wrap">
-				<h2  name="001" id="001">1&nbsp;&nbsp;Sass安装</h2>
-				<p>因为sass依赖于ruby环境，所以装sass之前先确认装了ruby。这里只介绍Windows下安装，Linux范和Mac豪请自行安装……</p>
-				<p>Windows下载<a href="http://rubyinstaller.org/downloads" target="_blank">rubyinstaller</a></p>
-				<p>在安装的时候，请勾选Add Ruby executables to your PATH这个选项，添加环境变量，不然以后使用编译软件的时候会提示找不到ruby环境</p>
-				<a href="img/ruby.png"><img src="img/ruby.png" alt="添加环境变量" /></a>
-				<p>安装完之后，在命令行下面输入：</p>
+    <li class="bg2">
+      <div class="wrap">
+        <h2  name="001" id="001">1&nbsp;&nbsp;Sass安装</h2>
+        <p>因为sass依赖于ruby环境，所以装sass之前先确认装了ruby。这里只介绍Windows下安装，Linux范和Mac豪请自行安装……</p>
+        <p>Windows下载<a href="http://rubyinstaller.org/downloads" target="_blank">rubyinstaller</a></p>
+        <p>在安装的时候，请勾选Add Ruby executables to your PATH这个选项，添加环境变量，不然以后使用编译软件的时候会提示找不到ruby环境</p>
+        <a href="img/ruby.png"><img src="img/ruby.png" alt="添加环境变量" /></a>
+        <p>安装完之后，在命令行下面输入：</p>
     <pre><code>#查看ruby版本
 ruby -v
 #查看gem版本
@@ -58,9 +58,9 @@ gem -v</code></pre>
         <p>升级sass版本的命令行为：</p>
         <code>gem update sass</code>
         <a href="img/cmd0.jpg"><img src="img/cmd0.jpg" alt="查看版本" /></a>
-			</div>
-		</li>
-		<li class="bg3">
+      </div>
+    </li>
+    <li class="bg3">
       <div class="wrap">
         <h2 name="002" id="002">2&nbsp;&nbsp;Sass语法</h2>
         <h3>2.1&nbsp;&nbsp;文件后缀名</h3>
@@ -81,7 +81,7 @@ p{
 } </code></pre>
       </div>
     </li>
-		<li class="bg4">
+    <li class="bg4">
       <div class="wrap">
         <h3>2.2&nbsp;&nbsp;导入</h3>
         <p>sass的导入(@import)规则和CSS的有所不同，编译时会将@import的scss文件合并进来只生成一个CSS文件。但是如果你在sass文件中导入css文件如@import 'reset.css'，那效果跟普通CSS导入样式文件一样，导入的css文件不会合并到编译后的文件中，而是以@import方式存在。</p>
@@ -109,7 +109,7 @@ p{
         <p>根据上面的代码可以看出，b.scss编译后，reset.css继续保持import的方式，而a.scss则被整合进来了。</p>
       </div>
     </li>
-		<li class="bg5">
+    <li class="bg5">
       <div class="wrap">
         <h3>2.3&nbsp;&nbsp;注释</h3>
         <p>sass有两种注释方式，一种是标准的css注释方式/* */，另一种则是//双斜杆形式的单行注释，不过这种单行注释不会被转译出来。</p>
@@ -129,7 +129,7 @@ body{
 } </code></pre>
       </div>
     </li>
-		<li class="bg6">
+    <li class="bg6">
       <div class="wrap">
         <h3>2.4&nbsp;&nbsp;变量</h3>
         <p>sass的变量必须是<strong>&nbsp;$&nbsp;</strong>开头，后面紧跟变量名，而变量值和变量名之间就需要使用冒号(:)分隔开（就像CSS属性设置一样），如果值后面加上!default则表示默认值。这里不深入介绍，有兴趣可以自行了解！</p>
@@ -173,7 +173,7 @@ body{
         <p>可以看出现在编译后的line-height为2，而不是我们默认的1.5。默认变量的价值在进行组件化开发的时候会非常有用。</p>
       </div>
     </li>
-		<li class="bg7">
+    <li class="bg7">
       <div class="wrap">
         <h3>2.5&nbsp;&nbsp;嵌套</h3>
         <p>sass的嵌套包括两种：一种是选择器的嵌套；另一种是属性的嵌套。我们一般说起或用到的都是选择器的嵌套。</p>
@@ -241,7 +241,7 @@ body{
 }</code></pre>
       </div>
     </li>
-		<li class="bg8">
+    <li class="bg8">
       <div class="wrap">
         <h3>2.6&nbsp;&nbsp;@mixin</h3>
         <p>sass中使用@mixin声明混合，可以传递参数，参数名以$符号开始，多个参数以逗号分开，也可以给参数设置默认值。声明的@mixin通过@include来调用。</p>
@@ -279,7 +279,7 @@ body{
         <p></p>
       </div>
     </li>
-		<li class="bg1">
+    <li class="bg1">
       <div class="wrap">
         <h3>2.7&nbsp;&nbsp;%placeholder</h3>
         <p>sass中，选择器继承可以让选择器继承另一个选择器的所有样式，并联合声明。使用选择器的继承，要使用关键词@extend，后面紧跟需要继承的选择器。</p>
@@ -396,6 +396,44 @@ h1,.speaker{
 }</code></pre>
         <p>所以当你知道一些样式永久不变，而且会重复出现多次的时候，你就可以使用@extend扩展一个定义好的%placeholder。这样可以避免Sass生成重复的代码，让你的样式表更简洁。</p>
       </div>
+      <h3>常用的@mixin和%placeholder</h3>
+      <pre>
+        <code>
+// @include float;
+@mixin float($float:left) {
+  float: $float;
+  display: inline;
+}
+// @include opacity;
+@mixin opacity($opacity:50) {
+  opacity: $opacity / 100;
+  filter: alpha(opacity=$opacity);
+}
+// @include radius;
+@mixin radius($radius:2px) {
+  border-radius: $radius;
+}
+// @extend %clear;
+%clear{
+  *zoom: 1;
+  &:before,
+  &:after {
+    content: "";
+    display: table;
+    height: 0;
+  }
+  &:after {
+    clear: both;
+  }
+}
+// @extend %text-overflow;
+%text-overflow{
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap; 
+}          
+        </code>
+      </pre>
     </li>
     <li class="bg3">
       <div class="wrap">
