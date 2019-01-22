@@ -22,6 +22,7 @@ DoubanApi.prototype.make_api_url = function(type,user,key,status,begin,end) {
 DoubanApi.prototype.make_list_item = function(items) {
     var html = '';
     $.each(items,function(i,item){
+        console.log("item.src",item.src)
         html += '<li><a href="'
             + item.link + '"><img src="'
             + item.src + '" alt="' + item.title
