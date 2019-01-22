@@ -25,7 +25,7 @@ DoubanApi.prototype.make_list_item = function(items) {
         src1 = item.src.replace(/(.*?).doubanio.com/,"douban.wangdaodao.com")
         console.log("item.src",src1)
         html += '<li><a href="'
-            + item.link + '"><img src="'
+            + item.link + '"><img src="http://'
             + src1 + '" alt="' + item.title
             + '" title="' + item.title + '" /></a></li>';
     });
