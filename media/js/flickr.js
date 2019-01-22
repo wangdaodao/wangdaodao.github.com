@@ -8,8 +8,8 @@ $(document).ready(function() {
    var strHtml = '<ul>';
    for (var i = 0; i < data.photos.total; i++) {
     var photo = data.photos.photo[i];
-    strHtml += '<li><a href="http://farm' + photo.farm + '.static.flickr.com/' + photo.server + '/' + photo.id + '_' + photo.secret + '_b.jpg" >';
-    strHtml += '<img src="http://farm' + photo.farm + '.static.flickr.com/' + photo.server + '/' + photo.id + '_' + photo.secret + '_s.jpg" alt="'+photo.id+'" />';
+    strHtml += '<li><a href="http://flickr.wangdaodao.com/' + photo.server + '/' + photo.id + '_' + photo.secret + '_b.jpg" >';
+    strHtml += '<img src="http://flickr.wangdaodao.com/' + photo.server + '/' + photo.id + '_' + photo.secret + '_s.jpg" alt="'+photo.id+'" />';
     strHtml += '</a></li>';
    }
    strHtml += '</ul>';
