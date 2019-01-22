@@ -12,12 +12,13 @@ comments: yes
 
 感谢开源，为我们的生活带来的无限的乐趣……
 
--------
-
-补充：现在主博客为[王叨叨](https://wangdaodao.com/)，本博客只为备份数据。
 ----
 
-## 联系方式：
+补充：现在主博客为[王叨叨](https://wangdaodao.com/)，本博客只为备份数据。
+
+----
+
+联系方式：
 
 {% if site.qq %}
 QQ：[{{ site.qq }}](http://wpa.qq.com/msgrd?v=3&uin={{ site.qq }}&site=qq&menu=yes)
