@@ -11,7 +11,7 @@ function DoubanApi() {
     };
 }
 DoubanApi.prototype.make_api_url = function(type,user,key,status,begin,end) {
-    var url = "http://api.douban.com/people/" + user + "/collection?cat=" + type 
+    var url = "https://api.douban.com/people/" + user + "/collection?cat=" + type 
         + "&start-index=" + begin + "&max-results=" + end + "&status=" + status 
         + "&alt=xd&callback=dbapi." + type + status + "_show";
     if (key.lenght > 0) {
@@ -22,10 +22,10 @@ DoubanApi.prototype.make_api_url = function(type,user,key,status,begin,end) {
 DoubanApi.prototype.make_list_item = function(items) {
     var html = '';
     $.each(items,function(i,item){
-        src1 = item.src.replace(/(.*?).doubanio.com/,"douban.wangdaodao.com")
+        src1 = item.src.replace(/(.*?).doubanio.com/,"lmm.96-wx.com")
         console.log("item.src",src1)
         html += '<li><a href="'
-            + item.link + '"><img src="http://'
+            + item.link + '"><img src="https://'
             + src1 + '" alt="' + item.title
             + '" title="' + item.title + '" /></a></li>';
     });
