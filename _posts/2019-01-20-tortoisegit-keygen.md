@@ -12,11 +12,11 @@ TortoiseGit 使用扩展名为ppk的密钥，而不是ssh-keygen生成的rsa密
 
  1. **运行TortoiseGit开始菜单中的`puttygen`程序**
 
-  ![puttygen.png][1]
+   ![puttygen.png][1]
 
  2. **点击Generate按钮，鼠标在上图的空白地方来回移动直到进度条完毕，就会自动生一个随机的key，如下图示**
 
-  ![key.png][2]
+   ![key.png][2]
 
  3. **将上图中多行文本框的内容全选、复制，并粘贴到git账户的 SSH public key中，这就是适用于git的公钥。**
 
@@ -24,7 +24,7 @@ TortoiseGit 使用扩展名为ppk的密钥，而不是ssh-keygen生成的rsa密
 
  5. **运行TortoiseGit开始菜单中的Pageant程序，程序启动后将自动停靠在任务栏中，双击该图标，弹出key管理列表，如下图示**
 
-  ![Pageant.png][3]
+   ![Pageant.png][3]
 
  6. **点击上图中的Add Key按钮，将第4步保存的ppk私钥添加进来，关闭对话框即可。**
 
